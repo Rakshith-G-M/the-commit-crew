@@ -38,6 +38,18 @@ building's real design capacity — all from a single spatial view.
 
 ---
 
+## 🚀 Live Demo
+
+### CampusIQ Web App
+[Open CampusIQ](https://campusiq-black.vercel.app)
+
+### CampusIQ Decision API
+[Open API](https://campusiq-api-j231.onrender.com)
+
+[API Health Check](https://campusiq-api-j231.onrender.com/api/health)
+
+> The frontend is deployed on Vercel and the FastAPI decision engine is deployed on Render.
+
 ## The Problem
 
 Facility and campus teams typically operate in the dark:
