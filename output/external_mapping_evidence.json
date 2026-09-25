@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "task": "M2-EXTERNAL-MAPPING-RESEARCH",
+    "generated_at": "2026-09-24T20:05:00",
+    "investigator": "CampusIQ data/BIM investigation engineer (M2)",
+    "prior_task": "M1-SENSOR-IFC-MAPPING (output/sensor_ifc_mapping.json, docs/SENSOR_IFC_MAPPING_REPORT.md)",
+    "scope": "Determine, from public/external sources only, whether a mapping between the 36 sensor device UUIDs (Taltech.zip/69 CSVs) and the 115 IfcSpace entities (DS3_TalTech_V4.ifc) can be constructed. No mapping was fabricated."
+  },
+  "research_status": "COMPLETE",
+  "mapping_status": "NOT_FOUND",
+  "classification": {
+    "outcome": "NOT_FOUND",
+    "definition": "No public source contains a concrete device-UUID -> room -> IfcSpace assignment for any of the 36 TalTech (DS3) sensor/meter devices.",
+    "direct_mapping_publicly_available": false,
+    "partial_evidence_indicator": true,
+    "partial_evidence_note": "Public sources fully identify the pilot (Ehituse Mäemaja, TalTech, Tallinn), the published dataset's Zenodo record, the deployed equipment (Schneider Electric Room Controller SE8300; VAV rooms 206/207/309; 4 IEQ test rooms; ~25 energy sub-meters over Modbus TCP; 3 third-party PM2.5 sensors not on the BMS) and the exact private mechanism where the UUID->space registration lives (SmartLivingEPC Web Platform Device Management + CIEM database). This is contextual evidence for a future join, NOT a mapping.",
+    "no_public_document_digits_the_uuids": true,
+    "sixteen_of_sixteen_matching_checks_negative": true
+  },
+  "project_identification": {
+    "project": "SmartLivingEPC - Advanced Energy Performance Assessment towards Smart Living in Building and District Level",
+    "grant_agreement": "101069639",
+    "programme": "Horizon Europe",
+    "doi": "10.3030/101069639",
+    "period": "2022-07-01 .. 2025-06-30",
+    "cordis_url": "https://cordis.europa.eu/project/id/101069639",
+    "pilot": "Demo Site 3 (DS3) - Ehituse Mäemaja, near-zero-energy office and laboratory building, Tallinn University of Technology (TalTech) campus, Tallinn, Estonia; construction completed 2021"
+  },
+  "dataset_provenance": {
+    "zenodo_record_id": 15782433,
+    "zenodo_concept_id": 15782432,
+    "dataset_doi": "10.5281/zenodo.15782432",
+    "zenodo_url": "https://zenodo.org/records/15782433",
+    "dmp_reference": "WP8/D8.9 Data Management Plan v3, footnote 4: 'measurements and operational data, along with the geometry of the building, were uploaded for Demo Site #3 in Tallinn, Estonia'",
+    "published_files": 2,
+    "published_files_match_local_md5": {
+      "Taltech.zip": "6d424bca6c555bf862a7cdf3ee8f906e",
+      "DS3_TalTech_V4.ifc": "c1b4a6df891a1ae8f311eea6a149ed2a"
+    },
+    "versions": 1,
+    "supplementary_files": "none (no README, no device inventory, no mapping table)"
+  },
+  "sources_investigated": [
+    {
+      "source": "Zenodo record 15782433 (concept 15782432)",
+      "url": "https://zenodo.org/records/15782433",
+      "result": "Origin record of the supplied dataset. Only the 2 known files; no mapping metadata."
+    },
+    {
+      "source": "CORDIS - project factsheet",
+      "url": "https://cordis.europa.eu/project/id/101069639",
+      "result": "Confirms grant 101069639, pilot scope, dates. No device-level info."
+    },
+    {
+      "source": "D6.2 SmartLivingEPC Pilot Planning and Setup (WP6)",
+      "url": "https://www.smartlivingepc.eu/en/Project%20Results%20%20Documents/Deliverables/D6.2%20SmartLivingEPC%20Pilot%20Planning%20and%20Setup.pdf",
+      "result": "DS3 metering/IEQ inventory: Schneider Electric Room Controller SE8300 (room T, RH, CO2, 15 min) over Modbus RTU/BACnet MS/TP into BMS; VAV flow in rooms 206, 207, 309; 4 IEQ test rooms (office, meeting room, 2 classrooms); ~25 electricity/heating/cooling meters (Modbus TCP, Table 11); BMS = Schneider EcoStruxure ('EcoStructure') Building Operation WebStation."
+    },
+    {
+      "source": "D6.4 SmartLivingEPC Pilots Demonstration & Evaluation (WP6)",
+      "url": "https://www.smartlivingepc.eu/en/Project%20Results%20%20Documents/Deliverables/D6.4%20SmartLivingEPC%20Pilots%20Demonstration%20%26%20Evaluation.pdf",
+      "result": "DS3 section 6.3: NO new sensors installed; data extracted from a localized subset of the existing campus-wide Schneider Building Operation Workstation (BMS API subset negotiated due to university cybersecurity); cloud server queries internal BMS APIs; second API reads 3 PM2.5 sensors hosted by a third-party provider (from another EU project, NOT on the BMS); data pushed to CIEM every 15 min via RabbitMQ."
+    },
+    {
+      "source": "D5.1 SmartLivingEPC Digital Platform v1 (WP5)",
+      "url": "https://www.smartlivingepc.eu/en/Project%20Results%20%20Documents/Deliverables/D5.1%20SmartLivingEPC%20Digital%20Platform%20v1%20Components%20development,%20Integration%20and%20Acceptance%20Tests.pdf",
+      "result": "Device Management page (5.3.5): device registration allocates each device to a thermal zone + space and assigns a name + unique device ID 'used to match the static representation of the device in the building instance with real-time measurements provided by the CIEM'. The CSV device UUIDs are these CIEM/Web-platform device IDs; the room/space assignment is stored in the platform/CIEM database, not published."
+    },
+    {
+      "source": "D4.1 SmartLivingEPC CIEM & Building Dynamic Behaviour Monitoring Platform (WP4)",
+      "url": "https://www.smartlivingepc.eu/en/Project%20Results%20%20Documents/Deliverables/D4.1%20SmartLivingEPC%20CIEM%20%26%20Building%20Dynamic%20Behaviour%20Monitoring%20Platform.pdf",
+      "result": "CIEM ontology (Brick, BOT, SAREF4BLDG) supports device/space semantic linking. No concrete DS3 device table in text."
+    },
+    {
+      "source": "D8.9 Data Management Plan v3 (WP8)",
+      "url": "https://www.smartlivingepc.eu/en/Project%20Results%20%20Documents/Deliverables/D8.9%20Data%20Management%20Plan%20v3.pdf",
+      "result": "Dataset registry: metadata 'timestamps, sensor/device IDs, space ids' stored in CIEM database and SmartLivingEPC Web Platform database (private). Attests Zenodo record 15782433 as the public DS3 dataset. Data outside 'Open Data' is scheduled for deletion."
+    },
+    {
+      "source": "D1.2/D1.3 pilot analysis & use-case architecture",
+      "url": "https://www.smartlivingepc.eu/en/project-results",
+      "result": "Pilot descriptions (Ehituse Mäemaja named). No device UUIDs, no mapping table."
+    },
+    {
+      "source": "OpenAIRE publications API",
+      "url": "http://api.openaire.eu/search/publications?keywords=SmartLivingEPC&format=json&size=100",
+      "result": "23 related publications; no deliverable or dataset record containing the device UUIDs or a mapping table."
+    },
+    {
+      "source": "GitHub repository search",
+      "url": "https://api.github.com/search/repositories?q=SmartLivingEPC",
+      "result": "0 public repositories. Code search requires authentication; no Ehituse-Maemaja / TalTech sensor repos found via web."
+    },
+    {
+      "source": "General web search of full UUID strings",
+      "result": "The 13 sampled UUIDs return no genuine public page (only coincidental substring matches). No file sharing/repo/dataset contains them."
+    }
+  ],
+  "device_inventory_evidence": {
+    "pilot_relationship": "DS3 = Ehituse Mäemaja = supplied IFC 'DS3_TalTech_V4' + Taltech.zip CSVs",
+    "room_level_ieq": {
+      "equipment": "Schneider Electric Room Controller SE8300 (room air temperature, relative humidity, CO2; 15 min)",
+      "network": "Modbus RTU (BACnet MS/TP) integrated into BMS",
+      "selected_test_rooms": ["office", "meeting room", "two classrooms"],
+      "vav_rooms": ["206", "207", "309"],
+      "pm2_5": "3 sensors; NOT on BMS; third-party provider (installed under another EU project); separate API key"
+    },
+    "energy_meters": {
+      "list": "~25 sub-meters in D6.2 Table 11 (total electricity; per-floor plugs+lights; tenant sub-meters; climate chamber; pumps; elevator; server room; AC; fancoils; chiller; AHU 1/2/3/4/9; nZEB test facility; PV; heating main+radiators/test hall/AHU; cooling main+test hall AHU)",
+      "network": "Modbus TCP, daily, into BMS",
+      "csv_energy_offset": "Only 4 energy-meter UUIDs in the CSVs, consistent with the project extracting a localized subset of the BMS rather than all meters"
+    },
+    "bms_and_pipeline": {
+      "bms": "Schneider Electric Building Operation Workstation (campus-wide); localized subset for the pilot negotiated and approved",
+      "access_model": "no direct external access (cybersecurity restriction); cloud server queries internal BMS APIs",
+      "pm2_5_path": "second API to third-party provider (separate API key)",
+      "delivery": "CIEM via RabbitMQ every 15 minutes; redundant cloud backup"
+    }
+  },
+  "mapping_mechanism_publicly_documented": {
+    "source": "D5.1 section 5.3.5 Device Management page",
+    "steps": [
+      "Configure device type (sensor/meter) and, for meters, energy carrier + energy uses",
+      "Allocate the device in a thermal zone and space; for meters, semantic-linking to monitored spaces and building systems",
+      "Assign name + unique device ID; the ID matches the static representation of the device in the building instance with real-time CIEM measurements"
+    ],
+    "implication": "The CSV device_id UUIDs are the CIEM/Web-platform unique device IDs; their room/space allocation was entered by the pilot manager and lives in the private CIEM database + Web Platform database (D8.9), never published."
+  },
+  "mapping_evidence": [],
+  "uuid_investigations": [
+    {
+      "uuid": "04f80f82-e206-427c-a913-69758a1ec283",
+      "type": "temperature",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "2522f700-8446-4619-9399-23b97d077209",
+      "type": "humidity,temperature",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "37b7c0e4-9943-489e-98a9-2ab4796a7d94",
+      "type": "humidity,temperature",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "421151cb-043f-4ccc-844d-ff94cd659f2b",
+      "type": "humidity,temperature",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+      "type": "co2,humidity,temperature",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+      "type": "co2,humidity,temperature",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+      "type": "co2,humidity,temperature",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "08e2d921-2317-4642-b003-90bc1fce878a",
+      "type": "pm2.5",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "9a7e9493-2411-4213-a65b-1372023e02d3",
+      "type": "pm2.5",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "065931eb-3930-492c-ac91-85a0936fcf82",
+      "type": "energy",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    },
+    {
+      "uuid": "2cc97dbf-8e73-475b-a2e7-cecdb74e7838",
+      "type": "energy",
+      "searched_in_deliverable_texts": 0,
+      "web_search": 0,
+      "github": 0,
+      "found": false
+    }
+  ],
+  "deliverable_texts_searched": [
+    "demo_d64.pdf (D6.4 Pilots Demonstration & Evaluation; DS3 section 6.3 read in full)",
+    "parcs_d62.pdf (D6.2 Pilot Planning & Setup; DS3 section 5.1 read in full)",
+    "ciem_d41.pdf (D4.1 CIEM & Building Dynamic Behaviour Monitoring Platform)",
+    "platform_d51.pdf (D5.1 Digital Platform v1)",
+    "manual_d61.pdf (D6.1 Manual for implementation v1)",
+    "pilotarch_d12.pdf / pilotarch_d13.pdf (D1.2/D1.3 Pilot analysis & use-case architecture)",
+    "DMP_d89.pdf (D8.9 Data Management Plan v3)"
+  ],
+  "missing_links": [
+    "The authoritative sensor-UUID -> room -> space assignment table for DS3 exists only in the private SmartLivingEPC CIEM database / Web Platform Device Management configuration (D5.1, D8.9).",
+    "The TalTech Schneider EcoStruxure (Building Operation Workstation) BMS point database maps BMS points to rooms; it is campus-internal and access was restricted (only a localized subset was exposed; not publicly downloadable).",
+    "The third-party provider's API for the 3 PM2.5 sensors requires a separate API key and is not published; the CSVs only expose the platform-side UUIDs."
+  ],
+  "recommended_next_steps": [
+    "Request the CIEM/Web Platform device-registry export for DS3 (or a BMS point-to-room extract) from TalTech / SmartLivingEPC coordinators; join on the 36 device UUIDs.",
+    "Then join room (or Revit Element Id) to IfcSpace via IfcSpaceType.Tag / IfcSpace.GlobalId as documented in M1 (Section 6 'Mapping mechanism').",
+    "If obtained, re-run scripts/investigate_sensor_ifc_mapping.py with an external key column to populate the mapping; do not infer UUID->room from the 4 publicly named test rooms (ambiguous; would be fabrication).",
+    "Optional: OCR the screenshot 'Figure 64. The devices existing in the platform for DS3' (D6.4 p.106) for device names/locations to pre-verify counts; it does not expose the CSV UUIDs and cannot close the join without the registry."
+  ],
+  "conclusive_finding": "M2 outcome NOT_FOUND: no public or external source (Zenodo, CORDIS, SmartLivingEPC deliverables D1.x/D4.x/D5.x/D6.x/D8.x, OpenAIRE, GitHub, general web) contains any of the 36 device UUIDs or a device->space mapping for the TalTech pilot. The mapping was demonstrably created and stored inside the private CIEM / Web Platform device-registration database during project operation; obtaining that registry (or the BMS point extract) is required to complete the mapping."
+}

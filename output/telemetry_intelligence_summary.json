@@ -1,0 +1,225 @@
+{
+  "task": "M5-TELEMETRY-INTELLIGENCE-ENGINE",
+  "schema_version": "campusiq.telemetry_intelligence/v1",
+  "dataset": {
+    "channels": 69,
+    "devices": 36,
+    "total_readings": 1390297,
+    "channels_by_type": {
+      "co2": 7,
+      "energy": 4,
+      "humidity": 26,
+      "pm2.5": 3,
+      "temperature": 29
+    },
+    "time_span": {
+      "first": "2024-03-18T02:05:00",
+      "last": "2025-06-30T23:45:54"
+    },
+    "quality_totals": {
+      "VALID": 1390297,
+      "MISSING": 0,
+      "DUPLICATE": 0,
+      "OUT_OF_RANGE": 0,
+      "TIME_GAP": 65777,
+      "SUSPECT": 2890
+    },
+    "channels_with_duplicates": 0,
+    "channels_with_gaps": 69
+  },
+  "intelligence": {
+    "anomalies": {
+      "total_candidates": 37359,
+      "recorded_detail": 15937,
+      "channels_with_anomalies": 62,
+      "by_severity": {
+        "CRITICAL": 3168,
+        "HIGH": 1493,
+        "LOW": 7790,
+        "MEDIUM": 3486
+      },
+      "by_category": {
+        "ENVIRONMENTAL": 15909,
+        "RESOURCE": 28
+      },
+      "by_method": {
+        "time_aware": 15937
+      },
+      "by_measurement_type": {
+        "co2": 3174,
+        "energy": 28,
+        "humidity": 3254,
+        "pm2.5": 1500,
+        "temperature": 7981
+      },
+      "anomalies_with_known_location": 0,
+      "top_anomalies": [
+        {
+          "timestamp": "2025-02-10T17:31:43",
+          "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+          "measurement_type": "pm2.5",
+          "value": 123.0,
+          "unit": "µg/m3",
+          "expected": 3.0,
+          "score": 26.98,
+          "severity_score": 82.289,
+          "severity": "CRITICAL",
+          "category": "ENVIRONMENTAL",
+          "method": "time_aware",
+          "location_status": "UNKNOWN_LOCATION",
+          "space_id": null
+        },
+        {
+          "timestamp": "2025-02-10T17:41:43",
+          "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+          "measurement_type": "pm2.5",
+          "value": 123.0,
+          "unit": "µg/m3",
+          "expected": 3.0,
+          "score": 26.98,
+          "severity_score": 82.289,
+          "severity": "CRITICAL",
+          "category": "ENVIRONMENTAL",
+          "method": "time_aware",
+          "location_status": "UNKNOWN_LOCATION",
+          "space_id": null
+        },
+        {
+          "timestamp": "2025-02-10T19:31:43",
+          "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+          "measurement_type": "pm2.5",
+          "value": 123.0,
+          "unit": "µg/m3",
+          "expected": 4.0,
+          "score": 20.066375,
+          "severity_score": 82.289,
+          "severity": "CRITICAL",
+          "category": "ENVIRONMENTAL",
+          "method": "time_aware",
+          "location_status": "UNKNOWN_LOCATION",
+          "space_id": null
+        },
+        {
+          "timestamp": "2025-02-10T19:41:43",
+          "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+          "measurement_type": "pm2.5",
+          "value": 123.0,
+          "unit": "µg/m3",
+          "expected": 4.0,
+          "score": 20.066375,
+          "severity_score": 82.289,
+          "severity": "CRITICAL",
+          "category": "ENVIRONMENTAL",
+          "method": "time_aware",
+          "location_status": "UNKNOWN_LOCATION",
+          "space_id": null
+        },
+        {
+          "timestamp": "2025-01-17T23:00:00",
+          "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+          "measurement_type": "temperature",
+          "value": 18.333334,
+          "unit": "C",
+          "expected": 22.573,
+          "score": 77.287966,
+          "severity_score": 77.287966,
+          "severity": "CRITICAL",
+          "category": "ENVIRONMENTAL",
+          "method": "time_aware",
+          "location_status": "UNKNOWN_LOCATION",
+          "space_id": null
+        },
+        {
+          "timestamp": "2025-01-17T23:05:00",
+          "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+          "measurement_type": "temperature",
+          "value": 18.333334,
+          "unit": "C",
+          "expected": 22.573,
+          "score": 77.287966,
+          "severity_score": 77.287966,
+          "severity": "CRITICAL",
+          "category": "ENVIRONMENTAL",
+          "method": "time_aware",
+          "location_status": "UNKNOWN_LOCATION",
+          "space_id": null
+        },
+        {
+          "timestamp": "2025-01-17T23:10:00",
+          "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+          "measurement_type": "temperature",
+          "value": 18.333334,
+          "unit": "C",
+          "expected": 22.573,
+          "score": 77.287966,
+          "severity_score": 77.287966,
+          "severity": "CRITICAL",
+          "category": "ENVIRONMENTAL",
+          "method": "time_aware",
+          "location_status": "UNKNOWN_LOCATION",
+          "space_id": null
+        },
+        {
+          "timestamp": "2025-01-17T23:15:00",
+          "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+          "measurement_type": "temperature",
+          "value": 18.333334,
+          "unit": "C",
+          "expected": 22.573,
+          "score": 77.287966,
+          "severity_score": 77.287966,
+          "severity": "CRITICAL",
+          "category": "ENVIRONMENTAL",
+          "method": "time_aware",
+          "location_status": "UNKNOWN_LOCATION",
+          "space_id": null
+        }
+      ]
+    },
+    "baselines": {
+      "channels": 69,
+      "sufficient_history": 69,
+      "recommended_baseline_distribution": {
+        "time_aware_hour_of_day": 69
+      }
+    },
+    "energy": {
+      "energy_channels": 4,
+      "median_kwh_per_day_per_meter": [
+        137.8,
+        590.0,
+        963.664,
+        500.0
+      ],
+      "total_median_kwh_per_day_campus": 2191.464,
+      "note": "per-calendar-day register deltas; meters overlap partially in coverage so summing is an upper-bound estimate."
+    },
+    "sensor_health": {
+      "devices": 36,
+      "health_status_distribution": {
+        "DEGRADED": 36
+      },
+      "issue_type_counts": {
+        "CONSTANT_VALUE": 30,
+        "IRREGULAR_SAMPLING": 36,
+        "LONG_GAP": 36
+      },
+      "total_anomaly_candidates": 37359
+    },
+    "location_awareness": {
+      "sensors_in_mapping": 36,
+      "mapping_status_distribution": {
+        "UNRESOLVED": 36
+      },
+      "sensors_with_space": 0,
+      "note": "location never inferred from telemetry; space_id only from the M4 linkage engine's confirmed/provisional mapping."
+    }
+  },
+  "notes": [
+    "All thresholds are operational configuration in telemetry_config.py and are NOT TalTech ground truth.",
+    "Every anomaly carries a category: DATA_QUALITY (impossible values) vs RESOURCE (energy) vs ENVIRONMENTAL (comfort/air quality).",
+    "No sensor location is inferred from telemetry; space linkage comes only from the M4 mapping engine (all current dataset sensors are UNRESOLVED -> location_status UNKNOWN_LOCATION).",
+    "Energy meters are cumulative kWh registers; anomalies are computed on the derived per-calendar-day delta curve, never on raw register values. 0 reading(s) fell outside configured physical limits.",
+    "Raw CSVs are read exactly once and never modified; no full-density copy of the 1,390,297 readings is persisted."
+  ]
+}

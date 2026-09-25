@@ -1,0 +1,3051 @@
+{
+  "confidence_note": "Rule-based heuristic confidence (0-1), not a statistical probability or confidence interval.",
+  "location_caveat": "Sensor anomaly/health/demand candidates report location_status 'UNKNOWN' when M4 mapping is UNRESOLVED. Only IFC/BIM-derived space candidates use 'VERIFIED_BIM'.",
+  "records": [
+    {
+      "affected_entity": {
+        "sensor_id": "04f80f82-e206-427c-a913-69758a1ec283",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0001",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 185,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 04f80f82-e206-427c-a913-69758a1ec283 (issues: IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 2 issue type(s).",
+      "severity": "MEDIUM",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "065931eb-3930-492c-ac91-85a0936fcf82",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0002",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 0,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 065931eb-3930-492c-ac91-85a0936fcf82 (issues: IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 2 issue type(s).",
+      "severity": "MEDIUM",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0003",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 1918,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 08e2d921-2317-4642-b003-90bc1fce878a (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "2522f700-8446-4619-9399-23b97d077209",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0004",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 86,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 2522f700-8446-4619-9399-23b97d077209 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "2cc97dbf-8e73-475b-a2e7-cecdb74e7838",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0005",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 0,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 2cc97dbf-8e73-475b-a2e7-cecdb74e7838 (issues: IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 2 issue type(s).",
+      "severity": "MEDIUM",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "33281c95-d69f-4611-a0c7-38790e115426",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0006",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 28,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 33281c95-d69f-4611-a0c7-38790e115426 (issues: IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 2 issue type(s).",
+      "severity": "MEDIUM",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "37b7c0e4-9943-489e-98a9-2ab4796a7d94",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0007",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 1541,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 37b7c0e4-9943-489e-98a9-2ab4796a7d94 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "3ca720cf-53ac-4326-9c09-c435c4d4e13a",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0008",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 0,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 3ca720cf-53ac-4326-9c09-c435c4d4e13a (issues: IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 2 issue type(s).",
+      "severity": "MEDIUM",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "421151cb-043f-4ccc-844d-ff94cd659f2b",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0009",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 550,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 421151cb-043f-4ccc-844d-ff94cd659f2b (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "42cb320d-b911-4648-bb65-f0d54984551d",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0010",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 427,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 42cb320d-b911-4648-bb65-f0d54984551d (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0011",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 10665,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 4565853e-95df-4027-8b05-82d26bf6eec1 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "45f91780-63fc-4d24-bf64-0e42c440fca5",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0012",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 54,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 45f91780-63fc-4d24-bf64-0e42c440fca5 (issues: IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 2 issue type(s).",
+      "severity": "MEDIUM",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "4dcb026e-d888-4e84-9892-6e81d487a214",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0013",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 659,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 4dcb026e-d888-4e84-9892-6e81d487a214 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "6690d4cb-bb58-47a8-b0f8-be2e99056be0",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0014",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 694,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 6690d4cb-bb58-47a8-b0f8-be2e99056be0 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "76824528-d7e4-423b-b818-8f900b41d6fb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0015",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 1378,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 76824528-d7e4-423b-b818-8f900b41d6fb (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "79c625d4-2530-4332-903e-82d480563c75",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0016",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 84,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 79c625d4-2530-4332-903e-82d480563c75 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0017",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 1417,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 7a0b43e6-7a9b-48bc-84b8-feddd15131c5 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "81845c1a-5a2c-43eb-a443-8276649abb67",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0018",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 59,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 81845c1a-5a2c-43eb-a443-8276649abb67 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "8af61c3a-e76f-45cb-abae-504c208d0ccb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0019",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 148,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 8af61c3a-e76f-45cb-abae-504c208d0ccb (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0020",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 602,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 99ca72a1-36de-4e79-b65d-16cdec7e42fb (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "9a7e9493-2411-4213-a65b-1372023e02d3",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0021",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 822,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 9a7e9493-2411-4213-a65b-1372023e02d3 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "9b662d91-8343-46b6-848a-9c190d6d46b7",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0022",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 212,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for 9b662d91-8343-46b6-848a-9c190d6d46b7 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "a6bbc801-c605-4782-8d17-111c606cf662",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0023",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 1937,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for a6bbc801-c605-4782-8d17-111c606cf662 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0024",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 287,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for ad03002a-9ba7-4b0a-b055-2e981dfa95a2 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0025",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 639,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for c6f4d193-bab8-438a-8706-d2f60e0ef81b (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0026",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 2294,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for d2948a1d-b2a0-435b-a9f6-abe67df61b70 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d77ac61a-ca38-4030-810e-738161f81c7e",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0027",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 568,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for d77ac61a-ca38-4030-810e-738161f81c7e (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0028",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 1026,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for d9a2275e-351a-4095-9e35-7cae87c0112f (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0029",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 406,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for dfd7a151-1cae-4cd6-b3af-91ff110a21b2 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "e0f66126-28e9-4681-bf89-9ecccd961997",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0030",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 138,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for e0f66126-28e9-4681-bf89-9ecccd961997 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "e4373caf-650d-40e9-8f12-ec47d40eb1c2",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0031",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 1846,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for e4373caf-650d-40e9-8f12-ec47d40eb1c2 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "e720f446-3626-4318-a136-079529b57492",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0032",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 975,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for e720f446-3626-4318-a136-079529b57492 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0033",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 3388,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for f4a76a84-7b19-4f32-a681-3eabdaeaaabe (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0034",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 1650,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for f5c3c0e6-cf08-439f-8d31-fc739c100455 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f776d51d-bd6c-40a9-8af7-58142934ee9f",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0035",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 428,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for f776d51d-bd6c-40a9-8af7-58142934ee9f (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0036",
+      "candidate_type": "MAINTENANCE",
+      "confidence": 0.5,
+      "constraints": [
+        "Location cannot be targeted without a verified sensor->space mapping."
+      ],
+      "evidence": {
+        "anomaly_candidates": 248,
+        "health_status": "DEGRADED",
+        "issue_types": [
+          "CONSTANT_VALUE",
+          "IRREGULAR_SAMPLING",
+          "LONG_GAP"
+        ],
+        "location": {
+          "location_status": "UNKNOWN_LOCATION",
+          "location_verified": false,
+          "space_id": null
+        }
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "MAINTENANCE",
+      "proposed_action": "Schedule sensor maintenance / calibration check for fa54ef81-7df5-41e7-a5e8-5d97a69dc151 (issues: CONSTANT_VALUE, IRREGULAR_SAMPLING, LONG_GAP).",
+      "reason": "Health status DEGRADED with 3 issue type(s).",
+      "severity": "HIGH",
+      "source": "M5_SENSOR_HEALTH"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "04f80f82-e206-427c-a913-69758a1ec283",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0037",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 185,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "185 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0038",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "pm2.5",
+        "surviving_candidates": 1918,
+        "unit": "µg/m3"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "AIR_QUALITY",
+      "proposed_action": "Inspect airborne particulate sources near this sensor; review filtration.",
+      "reason": "1918 anomaly readings survived contextual screening (pm2.5).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "2522f700-8446-4619-9399-23b97d077209",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0039",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 86,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "86 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "33281c95-d69f-4611-a0c7-38790e115426",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0040",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "energy",
+        "surviving_candidates": 28,
+        "unit": "kWh"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "ENERGY",
+      "proposed_action": "Inspect energy-consuming systems and operating schedule associated with this meter.",
+      "reason": "28 anomaly readings survived contextual screening (energy).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "37b7c0e4-9943-489e-98a9-2ab4796a7d94",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0041",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 995,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "995 anomaly readings survived contextual screening (humidity).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "37b7c0e4-9943-489e-98a9-2ab4796a7d94",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0042",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 546,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "546 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "421151cb-043f-4ccc-844d-ff94cd659f2b",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0043",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 335,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "335 anomaly readings survived contextual screening (humidity).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "421151cb-043f-4ccc-844d-ff94cd659f2b",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0044",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 215,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "215 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "42cb320d-b911-4648-bb65-f0d54984551d",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0045",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 32,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "32 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "42cb320d-b911-4648-bb65-f0d54984551d",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0046",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 395,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "395 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0047",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 4153,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "4153 anomaly readings survived contextual screening (humidity).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0048",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 6512,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "6512 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "45f91780-63fc-4d24-bf64-0e42c440fca5",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0049",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 54,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "54 anomaly readings survived contextual screening (temperature).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "4dcb026e-d888-4e84-9892-6e81d487a214",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0050",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 17,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "17 anomaly readings survived contextual screening (humidity).",
+      "severity": "LOW",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "4dcb026e-d888-4e84-9892-6e81d487a214",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0051",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 642,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "642 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "6690d4cb-bb58-47a8-b0f8-be2e99056be0",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0052",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 8,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "8 anomaly readings survived contextual screening (humidity).",
+      "severity": "LOW",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "6690d4cb-bb58-47a8-b0f8-be2e99056be0",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0053",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 686,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "686 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "76824528-d7e4-423b-b818-8f900b41d6fb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0054",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 1351,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "1351 anomaly readings survived contextual screening (humidity).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "76824528-d7e4-423b-b818-8f900b41d6fb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0055",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 27,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "27 anomaly readings survived contextual screening (temperature).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "79c625d4-2530-4332-903e-82d480563c75",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0056",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 36,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "36 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "79c625d4-2530-4332-903e-82d480563c75",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0057",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 48,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "48 anomaly readings survived contextual screening (temperature).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0058",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 46,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "46 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0059",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 1371,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "1371 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "81845c1a-5a2c-43eb-a443-8276649abb67",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0060",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 40,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "40 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "81845c1a-5a2c-43eb-a443-8276649abb67",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0061",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 19,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "19 anomaly readings survived contextual screening (temperature).",
+      "severity": "LOW",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "8af61c3a-e76f-45cb-abae-504c208d0ccb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0062",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 148,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "148 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0063",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "co2",
+        "surviving_candidates": 456,
+        "unit": "ppm"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "VENTILATION",
+      "proposed_action": "Investigate CO2 / occupancy conditions around this sensor; assess mechanical ventilation response.",
+      "reason": "456 anomaly readings survived contextual screening (co2).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0064",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 12,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "12 anomaly readings survived contextual screening (humidity).",
+      "severity": "LOW",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0065",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 134,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "134 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "9a7e9493-2411-4213-a65b-1372023e02d3",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0066",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "pm2.5",
+        "surviving_candidates": 822,
+        "unit": "µg/m3"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "AIR_QUALITY",
+      "proposed_action": "Inspect airborne particulate sources near this sensor; review filtration.",
+      "reason": "822 anomaly readings survived contextual screening (pm2.5).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "9b662d91-8343-46b6-848a-9c190d6d46b7",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0067",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 24,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "24 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "9b662d91-8343-46b6-848a-9c190d6d46b7",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0068",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 188,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "188 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "a6bbc801-c605-4782-8d17-111c606cf662",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0069",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 192,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "192 anomaly readings survived contextual screening (humidity).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "a6bbc801-c605-4782-8d17-111c606cf662",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0070",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 1745,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "1745 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0071",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 6,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "6 anomaly readings survived contextual screening (humidity).",
+      "severity": "LOW",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0072",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 281,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "281 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0073",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "co2",
+        "surviving_candidates": 518,
+        "unit": "ppm"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "VENTILATION",
+      "proposed_action": "Investigate CO2 / occupancy conditions around this sensor; assess mechanical ventilation response.",
+      "reason": "518 anomaly readings survived contextual screening (co2).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0074",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 74,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "74 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0075",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 47,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "47 anomaly readings survived contextual screening (temperature).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0076",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "co2",
+        "surviving_candidates": 1511,
+        "unit": "ppm"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "VENTILATION",
+      "proposed_action": "Investigate CO2 / occupancy conditions around this sensor; assess mechanical ventilation response.",
+      "reason": "1511 anomaly readings survived contextual screening (co2).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0077",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 33,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "33 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0078",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 750,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "750 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d77ac61a-ca38-4030-810e-738161f81c7e",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0079",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 399,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "399 anomaly readings survived contextual screening (humidity).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d77ac61a-ca38-4030-810e-738161f81c7e",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0080",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 169,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "169 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0081",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "co2",
+        "surviving_candidates": 766,
+        "unit": "ppm"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "VENTILATION",
+      "proposed_action": "Investigate CO2 / occupancy conditions around this sensor; assess mechanical ventilation response.",
+      "reason": "766 anomaly readings survived contextual screening (co2).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0082",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 20,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "20 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0083",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 240,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "240 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0084",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 8,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "8 anomaly readings survived contextual screening (humidity).",
+      "severity": "LOW",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0085",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 398,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "398 anomaly readings survived contextual screening (temperature).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "e0f66126-28e9-4681-bf89-9ecccd961997",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0086",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 138,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "138 anomaly readings survived contextual screening (humidity).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "e4373caf-650d-40e9-8f12-ec47d40eb1c2",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0087",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 1846,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "1846 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "e720f446-3626-4318-a136-079529b57492",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0088",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "pm2.5",
+        "surviving_candidates": 975,
+        "unit": "µg/m3"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "AIR_QUALITY",
+      "proposed_action": "Inspect airborne particulate sources near this sensor; review filtration.",
+      "reason": "975 anomaly readings survived contextual screening (pm2.5).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0089",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "co2",
+        "surviving_candidates": 1862,
+        "unit": "ppm"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "VENTILATION",
+      "proposed_action": "Investigate CO2 / occupancy conditions around this sensor; assess mechanical ventilation response.",
+      "reason": "1862 anomaly readings survived contextual screening (co2).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0090",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 27,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "27 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0091",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 1499,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "1499 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0092",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "co2",
+        "surviving_candidates": 604,
+        "unit": "ppm"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "VENTILATION",
+      "proposed_action": "Investigate CO2 / occupancy conditions around this sensor; assess mechanical ventilation response.",
+      "reason": "604 anomaly readings survived contextual screening (co2).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0093",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 196,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "196 anomaly readings survived contextual screening (humidity).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0094",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 850,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "850 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "f776d51d-bd6c-40a9-8af7-58142934ee9f",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0095",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 428,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "428 anomaly readings survived contextual screening (temperature).",
+      "severity": "CRITICAL",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0096",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "co2",
+        "surviving_candidates": 218,
+        "unit": "ppm"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "VENTILATION",
+      "proposed_action": "Investigate CO2 / occupancy conditions around this sensor; assess mechanical ventilation response.",
+      "reason": "218 anomaly readings survived contextual screening (co2).",
+      "severity": "HIGH",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0097",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "humidity",
+        "surviving_candidates": 25,
+        "unit": "%"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "25 anomaly readings survived contextual screening (humidity).",
+      "severity": "MEDIUM",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    },
+    {
+      "affected_entity": {
+        "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+        "type": "sensor"
+      },
+      "candidate_id": "DC-0098",
+      "candidate_type": "ANOMALY",
+      "confidence": 0.55,
+      "constraints": [
+        "Sensor location is UNRESOLVED (M4); the physical room is unknown."
+      ],
+      "evidence": {
+        "baseline_recommended": null,
+        "measurement_type": "temperature",
+        "surviving_candidates": 5,
+        "unit": "C"
+      },
+      "location": {
+        "space_id": null,
+        "status": "UNKNOWN"
+      },
+      "location_status": "UNKNOWN",
+      "problem_type": "COMFORT",
+      "proposed_action": "Inspect HVAC/conditioning response for thermal-comfort deviation at this sensor.",
+      "reason": "5 anomaly readings survived contextual screening (temperature).",
+      "severity": "LOW",
+      "source": "M5_TELEMETRY_ANOMALIES"
+    }
+  ],
+  "schema_version": "campusiq.decision_candidates/v1",
+  "summary": {
+    "by_candidate_type": {
+      "ANOMALY": 62,
+      "MAINTENANCE": 36
+    },
+    "by_location_status": {
+      "UNKNOWN": 98
+    },
+    "by_severity": {
+      "CRITICAL": 23,
+      "HIGH": 46,
+      "LOW": 7,
+      "MEDIUM": 22
+    },
+    "requests_processed": 0,
+    "total": 98
+  },
+  "task": "M6-DECISION-ENGINE"
+}

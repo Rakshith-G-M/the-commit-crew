@@ -1,0 +1,26 @@
+{
+  "generated_at": null,
+  "ranking_note": "priority_score = sum(w*f); factor values are documented per candidate. Decision-support ranking, not an objective-best claim.",
+  "schema_version": "campusiq.recommendations/v1",
+  "summary": {
+    "by_category": {
+      "ENERGY": 1,
+      "ENVIRONMENTAL": 61,
+      "SENSOR_HEALTH": 36
+    },
+    "by_location_status": {
+      "UNKNOWN_LOCATION": 98
+    },
+    "by_priority": {
+      "HIGH": 55,
+      "LOW": 7,
+      "MEDIUM": 36
+    },
+    "sources": {
+      "candidates_total": 98,
+      "requests_processed": 0
+    },
+    "total": 98
+  },
+  "task": "M7-RECOMMENDATION-ENGINE"
+}

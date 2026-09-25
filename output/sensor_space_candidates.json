@@ -1,0 +1,1282 @@
+{
+  "task": "M4-SENSOR-SPACE-LINKAGE-ENGINE",
+  "framework": {
+    "candidate_acceptance": "candidates are never auto-accepted; they can only become PROVISIONAL mappings through an explicit accept() call that attaches evidence, and PROVISIONAL never overwrites CONFIRMED",
+    "telemetry_similarity_excluded": true,
+    "signal_types": [
+      "explicit_identifiers",
+      "documented_room_references",
+      "bms_metadata",
+      "device_metadata",
+      "external_authoritative_registry",
+      "manual_verification"
+    ]
+  },
+  "summary": {
+    "sensors_evaluated": 36,
+    "sensors_with_candidates": 0,
+    "candidate_count": 0
+  },
+  "sensors": [
+    {
+      "sensor_id": "04f80f82-e206-427c-a913-69758a1ec283",
+      "sensor_type": "temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "065931eb-3930-492c-ac91-85a0936fcf82",
+      "sensor_type": "energy",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+      "sensor_type": "pm2.5",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "2522f700-8446-4619-9399-23b97d077209",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "2cc97dbf-8e73-475b-a2e7-cecdb74e7838",
+      "sensor_type": "energy",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "33281c95-d69f-4611-a0c7-38790e115426",
+      "sensor_type": "energy",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "37b7c0e4-9943-489e-98a9-2ab4796a7d94",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "3ca720cf-53ac-4326-9c09-c435c4d4e13a",
+      "sensor_type": "energy",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "421151cb-043f-4ccc-844d-ff94cd659f2b",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "42cb320d-b911-4648-bb65-f0d54984551d",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "45f91780-63fc-4d24-bf64-0e42c440fca5",
+      "sensor_type": "temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "4dcb026e-d888-4e84-9892-6e81d487a214",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "6690d4cb-bb58-47a8-b0f8-be2e99056be0",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "76824528-d7e4-423b-b818-8f900b41d6fb",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "79c625d4-2530-4332-903e-82d480563c75",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "81845c1a-5a2c-43eb-a443-8276649abb67",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "8af61c3a-e76f-45cb-abae-504c208d0ccb",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+      "sensor_type": "co2,humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "9a7e9493-2411-4213-a65b-1372023e02d3",
+      "sensor_type": "pm2.5",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "9b662d91-8343-46b6-848a-9c190d6d46b7",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "a6bbc801-c605-4782-8d17-111c606cf662",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+      "sensor_type": "co2,humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+      "sensor_type": "co2,humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "d77ac61a-ca38-4030-810e-738161f81c7e",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+      "sensor_type": "co2,humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "e0f66126-28e9-4681-bf89-9ecccd961997",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "e4373caf-650d-40e9-8f12-ec47d40eb1c2",
+      "sensor_type": "temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "e720f446-3626-4318-a136-079529b57492",
+      "sensor_type": "pm2.5",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+      "sensor_type": "co2,humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+      "sensor_type": "co2,humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "f776d51d-bd6c-40a9-8af7-58142934ee9f",
+      "sensor_type": "humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    },
+    {
+      "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+      "sensor_type": "co2,humidity,temperature",
+      "candidates": [],
+      "signals_considered": {
+        "explicit_identifiers": {
+          "present": false,
+          "note": "CSV carries only device_id UUID, timestamp, meas_type, value, unit (M1 verified); no room/space identifier appears."
+        },
+        "documented_room_references": {
+          "present": false,
+          "note": "D6.2 names VAV rooms 206/207/309 and 4 IEQ test rooms but associates no device UUID; using them would be fabrication."
+        },
+        "bms_metadata": {
+          "present": false,
+          "note": "No BMS point extract is present in the repository (M2: access restricted; only a localized subset was exposed to the project)."
+        },
+        "device_metadata": {
+          "present": false,
+          "note": "No device inventory beyond channel type/unit/range is published in the dataset."
+        },
+        "external_authoritative_registry": {
+          "present": false,
+          "note": "M2 NOT_FOUND: the CIEM/Web-Platform device-registry record for DS3 is private (D5.1/D8.9)."
+        },
+        "manual_verification": {
+          "present": false,
+          "note": "No operator-confirmed assignments are available."
+        }
+      },
+      "telemetry_similarity_excluded": true,
+      "known_space_ids": 115,
+      "known_sensor_ids": 36,
+      "linked": false
+    }
+  ]
+}

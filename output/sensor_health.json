@@ -1,0 +1,2283 @@
+{
+  "task": "M5-TELEMETRY-INTELLIGENCE-ENGINE",
+  "schema_version": "campusiq.telemetry_intelligence/v1",
+  "summary": {
+    "devices": 36,
+    "health_status_distribution": {
+      "DEGRADED": 36
+    },
+    "issue_type_counts": {
+      "CONSTANT_VALUE": 30,
+      "IRREGULAR_SAMPLING": 36,
+      "LONG_GAP": 36
+    },
+    "total_anomaly_candidates": 37359
+  },
+  "devices": [
+    {
+      "sensor_id": "04f80f82-e206-427c-a913-69758a1ec283",
+      "channels": [
+        "temperature"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 15406,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 42,
+      "suspect_readings": 54,
+      "anomaly_candidates": 185,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479144,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:22",
+      "last_report": "2025-06-30T23:45:20",
+      "issues": [
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "04f80f82-e206-427c-a913-69758a1ec283_TEMPERATURESENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "04f80f82-e206-427c-a913-69758a1ec283_TEMPERATURESENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "065931eb-3930-492c-ac91-85a0936fcf82",
+      "channels": [
+        "energy"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 23260,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 7799,
+      "suspect_readings": 0,
+      "anomaly_candidates": 0,
+      "missing_ratio": 0.0,
+      "observed_span_days": 468.999803,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.998077,
+      "first_report": "2024-03-18T23:45:40",
+      "last_report": "2025-06-30T23:45:23",
+      "issues": [
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "065931eb-3930-492c-ac91-85a0936fcf82_ENERGYMETER.csv",
+            "detail": "interval CV 1.32 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "065931eb-3930-492c-ac91-85a0936fcf82_ENERGYMETER.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+      "channels": [
+        "pm2.5"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 15478,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 6235,
+      "suspect_readings": 211,
+      "anomaly_candidates": 1918,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.475995,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305331,
+      "first_report": "2025-02-07T12:20:28",
+      "last_report": "2025-06-30T23:45:54",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 1,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 1
+          },
+          "example": {
+            "channel": "08e2d921-2317-4642-b003-90bc1fce878a_PM25SENSOR.csv",
+            "detail": "only 98 distinct values in 15478"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "08e2d921-2317-4642-b003-90bc1fce878a_PM25SENSOR.csv",
+            "detail": "interval CV 1.08 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "08e2d921-2317-4642-b003-90bc1fce878a_PM25SENSOR.csv",
+            "detail": "largest gap 25.5 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "2522f700-8446-4619-9399-23b97d077209",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 31251,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 0,
+      "anomaly_candidates": 86,
+      "missing_ratio": 0.0,
+      "observed_span_days": 146.316227,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.311375,
+      "first_report": "2025-02-04T16:10:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "2522f700-8446-4619-9399-23b97d077209_HUMIDITYSENSOR.csv",
+            "detail": "only 46 distinct values in 15373"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "2522f700-8446-4619-9399-23b97d077209_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.58 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "2522f700-8446-4619-9399-23b97d077209_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "2cc97dbf-8e73-475b-a2e7-cecdb74e7838",
+      "channels": [
+        "energy"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 19204,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 3740,
+      "suspect_readings": 0,
+      "anomaly_candidates": 0,
+      "missing_ratio": 0.0,
+      "observed_span_days": 297.541933,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.633198,
+      "first_report": "2024-09-06T10:45:00",
+      "last_report": "2025-06-30T23:45:23",
+      "issues": [
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "2cc97dbf-8e73-475b-a2e7-cecdb74e7838_ENERGYMETER.csv",
+            "detail": "interval CV 1.62 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "2cc97dbf-8e73-475b-a2e7-cecdb74e7838_ENERGYMETER.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "33281c95-d69f-4611-a0c7-38790e115426",
+      "channels": [
+        "energy"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 23262,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 7799,
+      "suspect_readings": 0,
+      "anomaly_candidates": 28,
+      "missing_ratio": 0.0,
+      "observed_span_days": 468.999803,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.998077,
+      "first_report": "2024-03-18T23:45:40",
+      "last_report": "2025-06-30T23:45:23",
+      "issues": [
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "33281c95-d69f-4611-a0c7-38790e115426_ENERGYMETER.csv",
+            "detail": "interval CV 1.32 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "33281c95-d69f-4611-a0c7-38790e115426_ENERGYMETER.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "37b7c0e4-9943-489e-98a9-2ab4796a7d94",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 60376,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 2613,
+      "suspect_readings": 15,
+      "anomaly_candidates": 1541,
+      "missing_ratio": 0.0,
+      "observed_span_days": 347.795394,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.740142,
+      "first_report": "2024-07-18T04:40:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "37b7c0e4-9943-489e-98a9-2ab4796a7d94_HUMIDITYSENSOR.csv",
+            "detail": "only 31 distinct values in 15539"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "37b7c0e4-9943-489e-98a9-2ab4796a7d94_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "37b7c0e4-9943-489e-98a9-2ab4796a7d94_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "3ca720cf-53ac-4326-9c09-c435c4d4e13a",
+      "channels": [
+        "energy"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 446,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 215,
+      "suspect_readings": 0,
+      "anomaly_candidates": 0,
+      "missing_ratio": 0.0,
+      "observed_span_days": 286.833333,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.610409,
+      "first_report": "2024-04-21T20:45:00",
+      "last_report": "2025-02-02T16:45:00",
+      "issues": [
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "3ca720cf-53ac-4326-9c09-c435c4d4e13a_ENERGYMETER.csv",
+            "detail": "interval CV 3.08 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "3ca720cf-53ac-4326-9c09-c435c4d4e13a_ENERGYMETER.csv",
+            "detail": "largest gap 366.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "421151cb-043f-4ccc-844d-ff94cd659f2b",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30982,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 8,
+      "anomaly_candidates": 550,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479167,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:22",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "421151cb-043f-4ccc-844d-ff94cd659f2b_HUMIDITYSENSOR.csv",
+            "detail": "only 40 distinct values in 15535"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "421151cb-043f-4ccc-844d-ff94cd659f2b_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "421151cb-043f-4ccc-844d-ff94cd659f2b_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "42cb320d-b911-4648-bb65-f0d54984551d",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 60365,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 2586,
+      "suspect_readings": 0,
+      "anomaly_candidates": 427,
+      "missing_ratio": 0.0,
+      "observed_span_days": 347.795394,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.740142,
+      "first_report": "2024-07-18T04:40:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "42cb320d-b911-4648-bb65-f0d54984551d_HUMIDITYSENSOR.csv",
+            "detail": "only 44 distinct values in 15501"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "42cb320d-b911-4648-bb65-f0d54984551d_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "42cb320d-b911-4648-bb65-f0d54984551d_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 37203,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 84,
+      "suspect_readings": 0,
+      "anomaly_candidates": 10665,
+      "missing_ratio": 0.0,
+      "observed_span_days": 165.441215,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.352075,
+      "first_report": "2025-01-16T13:10:00",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 1,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 1
+          },
+          "example": {
+            "channel": "4565853e-95df-4027-8b05-82d26bf6eec1_TEMPERATURESENSOR.csv",
+            "detail": "only 139 distinct values in 21825"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "4565853e-95df-4027-8b05-82d26bf6eec1_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.58 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "4565853e-95df-4027-8b05-82d26bf6eec1_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "45f91780-63fc-4d24-bf64-0e42c440fca5",
+      "channels": [
+        "temperature"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 15401,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 42,
+      "suspect_readings": 0,
+      "anomaly_candidates": 54,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479144,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:22",
+      "last_report": "2025-06-30T23:45:20",
+      "issues": [
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "45f91780-63fc-4d24-bf64-0e42c440fca5_TEMPERATURESENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "45f91780-63fc-4d24-bf64-0e42c440fca5_TEMPERATURESENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "4dcb026e-d888-4e84-9892-6e81d487a214",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 37353,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 7,
+      "anomaly_candidates": 659,
+      "missing_ratio": 0.0,
+      "observed_span_days": 165.441227,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.352075,
+      "first_report": "2025-01-16T13:10:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "4dcb026e-d888-4e84-9892-6e81d487a214_HUMIDITYSENSOR.csv",
+            "detail": "only 44 distinct values in 15548"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "4dcb026e-d888-4e84-9892-6e81d487a214_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "4dcb026e-d888-4e84-9892-6e81d487a214_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "6690d4cb-bb58-47a8-b0f8-be2e99056be0",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30980,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 34,
+      "anomaly_candidates": 694,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479155,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:23",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "6690d4cb-bb58-47a8-b0f8-be2e99056be0_HUMIDITYSENSOR.csv",
+            "detail": "only 78 distinct values in 15534"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "6690d4cb-bb58-47a8-b0f8-be2e99056be0_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "6690d4cb-bb58-47a8-b0f8-be2e99056be0_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "76824528-d7e4-423b-b818-8f900b41d6fb",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30855,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 82,
+      "suspect_readings": 8,
+      "anomaly_candidates": 1378,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479155,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:22",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "76824528-d7e4-423b-b818-8f900b41d6fb_HUMIDITYSENSOR.csv",
+            "detail": "only 36 distinct values in 15394"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "76824528-d7e4-423b-b818-8f900b41d6fb_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "76824528-d7e4-423b-b818-8f900b41d6fb_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "79c625d4-2530-4332-903e-82d480563c75",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 31251,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 0,
+      "anomaly_candidates": 84,
+      "missing_ratio": 0.0,
+      "observed_span_days": 146.316227,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.311375,
+      "first_report": "2025-02-04T16:10:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "79c625d4-2530-4332-903e-82d480563c75_HUMIDITYSENSOR.csv",
+            "detail": "only 50 distinct values in 15384"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "79c625d4-2530-4332-903e-82d480563c75_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.58 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "79c625d4-2530-4332-903e-82d480563c75_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 60221,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 2692,
+      "suspect_readings": 0,
+      "anomaly_candidates": 1417,
+      "missing_ratio": 0.0,
+      "observed_span_days": 347.802326,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.740157,
+      "first_report": "2024-07-18T04:30:00",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5_HUMIDITYSENSOR.csv",
+            "detail": "only 51 distinct values in 15389"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "81845c1a-5a2c-43eb-a443-8276649abb67",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30824,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 83,
+      "suspect_readings": 0,
+      "anomaly_candidates": 59,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479155,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:23",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "81845c1a-5a2c-43eb-a443-8276649abb67_HUMIDITYSENSOR.csv",
+            "detail": "only 41 distinct values in 15441"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "81845c1a-5a2c-43eb-a443-8276649abb67_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "81845c1a-5a2c-43eb-a443-8276649abb67_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "8af61c3a-e76f-45cb-abae-504c208d0ccb",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30947,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 6,
+      "anomaly_candidates": 148,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479155,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:23",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "8af61c3a-e76f-45cb-abae-504c208d0ccb_HUMIDITYSENSOR.csv",
+            "detail": "only 64 distinct values in 15503"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "8af61c3a-e76f-45cb-abae-504c208d0ccb_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "8af61c3a-e76f-45cb-abae-504c208d0ccb_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+      "channels": [
+        "co2",
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 3,
+      "health_status": "DEGRADED",
+      "valid_readings": 52701,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 127,
+      "suspect_readings": 152,
+      "anomaly_candidates": 602,
+      "missing_ratio": 0.0,
+      "observed_span_days": 165.441227,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.352075,
+      "first_report": "2025-01-16T13:10:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "99ca72a1-36de-4e79-b65d-16cdec7e42fb_HUMIDITYSENSOR.csv",
+            "detail": "only 47 distinct values in 15495"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 3,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 3
+          },
+          "example": {
+            "channel": "99ca72a1-36de-4e79-b65d-16cdec7e42fb_CO2SENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 3,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 3
+          },
+          "example": {
+            "channel": "99ca72a1-36de-4e79-b65d-16cdec7e42fb_CO2SENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "9a7e9493-2411-4213-a65b-1372023e02d3",
+      "channels": [
+        "pm2.5"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 16617,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 5680,
+      "suspect_readings": 168,
+      "anomaly_candidates": 822,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.468704,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305315,
+      "first_report": "2025-02-07T12:26:51",
+      "last_report": "2025-06-30T23:41:47",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 1,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 1
+          },
+          "example": {
+            "channel": "9a7e9493-2411-4213-a65b-1372023e02d3_PM25SENSOR.csv",
+            "detail": "only 30 distinct values in 16617"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "9a7e9493-2411-4213-a65b-1372023e02d3_PM25SENSOR.csv",
+            "detail": "interval CV 1.13 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "9a7e9493-2411-4213-a65b-1372023e02d3_PM25SENSOR.csv",
+            "detail": "largest gap 25.5 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "9b662d91-8343-46b6-848a-9c190d6d46b7",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30822,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 84,
+      "suspect_readings": 0,
+      "anomaly_candidates": 212,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479144,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:23",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "9b662d91-8343-46b6-848a-9c190d6d46b7_HUMIDITYSENSOR.csv",
+            "detail": "only 52 distinct values in 15407"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "9b662d91-8343-46b6-848a-9c190d6d46b7_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "9b662d91-8343-46b6-848a-9c190d6d46b7_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "a6bbc801-c605-4782-8d17-111c606cf662",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 60281,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 2590,
+      "suspect_readings": 8,
+      "anomaly_candidates": 1937,
+      "missing_ratio": 0.0,
+      "observed_span_days": 347.795382,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.740142,
+      "first_report": "2024-07-18T04:40:00",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "a6bbc801-c605-4782-8d17-111c606cf662_HUMIDITYSENSOR.csv",
+            "detail": "only 34 distinct values in 15422"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "a6bbc801-c605-4782-8d17-111c606cf662_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "a6bbc801-c605-4782-8d17-111c606cf662_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 31005,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 0,
+      "anomaly_candidates": 287,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479155,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:23",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2_HUMIDITYSENSOR.csv",
+            "detail": "only 63 distinct values in 15538"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+      "channels": [
+        "co2",
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 3,
+      "health_status": "DEGRADED",
+      "valid_readings": 55767,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 127,
+      "suspect_readings": 167,
+      "anomaly_candidates": 639,
+      "missing_ratio": 0.0,
+      "observed_span_days": 208.809282,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.444366,
+      "first_report": "2024-12-04T04:20:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "c6f4d193-bab8-438a-8706-d2f60e0ef81b_HUMIDITYSENSOR.csv",
+            "detail": "only 47 distinct values in 15541"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 3,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 3
+          },
+          "example": {
+            "channel": "c6f4d193-bab8-438a-8706-d2f60e0ef81b_CO2SENSOR.csv",
+            "detail": "interval CV 2.58 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 3,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 3
+          },
+          "example": {
+            "channel": "c6f4d193-bab8-438a-8706-d2f60e0ef81b_CO2SENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+      "channels": [
+        "co2",
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 3,
+      "health_status": "DEGRADED",
+      "valid_readings": 58939,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 125,
+      "suspect_readings": 250,
+      "anomaly_candidates": 2294,
+      "missing_ratio": 0.0,
+      "observed_span_days": 165.441215,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.352075,
+      "first_report": "2025-01-16T13:10:00",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "d2948a1d-b2a0-435b-a9f6-abe67df61b70_HUMIDITYSENSOR.csv",
+            "detail": "only 44 distinct values in 15427"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 3,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 3
+          },
+          "example": {
+            "channel": "d2948a1d-b2a0-435b-a9f6-abe67df61b70_CO2SENSOR.csv",
+            "detail": "interval CV 2.69 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 3,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 3
+          },
+          "example": {
+            "channel": "d2948a1d-b2a0-435b-a9f6-abe67df61b70_CO2SENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "d77ac61a-ca38-4030-810e-738161f81c7e",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30901,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 0,
+      "anomaly_candidates": 568,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479155,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:23",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "d77ac61a-ca38-4030-810e-738161f81c7e_HUMIDITYSENSOR.csv",
+            "detail": "only 49 distinct values in 15509"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "d77ac61a-ca38-4030-810e-738161f81c7e_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "d77ac61a-ca38-4030-810e-738161f81c7e_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+      "channels": [
+        "co2",
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 3,
+      "health_status": "DEGRADED",
+      "valid_readings": 59036,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 127,
+      "suspect_readings": 204,
+      "anomaly_candidates": 1026,
+      "missing_ratio": 0.0,
+      "observed_span_days": 165.441227,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.352075,
+      "first_report": "2025-01-16T13:10:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "d9a2275e-351a-4095-9e35-7cae87c0112f_HUMIDITYSENSOR.csv",
+            "detail": "only 44 distinct values in 15478"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 3,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 3
+          },
+          "example": {
+            "channel": "d9a2275e-351a-4095-9e35-7cae87c0112f_CO2SENSOR.csv",
+            "detail": "interval CV 2.69 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 3,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 3
+          },
+          "example": {
+            "channel": "d9a2275e-351a-4095-9e35-7cae87c0112f_CO2SENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 124933,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 13303,
+      "suspect_readings": 199,
+      "anomaly_candidates": 406,
+      "missing_ratio": 0.0,
+      "observed_span_days": 469.903032,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.999999,
+      "first_report": "2024-03-18T02:05:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2_HUMIDITYSENSOR.csv",
+            "detail": "only 49 distinct values in 15465"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "e0f66126-28e9-4681-bf89-9ecccd961997",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30829,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 0,
+      "anomaly_candidates": 138,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479144,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:24",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "e0f66126-28e9-4681-bf89-9ecccd961997_HUMIDITYSENSOR.csv",
+            "detail": "only 40 distinct values in 15388"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "e0f66126-28e9-4681-bf89-9ecccd961997_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.58 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "e0f66126-28e9-4681-bf89-9ecccd961997_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "e4373caf-650d-40e9-8f12-ec47d40eb1c2",
+      "channels": [
+        "temperature"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 15458,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 42,
+      "suspect_readings": 37,
+      "anomaly_candidates": 1846,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479144,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:23",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 1,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 1
+          },
+          "example": {
+            "channel": "e4373caf-650d-40e9-8f12-ec47d40eb1c2_TEMPERATURESENSOR.csv",
+            "detail": "only 111 distinct values in 15458"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "e4373caf-650d-40e9-8f12-ec47d40eb1c2_TEMPERATURESENSOR.csv",
+            "detail": "interval CV 2.59 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "e4373caf-650d-40e9-8f12-ec47d40eb1c2_TEMPERATURESENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "e720f446-3626-4318-a136-079529b57492",
+      "channels": [
+        "pm2.5"
+      ],
+      "channel_count": 1,
+      "health_status": "DEGRADED",
+      "valid_readings": 16504,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 5786,
+      "suspect_readings": 184,
+      "anomaly_candidates": 975,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.470023,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305318,
+      "first_report": "2025-02-07T12:24:42",
+      "last_report": "2025-06-30T23:41:32",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 1,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 1
+          },
+          "example": {
+            "channel": "e720f446-3626-4318-a136-079529b57492_PM25SENSOR.csv",
+            "detail": "only 34 distinct values in 16504"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 1,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 1
+          },
+          "example": {
+            "channel": "e720f446-3626-4318-a136-079529b57492_PM25SENSOR.csv",
+            "detail": "interval CV 1.19 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 1,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 1
+          },
+          "example": {
+            "channel": "e720f446-3626-4318-a136-079529b57492_PM25SENSOR.csv",
+            "detail": "largest gap 25.5 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+      "channels": [
+        "co2",
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 3,
+      "health_status": "DEGRADED",
+      "valid_readings": 85272,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 2672,
+      "suspect_readings": 963,
+      "anomaly_candidates": 3388,
+      "missing_ratio": 0.0,
+      "observed_span_days": 347.788449,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.740128,
+      "first_report": "2024-07-18T04:50:00",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe_HUMIDITYSENSOR.csv",
+            "detail": "only 47 distinct values in 15516"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 3,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 3
+          },
+          "example": {
+            "channel": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe_CO2SENSOR.csv",
+            "detail": "interval CV 1.90 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 3,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 3
+          },
+          "example": {
+            "channel": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe_CO2SENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+      "channels": [
+        "co2",
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 3,
+      "health_status": "DEGRADED",
+      "valid_readings": 58947,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 126,
+      "suspect_readings": 118,
+      "anomaly_candidates": 1650,
+      "missing_ratio": 0.0,
+      "observed_span_days": 165.441215,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.352075,
+      "first_report": "2025-01-16T13:10:00",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 1,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 1
+          },
+          "example": {
+            "channel": "f5c3c0e6-cf08-439f-8d31-fc739c100455_HUMIDITYSENSOR.csv",
+            "detail": "only 38 distinct values in 15452"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 3,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 3
+          },
+          "example": {
+            "channel": "f5c3c0e6-cf08-439f-8d31-fc739c100455_CO2SENSOR.csv",
+            "detail": "interval CV 2.69 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 3,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 3
+          },
+          "example": {
+            "channel": "f5c3c0e6-cf08-439f-8d31-fc739c100455_CO2SENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "f776d51d-bd6c-40a9-8af7-58142934ee9f",
+      "channels": [
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 2,
+      "health_status": "DEGRADED",
+      "valid_readings": 30980,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 85,
+      "suspect_readings": 1,
+      "anomaly_candidates": 428,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479155,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:23",
+      "last_report": "2025-06-30T23:45:22",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "f776d51d-bd6c-40a9-8af7-58142934ee9f_HUMIDITYSENSOR.csv",
+            "detail": "only 58 distinct values in 15522"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 2,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 2
+          },
+          "example": {
+            "channel": "f776d51d-bd6c-40a9-8af7-58142934ee9f_HUMIDITYSENSOR.csv",
+            "detail": "interval CV 2.60 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 2,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 2
+          },
+          "example": {
+            "channel": "f776d51d-bd6c-40a9-8af7-58142934ee9f_HUMIDITYSENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    },
+    {
+      "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+      "channels": [
+        "co2",
+        "humidity",
+        "temperature"
+      ],
+      "channel_count": 3,
+      "health_status": "DEGRADED",
+      "valid_readings": 46240,
+      "missing_readings": 0,
+      "duplicate_timestamps": 0,
+      "out_of_range_readings": 0,
+      "time_gaps": 126,
+      "suspect_readings": 96,
+      "anomaly_candidates": 248,
+      "missing_ratio": 0.0,
+      "observed_span_days": 143.479155,
+      "dataset_span_days": 469.903403,
+      "coverage_fraction": 0.305338,
+      "first_report": "2025-02-07T12:15:22",
+      "last_report": "2025-06-30T23:45:21",
+      "issues": [
+        {
+          "type": "CONSTANT_VALUE",
+          "affected_channels": 2,
+          "max_severity": "HIGH",
+          "severity_distribution": {
+            "HIGH": 2
+          },
+          "example": {
+            "channel": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151_HUMIDITYSENSOR.csv",
+            "detail": "only 46 distinct values in 15460"
+          }
+        },
+        {
+          "type": "IRREGULAR_SAMPLING",
+          "affected_channels": 3,
+          "max_severity": "LOW",
+          "severity_distribution": {
+            "LOW": 3
+          },
+          "example": {
+            "channel": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151_CO2SENSOR.csv",
+            "detail": "interval CV 2.58 >= 0.25"
+          }
+        },
+        {
+          "type": "LONG_GAP",
+          "affected_channels": 3,
+          "max_severity": "MEDIUM",
+          "severity_distribution": {
+            "MEDIUM": 3
+          },
+          "example": {
+            "channel": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151_CO2SENSOR.csv",
+            "detail": "largest gap 66.0 h"
+          }
+        }
+      ],
+      "location": {
+        "space_id": null,
+        "location_status": "UNKNOWN_LOCATION",
+        "location_verified": false
+      }
+    }
+  ]
+}

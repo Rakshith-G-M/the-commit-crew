@@ -1,0 +1,3157 @@
+{
+  "building": {
+    "dimensions_m": {
+      "depth": 44.6,
+      "height": 22.2,
+      "width": 51.8
+    },
+    "name": "TalTech Ehituse M\u00e4emaja / DS3",
+    "spaces_count": 115,
+    "storeys_count": 5
+  },
+  "fallback_model": "campus_twin_schematic.glb",
+  "generation": "True IFC4 Architectural Mesh Extraction from DS3_TalTech_V4.ifc",
+  "honesty_note": "Actual IFC4 architectural geometry extracted directly from DS3_TalTech_V4.ifc: 399 walls, 60 slabs, 102 columns, 116 doors, 190 windows & mullions, 26 stairs, 11 roofs, and 115 true room spatial boundary volumes. Preserves determinism and full BIM property linkage. Operational telemetry sensor mapping remains UNRESOLVED at the individual room level.",
+  "model": "campus_twin.glb",
+  "schema_version": "campusiq.twin_manifest/v2",
+  "spaces": [
+    {
+      "area_m2": 3.0691499999999707,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          19.07461929321289,
+          -10.882200241088867
+        ],
+        "min": [
+          -13.41450023651123,
+          15.050008773803711,
+          -12.06719970703125
+        ]
+      },
+      "center": [
+        -11.964999198913574,
+        17.044607162475586,
+        -11.59320068359375
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MW1",
+      "ifc_name": "114",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MW1",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MW1",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 12.255037319944607
+    },
+    {
+      "area_m2": 69.16729053139278,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          19.260007858276367,
+          -8.261512756347656
+        ],
+        "min": [
+          -21.318500518798828,
+          15.050008773803711,
+          -16.342418670654297
+        ]
+      },
+      "center": [
+        -15.589391708374023,
+        18.352981567382812,
+        -11.220357894897461
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MW3",
+      "ifc_name": "113",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MW3",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MW3",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 284.33999307234234
+    },
+    {
+      "area_m2": 10.34179196367425,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          19.260007858276367,
+          -12.247200012207031
+        ],
+        "min": [
+          -13.41450023651123,
+          15.050008773803711,
+          -16.342418670654297
+        ]
+      },
+      "center": [
+        -11.94050407409668,
+        18.365612030029297,
+        -14.093523025512695
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MW7",
+      "ifc_name": "115",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MW7",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MW7",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 41.3036352459388
+    },
+    {
+      "area_m2": 4.488776501708881,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          19.072328567504883,
+          -1.7172000408172607
+        ],
+        "min": [
+          -13.32450008392334,
+          15.050008773803711,
+          -3.514500617980957
+        ]
+      },
+      "center": [
+        -11.763248443603516,
+        17.52230453491211,
+        -2.838400363922119
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MW9",
+      "ifc_name": "110",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MW9",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MW9",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 17.694367285978352
+    },
+    {
+      "area_m2": 75.06430484614349,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          19.260007858276367,
+          0.7378852367401123
+        ],
+        "min": [
+          -22.00908851623535,
+          15.050008773803711,
+          -8.262200355529785
+        ]
+      },
+      "center": [
+        -15.75990104675293,
+        17.972244262695312,
+        -4.0012664794921875
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWB",
+      "ifc_name": "109",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWB",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWB",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 305.48837460979325
+    },
+    {
+      "area_m2": 6.90854999999921,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          19.070009231567383,
+          -5.692200183868408
+        ],
+        "min": [
+          -13.729499816894531,
+          15.050008773803711,
+          -8.062199592590332
+        ]
+      },
+      "center": [
+        -12.27199935913086,
+        17.060009002685547,
+        -6.877199649810791
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWD",
+      "ifc_name": "112",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWD",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWD",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 27.77237099999693
+    },
+    {
+      "area_m2": 4.488777498705458,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          19.022306442260742,
+          -3.68969988822937
+        ],
+        "min": [
+          -13.32450008392334,
+          15.050008773803711,
+          -5.487000465393066
+        ]
+      },
+      "center": [
+        -11.659500122070312,
+        17.01581382751465,
+        -4.589633464813232
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWF",
+      "ifc_name": "111",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWF",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWF",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 17.693770864114622
+    },
+    {
+      "area_m2": 66.00896207849989,
+      "bounds": {
+        "max": [
+          -10.919500350952148,
+          19.260007858276367,
+          9.642800331115723
+        ],
+        "min": [
+          -21.034500122070312,
+          15.050008773803711,
+          1.0127999782562256
+        ]
+      },
+      "center": [
+        -15.507352828979492,
+        18.15941619873047,
+        5.868243217468262
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWH",
+      "ifc_name": "106",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWH",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWH",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 270.9659973254493
+    },
+    {
+      "area_m2": 6.4486344546910965,
+      "bounds": {
+        "max": [
+          -14.608701705932617,
+          19.260007858276367,
+          9.71780014038086
+        ],
+        "min": [
+          -16.911785125732422,
+          15.050008773803711,
+          6.917799949645996
+        ]
+      },
+      "center": [
+        -15.448415756225586,
+        17.875465393066406,
+        7.94120979309082
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWJ",
+      "ifc_name": "105",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWJ",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWJ",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 26.698269246821074
+    },
+    {
+      "area_m2": 2.3899863149692764,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          19.023469924926758,
+          2.8127999305725098
+        ],
+        "min": [
+          -12.159500122070312,
+          15.050008773803711,
+          1.0127999782562256
+        ]
+      },
+      "center": [
+        -11.260359764099121,
+        17.229846954345703,
+        1.5635507106781006
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWL",
+      "ifc_name": "108",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWL",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWL",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 9.457718388467713
+    },
+    {
+      "area_m2": 10.036269939522224,
+      "bounds": {
+        "max": [
+          -21.17449951171875,
+          19.260007858276367,
+          9.642800331115723
+        ],
+        "min": [
+          -22.716808319091797,
+          15.050008773803711,
+          1.0127999782562256
+        ]
+      },
+      "center": [
+        -22.03860855102539,
+        17.15500831604004,
+        5.327792167663574
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWN",
+      "ifc_name": "107",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWN",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWN",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 42.25269644538866
+    },
+    {
+      "area_m2": 6.127368000000954,
+      "bounds": {
+        "max": [
+          -15.19950008392334,
+          19.260007858276367,
+          13.115799903869629
+        ],
+        "min": [
+          -17.11549949645996,
+          15.050008773803711,
+          9.917799949645996
+        ]
+      },
+      "center": [
+        -16.15749740600586,
+        17.618083953857422,
+        11.161236763000488
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWP",
+      "ifc_name": "102",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWP",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWP",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 24.76720261378462
+    },
+    {
+      "area_m2": 12.351265282413053,
+      "bounds": {
+        "max": [
+          -18.844499588012695,
+          19.260007858276367,
+          12.99779987335205
+        ],
+        "min": [
+          -22.983295440673828,
+          15.050008773803711,
+          9.922800064086914
+        ]
+      },
+      "center": [
+        -21.106159210205078,
+        17.55807876586914,
+        10.742871284484863
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWR",
+      "ifc_name": "101",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWR",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWR",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 51.33564518714244
+    },
+    {
+      "area_m2": 20.435888782594077,
+      "bounds": {
+        "max": [
+          -8.46049976348877,
+          18.960477828979492,
+          15.917799949645996
+        ],
+        "min": [
+          -10.794632911682129,
+          15.050008773803711,
+          6.857800006866455
+        ]
+      },
+      "center": [
+        -9.63211441040039,
+        17.321624755859375,
+        11.830833435058594
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWT",
+      "ifc_name": "104",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWT",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWT",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 79.32081190240993
+    },
+    {
+      "area_m2": 23.783254088232983,
+      "bounds": {
+        "max": [
+          -10.794632911682129,
+          19.260007858276367,
+          13.115799903869629
+        ],
+        "min": [
+          -15.019499778747559,
+          15.050008773803711,
+          6.997799873352051
+        ]
+      },
+      "center": [
+        -13.333871841430664,
+        17.953834533691406,
+        10.047024726867676
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWV",
+      "ifc_name": "103",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWV",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWV",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 94.24581862563664
+    },
+    {
+      "area_m2": 16.335999999999924,
+      "bounds": {
+        "max": [
+          -12.864500045776367,
+          19.108821868896484,
+          21.78179931640625
+        ],
+        "min": [
+          -16.864500045776367,
+          15.050008773803711,
+          17.697799682617188
+        ]
+      },
+      "center": [
+        -14.864500999450684,
+        17.054975509643555,
+        19.73979949951172
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWX",
+      "ifc_name": "98",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWX",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWX",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 65.50630118886866
+    },
+    {
+      "area_m2": 25.890732389154895,
+      "bounds": {
+        "max": [
+          -17.08449935913086,
+          19.260007858276367,
+          21.78179931640625
+        ],
+        "min": [
+          -23.6632137298584,
+          15.050008773803711,
+          17.49880027770996
+        ]
+      },
+      "center": [
+        -20.237455368041992,
+        17.976469039916992,
+        19.06490707397461
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWZ",
+      "ifc_name": "97",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWZ",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWZ",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 107.22681391269631
+    },
+    {
+      "area_m2": 18.96636586180633,
+      "bounds": {
+        "max": [
+          -18.844499588012695,
+          19.260007858276367,
+          17.59779930114746
+        ],
+        "min": [
+          -23.348670959472656,
+          15.050008773803711,
+          13.21780014038086
+        ]
+      },
+      "center": [
+        -21.272037506103516,
+        17.734270095825195,
+        15.465561866760254
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWb",
+      "ifc_name": "100",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWb",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWb",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 78.90153057191364
+    },
+    {
+      "area_m2": 17.039672873033087,
+      "bounds": {
+        "max": [
+          -8.46049976348877,
+          19.005687713623047,
+          21.78179931640625
+        ],
+        "min": [
+          -12.644499778747559,
+          15.050008773803711,
+          17.697799682617188
+        ]
+      },
+      "center": [
+        -9.661833763122559,
+        17.307708740234375,
+        20.603422164916992
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWd",
+      "ifc_name": "99",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWd",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWd",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 66.53460985501069
+    },
+    {
+      "area_m2": 52.975316496982025,
+      "bounds": {
+        "max": [
+          -8.314499855041504,
+          19.212093353271484,
+          6.857800006866455
+        ],
+        "min": [
+          -10.644499778747559,
+          15.050008773803711,
+          -16.35219955444336
+        ]
+      },
+      "center": [
+        -9.741011619567871,
+        18.317689895629883,
+        -3.7059326171875
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWf",
+      "ifc_name": "94",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWf",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWf",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 205.67098309891412
+    },
+    {
+      "area_m2": 35.40436499610683,
+      "bounds": {
+        "max": [
+          -8.314499855041504,
+          19.260007858276367,
+          -16.34145736694336
+        ],
+        "min": [
+          -23.411075592041016,
+          15.050008773803711,
+          -20.342199325561523
+        ]
+      },
+      "center": [
+        -13.591849327087402,
+        18.20725440979004,
+        -17.703710556030273
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWh",
+      "ifc_name": "93",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWh",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWh",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 143.59319978254962
+    },
+    {
+      "area_m2": 15.681847372416838,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          19.260007858276367,
+          16.017799377441406
+        ],
+        "min": [
+          -16.911252975463867,
+          15.050008773803711,
+          13.117799758911133
+        ]
+      },
+      "center": [
+        -12.093995094299316,
+        17.527788162231445,
+        14.71446418762207
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWj",
+      "ifc_name": "96",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWj",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWj",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 65.92812083626222
+    },
+    {
+      "area_m2": 24.886744970082255,
+      "bounds": {
+        "max": [
+          -8.46049976348877,
+          19.260007858276367,
+          17.517799377441406
+        ],
+        "min": [
+          -18.664499282836914,
+          15.050008773803711,
+          9.922800064086914
+        ]
+      },
+      "center": [
+        -15.626252174377441,
+        18.009214401245117,
+        14.419112205505371
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWl",
+      "ifc_name": "95",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWl",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWl",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 99.99362461453134
+    },
+    {
+      "area_m2": 17.817563631420956,
+      "bounds": {
+        "max": [
+          -10.615204811096191,
+          19.260007858276367,
+          -18.29183578491211
+        ],
+        "min": [
+          -19.305150985717773,
+          15.050008773803711,
+          -20.342199325561523
+        ]
+      },
+      "center": [
+        -14.960176467895508,
+        17.963422775268555,
+        -19.687026977539062
+      ],
+      "height_m": 4.210000000000004,
+      "ifc_global_id": "3U1W8Xs6L9pRXU5Afk5MWq",
+      "ifc_name": "92",
+      "node": "space_3U1W8Xs6L9pRXU5Afk5MWq",
+      "space_id": "space_3U1W8Xs6L9pRXU5Afk5MWq",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S",
+      "volume_m3": 72.06049608427374
+    },
+    {
+      "area_m2": 43.035385620117154,
+      "bounds": {
+        "max": [
+          4.505499839782715,
+          4.425008296966553,
+          -2.307309627532959
+        ],
+        "min": [
+          -1.094499945640564,
+          1.7500083446502686,
+          -9.992199897766113
+        ]
+      },
+      "center": [
+        1.7050501108169556,
+        3.4066081047058105,
+        -5.383243083953857
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih16",
+      "ifc_name": "1",
+      "node": "space_3WAA5EqJ58HBqF0jqdih16",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih16",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 103.8590859013784
+    },
+    {
+      "area_m2": 42.881687814330995,
+      "bounds": {
+        "max": [
+          10.48550033569336,
+          4.425008296966553,
+          -2.307309627532959
+        ],
+        "min": [
+          4.9054999351501465,
+          1.7500083446502686,
+          -9.992199897766113
+        ]
+      },
+      "center": [
+        7.695501804351807,
+        3.4066081047058105,
+        -5.384221076965332
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih18",
+      "ifc_name": "2",
+      "node": "space_3WAA5EqJ58HBqF0jqdih18",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih18",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 103.48802770333539
+    },
+    {
+      "area_m2": 43.26593232879623,
+      "bounds": {
+        "max": [
+          16.515499114990234,
+          4.425008296966553,
+          -2.307309627532959
+        ],
+        "min": [
+          10.885499954223633,
+          1.7500083446502686,
+          -9.992199897766113
+        ]
+      },
+      "center": [
+        14.326333045959473,
+        3.159508466720581,
+        -5.615008354187012
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1A",
+      "ifc_name": "3",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1A",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1A",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 104.50170397952998
+    },
+    {
+      "area_m2": 43.38936659389559,
+      "bounds": {
+        "max": [
+          4.505499839782715,
+          4.425008296966553,
+          -11.962200164794922
+        ],
+        "min": [
+          -1.094499945640564,
+          1.7500083446502686,
+          -19.71030044555664
+        ]
+      },
+      "center": [
+        1.9840490818023682,
+        3.1651082038879395,
+        -16.609346389770508
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1C",
+      "ifc_name": "4",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1C",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1C",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 104.71793055745766
+    },
+    {
+      "area_m2": 43.23440457034594,
+      "bounds": {
+        "max": [
+          10.48550033569336,
+          4.425008296966553,
+          -11.962200164794922
+        ],
+        "min": [
+          4.9054999351501465,
+          1.7500083446502686,
+          -19.71030044555664
+        ]
+      },
+      "center": [
+        7.695501327514648,
+        3.0251195430755615,
+        -17.11455726623535
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1E",
+      "ifc_name": "5",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1E",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1E",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 104.34438542567514
+    },
+    {
+      "area_m2": 43.62180962921975,
+      "bounds": {
+        "max": [
+          16.515499114990234,
+          4.425008296966553,
+          -11.962200164794922
+        ],
+        "min": [
+          10.885499954223633,
+          1.7500083446502686,
+          -19.71030044555664
+        ]
+      },
+      "center": [
+        14.211409568786621,
+        3.1698720455169678,
+        -16.889820098876953
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1G",
+      "ifc_name": "6",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1G",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1G",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 105.27888525816275
+    },
+    {
+      "area_m2": 44.66728915933151,
+      "bounds": {
+        "max": [
+          22.68043327331543,
+          4.425008296966553,
+          -11.962200164794922
+        ],
+        "min": [
+          16.91550064086914,
+          1.7500083446502686,
+          -19.71030044555664
+        ]
+      },
+      "center": [
+        19.623449325561523,
+        2.970532178878784,
+        -15.279458045959473
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1I",
+      "ifc_name": "7",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1I",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1I",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 107.91603850121476
+    },
+    {
+      "area_m2": 25.278601556424277,
+      "bounds": {
+        "max": [
+          22.68043327331543,
+          4.425008296966553,
+          -2.307309627532959
+        ],
+        "min": [
+          16.91550064086914,
+          1.7500083446502686,
+          -6.692200183868408
+        ]
+      },
+      "center": [
+        20.216676712036133,
+        3.3894174098968506,
+        -4.698159694671631
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1K",
+      "ifc_name": "8",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1K",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1K",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 61.003316259368724
+    },
+    {
+      "area_m2": 19.564078528764107,
+      "bounds": {
+        "max": [
+          22.68043327331543,
+          4.425008296966553,
+          -6.882199764251709
+        ],
+        "min": [
+          18.67959976196289,
+          1.7500083446502686,
+          -11.772199630737305
+        ]
+      },
+      "center": [
+        21.07911491394043,
+        3.4066081047058105,
+        -9.327201843261719
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1M",
+      "ifc_name": "9",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1M",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1M",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 47.214571742252225
+    },
+    {
+      "area_m2": 44.231651013638775,
+      "bounds": {
+        "max": [
+          18.489599227905273,
+          5.250008583068848,
+          -6.832200050354004
+        ],
+        "min": [
+          -4.6094970703125,
+          2.0100083351135254,
+          -11.822199821472168
+        ]
+      },
+      "center": [
+        6.71799898147583,
+        3.858144998550415,
+        -10.701098442077637
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1O",
+      "ifc_name": "10",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1O",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1O",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 105.37151729590718
+    },
+    {
+      "area_m2": 20.145039308511894,
+      "bounds": {
+        "max": [
+          -1.4945000410079956,
+          4.425008296966553,
+          -11.962200164794922
+        ],
+        "min": [
+          -4.094496726989746,
+          1.7500083446502686,
+          -19.71030044555664
+        ]
+      },
+      "center": [
+        -2.9244983196258545,
+        3.0442585945129395,
+        -17.358722686767578
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1Q",
+      "ifc_name": "11",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1Q",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1Q",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 48.61919036267923
+    },
+    {
+      "area_m2": 19.98069119303966,
+      "bounds": {
+        "max": [
+          -1.4945000410079956,
+          4.425008296966553,
+          -2.307309627532959
+        ],
+        "min": [
+          -4.094496726989746,
+          1.7500083446502686,
+          -9.992199897766113
+        ]
+      },
+      "center": [
+        -2.8729984760284424,
+        3.2727580070495605,
+        -5.3822431564331055
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdih1S",
+      "ifc_name": "12",
+      "node": "space_3WAA5EqJ58HBqF0jqdih1S",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdih1S",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 48.22019647536515
+    },
+    {
+      "area_m2": 8.680346924553294,
+      "bounds": {
+        "max": [
+          -15.19950008392334,
+          14.61800765991211,
+          13.117799758911133
+        ],
+        "min": [
+          -17.914499282836914,
+          10.150008201599121,
+          9.917799949645996
+        ]
+      },
+      "center": [
+        -16.764509201049805,
+        12.38400936126709,
+        11.406208038330078
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihAX",
+      "ifc_name": "87",
+      "node": "space_3WAA5EqJ58HBqF0jqdihAX",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihAX",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 38.78378502574393
+    },
+    {
+      "area_m2": 24.546524274576566,
+      "bounds": {
+        "max": [
+          -10.605133056640625,
+          14.62000846862793,
+          13.115799903869629
+        ],
+        "min": [
+          -15.019499778747559,
+          10.150008201599121,
+          7.097299575805664
+        ]
+      },
+      "center": [
+        -12.968057632446289,
+        12.713468551635742,
+        10.36575984954834
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihAZ",
+      "ifc_name": "88",
+      "node": "space_3WAA5EqJ58HBqF0jqdihAZ",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihAZ",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 108.58413961237662
+    },
+    {
+      "area_m2": 15.461847302391293,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          15.050008773803711,
+          15.81779956817627
+        ],
+        "min": [
+          -16.911252975463867,
+          10.150008201599121,
+          13.117799758911133
+        ]
+      },
+      "center": [
+        -12.535964965820312,
+        12.600008010864258,
+        14.506685256958008
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihAb",
+      "ifc_name": "89",
+      "node": "space_3WAA5EqJ58HBqF0jqdihAb",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihAb",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 75.76305178171722
+    },
+    {
+      "area_m2": 53.56867675180261,
+      "bounds": {
+        "max": [
+          -14.191876411437988,
+          15.050008773803711,
+          21.802799224853516
+        ],
+        "min": [
+          -23.6632137298584,
+          10.150008201599121,
+          15.992799758911133
+        ]
+      },
+      "center": [
+        -20.230140686035156,
+        13.135856628417969,
+        18.239086151123047
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihAd",
+      "ifc_name": "90",
+      "node": "space_3WAA5EqJ58HBqF0jqdihAd",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihAd",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 236.8017174703903
+    },
+    {
+      "area_m2": 33.07178863632305,
+      "bounds": {
+        "max": [
+          -8.46049976348877,
+          14.62000846862793,
+          21.802799224853516
+        ],
+        "min": [
+          -14.191876411437988,
+          10.150008201599121,
+          16.017799377441406
+        ]
+      },
+      "center": [
+        -11.415587425231934,
+        13.227312088012695,
+        19.561656951904297
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihAf",
+      "ifc_name": "91",
+      "node": "space_3WAA5EqJ58HBqF0jqdihAf",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihAf",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 146.1992395871346
+    },
+    {
+      "area_m2": 26.94901232437486,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          9.72000789642334,
+          13.117799758911133
+        ],
+        "min": [
+          -16.931785583496094,
+          5.250008583068848,
+          7.857800006866455
+        ]
+      },
+      "center": [
+        -14.335277557373047,
+        7.485008239746094,
+        11.234910011291504
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCX",
+      "ifc_name": "65",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCX",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCX",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 120.46208508995554
+    },
+    {
+      "area_m2": 41.6090421388256,
+      "bounds": {
+        "max": [
+          -2.4644999504089355,
+          9.551255226135254,
+          9.827799797058105
+        ],
+        "min": [
+          -8.314499855041504,
+          5.250008583068848,
+          2.6977999210357666
+        ]
+      },
+      "center": [
+        -3.8733787536621094,
+        7.006740093231201,
+        6.153239727020264
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCZ",
+      "ifc_name": "66",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCZ",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCZ",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 175.74507644486525
+    },
+    {
+      "area_m2": 18.69352789744849,
+      "bounds": {
+        "max": [
+          -2.4644999504089355,
+          9.690807342529297,
+          13.207799911499023
+        ],
+        "min": [
+          -8.312190055847168,
+          5.250008583068848,
+          10.007800102233887
+        ]
+      },
+      "center": [
+        -4.55335807800293,
+        8.08676815032959,
+        11.12780475616455
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCb",
+      "ifc_name": "67",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCb",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCb",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 78.98042798478741
+    },
+    {
+      "area_m2": 52.672264839269126,
+      "bounds": {
+        "max": [
+          -16.951251983642578,
+          9.72000789642334,
+          21.762800216674805
+        ],
+        "min": [
+          -23.63971519470215,
+          5.250008583068848,
+          13.39780044555664
+        ]
+      },
+      "center": [
+        -20.579845428466797,
+        7.3919901847839355,
+        18.64741325378418
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCd",
+      "ifc_name": "68",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCd",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCd",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 229.71155889496177
+    },
+    {
+      "area_m2": 15.24187929115242,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          10.150008201599121,
+          15.81779956817627
+        ],
+        "min": [
+          -16.911252975463867,
+          5.250008583068848,
+          13.31779956817627
+        ]
+      },
+      "center": [
+        -13.862875938415527,
+        7.700008392333984,
+        14.567800521850586
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCf",
+      "ifc_name": "69",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCf",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCf",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 74.68520852664679
+    },
+    {
+      "area_m2": 33.073997901987326,
+      "bounds": {
+        "max": [
+          -10.82705307006836,
+          10.140007972717285,
+          21.762800216674805
+        ],
+        "min": [
+          -16.794252395629883,
+          5.250008583068848,
+          16.017799377441406
+        ]
+      },
+      "center": [
+        -13.203886032104492,
+        7.492599964141846,
+        20.13266372680664
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCh",
+      "ifc_name": "70",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCh",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCh",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 147.840782277792
+    },
+    {
+      "area_m2": 12.057536709559631,
+      "bounds": {
+        "max": [
+          -8.546500205993652,
+          10.150008201599121,
+          19.12779998779297
+        ],
+        "min": [
+          -10.647053718566895,
+          5.250008583068848,
+          13.347800254821777
+        ]
+      },
+      "center": [
+        -9.48590087890625,
+        9.270875930786133,
+        15.392690658569336
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCj",
+      "ifc_name": "71",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCj",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCj",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 53.92545518410214
+    },
+    {
+      "area_m2": 48.64949999999918,
+      "bounds": {
+        "max": [
+          -2.4644999504089355,
+          9.551255226135254,
+          21.72279930114746
+        ],
+        "min": [
+          -8.314499855041504,
+          5.250008583068848,
+          13.387800216674805
+        ]
+      },
+      "center": [
+        -4.113688945770264,
+        7.028035640716553,
+        18.280893325805664
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCl",
+      "ifc_name": "72",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCl",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCl",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 205.48166075743697
+    },
+    {
+      "area_m2": 3.4760376555032133,
+      "bounds": {
+        "max": [
+          -8.546500205993652,
+          9.72000789642334,
+          20.96261978149414
+        ],
+        "min": [
+          -10.647053718566895,
+          5.250008583068848,
+          19.30780029296875
+        ]
+      },
+      "center": [
+        -9.806833267211914,
+        7.485008239746094,
+        20.262998580932617
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihCn",
+      "ifc_name": "73",
+      "node": "space_3WAA5EqJ58HBqF0jqdihCn",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihCn",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 15.53788832009931
+    },
+    {
+      "area_m2": 17.817563631420956,
+      "bounds": {
+        "max": [
+          -10.615204811096191,
+          15.050008773803711,
+          -18.29183578491211
+        ],
+        "min": [
+          -19.305150985717773,
+          10.150008201599121,
+          -20.342199325561523
+        ]
+      },
+      "center": [
+        -14.697357177734375,
+        13.570009231567383,
+        -19.111980438232422
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihD6",
+      "ifc_name": "74",
+      "node": "space_3WAA5EqJ58HBqF0jqdihD6",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihD6",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 87.21682481951045
+    },
+    {
+      "area_m2": 33.95924217500832,
+      "bounds": {
+        "max": [
+          -8.541500091552734,
+          15.050008773803711,
+          -16.342199325561523
+        ],
+        "min": [
+          -23.410783767700195,
+          10.150008201599121,
+          -20.342199325561523
+        ]
+      },
+      "center": [
+        -16.740930557250977,
+        13.43543815612793,
+        -18.531837463378906
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihD9",
+      "ifc_name": "75",
+      "node": "space_3WAA5EqJ58HBqF0jqdihD9",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihD9",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 152.23467411397283
+    },
+    {
+      "area_m2": 30.948433511018646,
+      "bounds": {
+        "max": [
+          -8.541500091552734,
+          14.62000846862793,
+          -1.5226999521255493
+        ],
+        "min": [
+          -10.644499778747559,
+          10.150008201599121,
+          -16.422199249267578
+        ]
+      },
+      "center": [
+        -10.182144165039062,
+        12.848457336425781,
+        -7.375962257385254
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDB",
+      "ifc_name": "76",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDB",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDB",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 136.81220337132382
+    },
+    {
+      "area_m2": 39.495875665812015,
+      "bounds": {
+        "max": [
+          -8.429499626159668,
+          15.050008773803711,
+          15.81779956817627
+        ],
+        "min": [
+          -11.213000297546387,
+          10.150008201599121,
+          -1.5226999521255493
+        ]
+      },
+      "center": [
+        -9.401763916015625,
+        12.982224464416504,
+        7.489158630371094
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDD",
+      "ifc_name": "77",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDD",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDD",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 174.57969815296198
+    },
+    {
+      "area_m2": 49.35434098956516,
+      "bounds": {
+        "max": [
+          -10.82450008392334,
+          14.62000846862793,
+          -8.262309074401855
+        ],
+        "min": [
+          -16.934492111206055,
+          10.150008201599121,
+          -16.342418670654297
+        ]
+      },
+      "center": [
+        -13.24152660369873,
+        12.822004318237305,
+        -12.377779960632324
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDF",
+      "ifc_name": "78",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDF",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDF",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 220.61938294941234
+    },
+    {
+      "area_m2": 33.97091243325075,
+      "bounds": {
+        "max": [
+          -17.114490509033203,
+          15.050008773803711,
+          -8.261512756347656
+        ],
+        "min": [
+          -21.318500518798828,
+          10.150008201599121,
+          -16.342199325561523
+        ]
+      },
+      "center": [
+        -19.196334838867188,
+        12.600008010864258,
+        -11.705276489257812
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDH",
+      "ifc_name": "79",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDH",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDH",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 166.44654404705395
+    },
+    {
+      "area_m2": 13.37361074952345,
+      "bounds": {
+        "max": [
+          -19.429500579833984,
+          15.050008773803711,
+          -1.7122000455856323
+        ],
+        "min": [
+          -21.814884185791016,
+          10.150008201599121,
+          -7.9822001457214355
+        ]
+      },
+      "center": [
+        -21.108339309692383,
+        13.810940742492676,
+        -4.741980075836182
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDJ",
+      "ifc_name": "80",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDJ",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDJ",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 59.75485224055409
+    },
+    {
+      "area_m2": 45.6292755529173,
+      "bounds": {
+        "max": [
+          -13.929499626159668,
+          14.62000846862793,
+          0.5575816631317139
+        ],
+        "min": [
+          -19.249500274658203,
+          10.150008201599121,
+          -8.262309074401855
+        ]
+      },
+      "center": [
+        -15.568886756896973,
+        13.2170991897583,
+        -5.845176696777344
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDL",
+      "ifc_name": "81",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDL",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDL",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 203.8726853050361
+    },
+    {
+      "area_m2": 6.908549999999225,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          15.050008773803711,
+          -5.692200183868408
+        ],
+        "min": [
+          -13.729499816894531,
+          10.150008201599121,
+          -8.062199592590332
+        ]
+      },
+      "center": [
+        -12.27199935913086,
+        12.600008964538574,
+        -6.877199649810791
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDN",
+      "ifc_name": "82",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDN",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDN",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 33.85189499999619
+    },
+    {
+      "area_m2": 4.574269969707087,
+      "bounds": {
+        "max": [
+          -10.817214965820312,
+          14.570008277893066,
+          -3.68969988822937
+        ],
+        "min": [
+          -13.364500045776367,
+          10.150008201599121,
+          -5.487199783325195
+        ]
+      },
+      "center": [
+        -11.546440124511719,
+        12.360008239746094,
+        -4.58862829208374
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDP",
+      "ifc_name": "83",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDP",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDP",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 20.21827326610528
+    },
+    {
+      "area_m2": 4.574269969705851,
+      "bounds": {
+        "max": [
+          -10.817214965820312,
+          14.570008277893066,
+          -1.7172000408172607
+        ],
+        "min": [
+          -13.364500045776367,
+          10.150008201599121,
+          -3.514699935913086
+        ]
+      },
+      "center": [
+        -11.546441078186035,
+        12.360008239746094,
+        -2.615771532058716
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDR",
+      "ifc_name": "84",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDR",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDR",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 20.218273266099782
+    },
+    {
+      "area_m2": 126.45367146592902,
+      "bounds": {
+        "max": [
+          -10.635000228881836,
+          15.050008773803711,
+          15.712800025939941
+        ],
+        "min": [
+          -23.198945999145508,
+          10.150008201599121,
+          -1.5321999788284302
+        ]
+      },
+      "center": [
+        -16.8408145904541,
+        13.275198936462402,
+        7.388396263122559
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDT",
+      "ifc_name": "85",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDT",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDT",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 565.0029487717974
+    },
+    {
+      "area_m2": 6.418398283826949,
+      "bounds": {
+        "max": [
+          -14.619500160217285,
+          15.050008773803711,
+          9.71780014038086
+        ],
+        "min": [
+          -16.911785125732422,
+          10.150008201599121,
+          6.917799949645996
+        ]
+      },
+      "center": [
+        -15.765642166137695,
+        12.600008964538574,
+        8.317800521850586
+      ],
+      "height_m": 4.899999999999996,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihDV",
+      "ifc_name": "86",
+      "node": "space_3WAA5EqJ58HBqF0jqdihDV",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihDV",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W",
+      "volume_m3": 31.450151590752046
+    },
+    {
+      "area_m2": 63.600459965923335,
+      "bounds": {
+        "max": [
+          -16.309499740600586,
+          4.775008201599121,
+          3.8478000164031982
+        ],
+        "min": [
+          -22.136924743652344,
+          1.7500083446502686,
+          -8.072199821472168
+        ]
+      },
+      "center": [
+        -19.166152954101562,
+        3.7926290035247803,
+        -1.8260722160339355
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihE$",
+      "ifc_name": "27",
+      "node": "space_3WAA5EqJ58HBqF0jqdihE$",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihE$",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 192.38986773440317
+    },
+    {
+      "area_m2": 20.544980000000823,
+      "bounds": {
+        "max": [
+          -10.614500045776367,
+          4.775008201599121,
+          3.8478000164031982
+        ],
+        "min": [
+          -16.11949920654297,
+          1.7500083446502686,
+          0.027799999341368675
+        ]
+      },
+      "center": [
+        -12.834012985229492,
+        3.866509199142456,
+        1.2437231540679932
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihE1",
+      "ifc_name": "28",
+      "node": "space_3WAA5EqJ58HBqF0jqdihE1",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihE1",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 62.10816921602883
+    },
+    {
+      "area_m2": 14.613347335446424,
+      "bounds": {
+        "max": [
+          -10.744500160217285,
+          4.773008346557617,
+          6.717800140380859
+        ],
+        "min": [
+          -16.114500045776367,
+          1.7500083446502686,
+          3.993299722671509
+        ]
+      },
+      "center": [
+        -13.000239372253418,
+        3.2615089416503906,
+        6.171900749206543
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihE3",
+      "ifc_name": "29",
+      "node": "space_3WAA5EqJ58HBqF0jqdihE3",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihE3",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 44.17614883195361
+    },
+    {
+      "area_m2": 16.514750385971393,
+      "bounds": {
+        "max": [
+          -10.754500389099121,
+          4.773008346557617,
+          11.377799987792969
+        ],
+        "min": [
+          -14.419500350952148,
+          1.7500083446502686,
+          6.857800006866455
+        ]
+      },
+      "center": [
+        -12.631900787353516,
+        3.2615087032318115,
+        9.088944435119629
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihE5",
+      "ifc_name": "30",
+      "node": "space_3WAA5EqJ58HBqF0jqdihE5",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihE5",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 49.931679016989605
+    },
+    {
+      "area_m2": 6.418398283826956,
+      "bounds": {
+        "max": [
+          -14.619500160217285,
+          5.250008583068848,
+          9.71780014038086
+        ],
+        "min": [
+          -16.911785125732422,
+          1.7500083446502686,
+          6.917799949645996
+        ]
+      },
+      "center": [
+        -15.765642166137695,
+        3.5000081062316895,
+        8.317800521850586
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihE7",
+      "ifc_name": "31",
+      "node": "space_3WAA5EqJ58HBqF0jqdihE7",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihE7",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 22.464393993394324
+    },
+    {
+      "area_m2": 2.357900000000789,
+      "bounds": {
+        "max": [
+          -14.559499740600586,
+          4.773008346557617,
+          11.377799987792969
+        ],
+        "min": [
+          -16.17449951171875,
+          1.7500083446502686,
+          9.917799949645996
+        ]
+      },
+      "center": [
+        -15.636165618896484,
+        3.2615082263946533,
+        10.64780044555664
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihE9",
+      "ifc_name": "32",
+      "node": "space_3WAA5EqJ58HBqF0jqdihE9",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihE9",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 7.127931673685628
+    },
+    {
+      "area_m2": 53.96665563798696,
+      "bounds": {
+        "max": [
+          -16.31450080871582,
+          5.240008354187012,
+          13.117799758911133
+        ],
+        "min": [
+          -22.879989624023438,
+          1.7500083446502686,
+          3.987799882888794
+        ]
+      },
+      "center": [
+        -19.164531707763672,
+        3.8712527751922607,
+        9.55497932434082
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEB",
+      "ifc_name": "33",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEB",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEB",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 163.27290389523452
+    },
+    {
+      "area_m2": 15.260866086183594,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          5.250008583068848,
+          15.81779956817627
+        ],
+        "min": [
+          -16.918848037719727,
+          1.7500083446502686,
+          13.31779956817627
+        ]
+      },
+      "center": [
+        -13.866673469543457,
+        3.5000081062316895,
+        14.567800521850586
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihED",
+      "ifc_name": "34",
+      "node": "space_3WAA5EqJ58HBqF0jqdihED",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihED",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 53.41303130164264
+    },
+    {
+      "area_m2": 15.213842996135275,
+      "bounds": {
+        "max": [
+          -17.118846893310547,
+          5.250008583068848,
+          16.009723663330078
+        ],
+        "min": [
+          -23.246654510498047,
+          1.7500083446502686,
+          13.257800102233887
+        ]
+      },
+      "center": [
+        -20.527057647705078,
+        3.6596639156341553,
+        14.568424224853516
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEF",
+      "ifc_name": "35",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEF",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEF",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 46.06014072035277
+    },
+    {
+      "area_m2": 6.5328464529030414,
+      "bounds": {
+        "max": [
+          -19.99650001525879,
+          4.775008201599121,
+          18.28580093383789
+        ],
+        "min": [
+          -23.18111801147461,
+          1.7500083446502686,
+          16.15679931640625
+        ]
+      },
+      "center": [
+        -20.93349838256836,
+        3.483044385910034,
+        17.70464515686035
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEH",
+      "ifc_name": "36",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEH",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEH",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 15.06380175253813
+    },
+    {
+      "area_m2": 9.150428060193507,
+      "bounds": {
+        "max": [
+          -20.404499053955078,
+          4.150008201599121,
+          21.712799072265625
+        ],
+        "min": [
+          -23.40203094482422,
+          1.7500083446502686,
+          18.517799377441406
+        ]
+      },
+      "center": [
+        -21.345243453979492,
+        2.9500083923339844,
+        19.958927154541016
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEJ",
+      "ifc_name": "37",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEJ",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEJ",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 21.96102734446438
+    },
+    {
+      "area_m2": 17.856447999999617,
+      "bounds": {
+        "max": [
+          -12.934499740600586,
+          4.775008201599121,
+          21.71579933166504
+        ],
+        "min": [
+          -20.26449966430664,
+          1.7500083446502686,
+          18.519800186157227
+        ]
+      },
+      "center": [
+        -16.635042190551758,
+        3.243947982788086,
+        20.750368118286133
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEL",
+      "ifc_name": "38",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEL",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEL",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 42.88208173883889
+    },
+    {
+      "area_m2": 5.388177416652343,
+      "bounds": {
+        "max": [
+          -17.364500045776367,
+          4.150008201599121,
+          18.372800827026367
+        ],
+        "min": [
+          -19.76449966430664,
+          1.7500083446502686,
+          16.121723175048828
+        ]
+      },
+      "center": [
+        -18.419082641601562,
+        2.9500083923339844,
+        17.536823272705078
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEN",
+      "ifc_name": "39",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEN",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEN",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 12.931625799965605
+    },
+    {
+      "area_m2": 11.418140946996893,
+      "bounds": {
+        "max": [
+          -12.934499740600586,
+          4.775008201599121,
+          19.475799560546875
+        ],
+        "min": [
+          -17.22450065612793,
+          1.7500083446502686,
+          16.019872665405273
+        ]
+      },
+      "center": [
+        -15.127838134765625,
+        3.2625083923339844,
+        17.94769859313965
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEP",
+      "ifc_name": "40",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEP",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEP",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 34.539876342493145
+    },
+    {
+      "area_m2": 1.3434749999999533,
+      "bounds": {
+        "max": [
+          -13.13949966430664,
+          4.150008201599121,
+          19.47279930114746
+        ],
+        "min": [
+          -14.549500465393066,
+          1.7500083446502686,
+          18.517799377441406
+        ]
+      },
+      "center": [
+        -13.828070640563965,
+        2.9500086307525635,
+        18.928512573242188
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihER",
+      "ifc_name": "41",
+      "node": "space_3WAA5EqJ58HBqF0jqdihER",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihER",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 3.224339999999913
+    },
+    {
+      "area_m2": 1.3434749999998794,
+      "bounds": {
+        "max": [
+          -13.13949966430664,
+          4.775008201599121,
+          21.712799072265625
+        ],
+        "min": [
+          -14.549500465393066,
+          1.7500083446502686,
+          20.75779914855957
+        ]
+      },
+      "center": [
+        -13.7952880859375,
+        3.3039560317993164,
+        21.3104305267334
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihET",
+      "ifc_name": "42",
+      "node": "space_3WAA5EqJ58HBqF0jqdihET",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihET",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 3.228746249985921
+    },
+    {
+      "area_m2": 24.345455629506898,
+      "bounds": {
+        "max": [
+          -8.504500389099121,
+          4.775008201599121,
+          21.71579933166504
+        ],
+        "min": [
+          -12.794500350952148,
+          1.7500083446502686,
+          16.017799377441406
+        ]
+      },
+      "center": [
+        -11.256500244140625,
+        3.2625086307525635,
+        18.748716354370117
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEV",
+      "ifc_name": "43",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEV",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEV",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 73.64500323198286
+    },
+    {
+      "area_m2": 31.887492334089956,
+      "bounds": {
+        "max": [
+          -2.5144999027252197,
+          5.250008583068848,
+          3.8486509323120117
+        ],
+        "min": [
+          -8.314499855041504,
+          1.7500083446502686,
+          -1.6621999740600586
+        ]
+      },
+      "center": [
+        -4.844916820526123,
+        3.4992127418518066,
+        0.11526937782764435
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEZ",
+      "ifc_name": "13",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEZ",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEZ",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 94.79748478318514
+    },
+    {
+      "area_m2": 66.53471447229795,
+      "bounds": {
+        "max": [
+          -4.604496955871582,
+          5.250008583068848,
+          -1.9622000455856323
+        ],
+        "min": [
+          -8.314499855041504,
+          1.7500083446502686,
+          -20.041364669799805
+        ]
+      },
+      "center": [
+        -6.237865447998047,
+        3.3414058685302734,
+        -11.744375228881836
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEb",
+      "ifc_name": "14",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEb",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEb",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 222.6237459526828
+    },
+    {
+      "area_m2": 97.09115686161753,
+      "bounds": {
+        "max": [
+          -8.51449966430664,
+          5.250008583068848,
+          15.81779956817627
+        ],
+        "min": [
+          -16.17449951171875,
+          1.7500083446502686,
+          -20.64435577392578
+        ]
+      },
+      "center": [
+        -10.781087875366211,
+        3.824209451675415,
+        -0.38511568307876587
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEd",
+      "ifc_name": "15",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEd",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEd",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 294.23233323176413
+    },
+    {
+      "area_m2": 6.388986075280829,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          5.250008583068848,
+          -18.73419952392578
+        ],
+        "min": [
+          -15.443674087524414,
+          1.7500083446502686,
+          -20.114356994628906
+        ]
+      },
+      "center": [
+        -12.990889549255371,
+        3.925008535385132,
+        -19.42427635192871
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEf",
+      "ifc_name": "16",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEf",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEf",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 21.115861201625208
+    },
+    {
+      "area_m2": 30.015894079967136,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          5.250008583068848,
+          -16.702199935913086
+        ],
+        "min": [
+          -23.147071838378906,
+          1.7500083446502686,
+          -20.114356994628906
+        ]
+      },
+      "center": [
+        -17.322776794433594,
+        3.9282917976379395,
+        -17.824434280395508
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEh",
+      "ifc_name": "17",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEh",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEh",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 93.37615672252191
+    },
+    {
+      "area_m2": 16.248757807269342,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          4.775008201599121,
+          -14.222200393676758
+        ],
+        "min": [
+          -18.06450080871582,
+          1.7500083446502686,
+          -16.502199172973633
+        ]
+      },
+      "center": [
+        -13.860517501831055,
+        3.6939375400543213,
+        -16.096271514892578
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEj",
+      "ifc_name": "18",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEj",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEj",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 49.11999667461816
+    },
+    {
+      "area_m2": 20.677352108311897,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          4.775008201599121,
+          -11.222200393676758
+        ],
+        "min": [
+          -18.06450080871582,
+          1.7500083446502686,
+          -14.082200050354004
+        ]
+      },
+      "center": [
+        -12.076542854309082,
+        3.7660090923309326,
+        -12.382193565368652
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEl",
+      "ifc_name": "19",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEl",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEl",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 62.5076379342352
+    },
+    {
+      "area_m2": 15.397942280942477,
+      "bounds": {
+        "max": [
+          -18.254499435424805,
+          5.040008544921875,
+          -11.272199630737305
+        ],
+        "min": [
+          -21.214567184448242,
+          1.7500083446502686,
+          -16.502199172973633
+        ]
+      },
+      "center": [
+        -20.579471588134766,
+        3.700442314147949,
+        -13.924139976501465
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEn",
+      "ifc_name": "20",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEn",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEn",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 46.54842212649829
+    },
+    {
+      "area_m2": 8.347387122408932,
+      "bounds": {
+        "max": [
+          -18.254499435424805,
+          5.247754096984863,
+          -8.262200355529785
+        ],
+        "min": [
+          -21.214567184448242,
+          1.7500083446502686,
+          -11.082200050354004
+        ]
+      },
+      "center": [
+        -19.81866455078125,
+        4.2453837394714355,
+        -9.347204208374023
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEp",
+      "ifc_name": "21",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEp",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEp",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 26.56126633667325
+    },
+    {
+      "area_m2": 20.44492522082641,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          4.775008201599121,
+          -8.262200355529785
+        ],
+        "min": [
+          -18.06450080871582,
+          1.7500083446502686,
+          -11.082200050354004
+        ]
+      },
+      "center": [
+        -15.649593353271484,
+        3.2625083923339844,
+        -8.7750825881958
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEr",
+      "ifc_name": "22",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEr",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEr",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 61.845974155628156
+    },
+    {
+      "area_m2": 6.90854999999911,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          5.250008583068848,
+          -5.692200183868408
+        ],
+        "min": [
+          -13.729499816894531,
+          1.7500083446502686,
+          -8.062199592590332
+        ]
+      },
+      "center": [
+        -12.27199935913086,
+        3.5000081062316895,
+        -6.877199649810791
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEt",
+      "ifc_name": "23",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEt",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEt",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 24.179924999996857
+    },
+    {
+      "area_m2": 13.410735531701166,
+      "bounds": {
+        "max": [
+          -13.929499626159668,
+          4.773008346557617,
+          -1.9016424417495728
+        ],
+        "min": [
+          -16.11949920654297,
+          1.7500083446502686,
+          -8.072199821472168
+        ]
+      },
+      "center": [
+        -14.984954833984375,
+        3.2615087032318115,
+        -5.15648078918457
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEv",
+      "ifc_name": "24",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEv",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEv",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 40.54065336265409
+    },
+    {
+      "area_m2": 2.7105250000015038,
+      "bounds": {
+        "max": [
+          -11.754500389099121,
+          4.775008201599121,
+          -3.7472000122070312
+        ],
+        "min": [
+          -13.314499855041504,
+          1.7500083446502686,
+          -5.487199783325195
+        ]
+      },
+      "center": [
+        -12.535752296447754,
+        3.5583419799804688,
+        -4.56886625289917
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEx",
+      "ifc_name": "25",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEx",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEx",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 6.8849006238232136
+    },
+    {
+      "area_m2": 2.7105187571890768,
+      "bounds": {
+        "max": [
+          -11.754500389099121,
+          4.775008201599121,
+          -1.857200026512146
+        ],
+        "min": [
+          -13.314499855041504,
+          1.7500083446502686,
+          -3.5971999168395996
+        ]
+      },
+      "center": [
+        -12.535748481750488,
+        3.5583419799804688,
+        -2.6474077701568604
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihEz",
+      "ifc_name": "26",
+      "node": "space_3WAA5EqJ58HBqF0jqdihEz",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihEz",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 6.88488564107265
+    },
+    {
+      "area_m2": 95.4524778302631,
+      "bounds": {
+        "max": [
+          -10.794500350952148,
+          10.150008201599121,
+          -8.082200050354004
+        ],
+        "min": [
+          -23.416889190673828,
+          5.250008583068848,
+          -20.342199325561523
+        ]
+      },
+      "center": [
+        -18.025245666503906,
+        8.12141227722168,
+        -13.949761390686035
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihF$",
+      "ifc_name": "48",
+      "node": "space_3WAA5EqJ58HBqF0jqdihF$",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihF$",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 424.91692066280245
+    },
+    {
+      "area_m2": 21.241218909729785,
+      "bounds": {
+        "max": [
+          -8.51449966430664,
+          9.72000789642334,
+          -12.06719970703125
+        ],
+        "min": [
+          -13.709500312805176,
+          5.250008583068848,
+          -16.41210174560547
+        ]
+      },
+      "center": [
+        -10.841143608093262,
+        7.822113037109375,
+        -14.012178421020508
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihF1",
+      "ifc_name": "49",
+      "node": "space_3WAA5EqJ58HBqF0jqdihF1",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihF1",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 94.34245234727638
+    },
+    {
+      "area_m2": 7.043928619409773,
+      "bounds": {
+        "max": [
+          -19.609500885009766,
+          9.670008659362793,
+          -8.10219955444336
+        ],
+        "min": [
+          -21.318500518798828,
+          5.250008583068848,
+          -12.24858283996582
+        ]
+      },
+      "center": [
+        -20.313152313232422,
+        6.624809741973877,
+        -10.264172554016113
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihF3",
+      "ifc_name": "50",
+      "node": "space_3WAA5EqJ58HBqF0jqdihF3",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihF3",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 29.861315659619965
+    },
+    {
+      "area_m2": 11.426450123914293,
+      "bounds": {
+        "max": [
+          -17.114500045776367,
+          10.150008201599121,
+          -5.282199859619141
+        ],
+        "min": [
+          -21.510046005249023,
+          5.250008583068848,
+          -7.945199966430664
+        ]
+      },
+      "center": [
+        -20.388498306274414,
+        8.755300521850586,
+        -7.1772871017456055
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihF5",
+      "ifc_name": "51",
+      "node": "space_3WAA5EqJ58HBqF0jqdihF5",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihF5",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 51.081191409381226
+    },
+    {
+      "area_m2": 55.29811225786534,
+      "bounds": {
+        "max": [
+          -13.929499626159668,
+          10.140007972717285,
+          0.8877999782562256
+        ],
+        "min": [
+          -21.998821258544922,
+          5.250008583068848,
+          -8.082200050354004
+        ]
+      },
+      "center": [
+        -17.876859664916992,
+        8.005355834960938,
+        -3.347944498062134
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihF7",
+      "ifc_name": "52",
+      "node": "space_3WAA5EqJ58HBqF0jqdihF7",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihF7",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 244.07653332710208
+    },
+    {
+      "area_m2": 6.908549999999246,
+      "bounds": {
+        "max": [
+          -10.814499855041504,
+          10.150008201599121,
+          -5.692200183868408
+        ],
+        "min": [
+          -13.729499816894531,
+          5.250008583068848,
+          -8.062199592590332
+        ]
+      },
+      "center": [
+        -12.27199935913086,
+        7.700008392333984,
+        -6.877199649810791
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihF9",
+      "ifc_name": "53",
+      "node": "space_3WAA5EqJ58HBqF0jqdihF9",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihF9",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 33.85189499999622
+    },
+    {
+      "area_m2": 27.53225671179667,
+      "bounds": {
+        "max": [
+          -8.51449966430664,
+          10.150008201599121,
+          1.0678000450134277
+        ],
+        "min": [
+          -10.667215347290039,
+          5.250008583068848,
+          -11.847200393676758
+        ]
+      },
+      "center": [
+        -9.712562561035156,
+        7.700010299682617,
+        -5.057269096374512
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFB",
+      "ifc_name": "54",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFB",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFB",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 134.90679941902744
+    },
+    {
+      "area_m2": 4.522880320720746,
+      "bounds": {
+        "max": [
+          -10.827215194702148,
+          9.670008659362793,
+          -3.6847000122070312
+        ],
+        "min": [
+          -13.329500198364258,
+          5.250008583068848,
+          -5.492199897766113
+        ]
+      },
+      "center": [
+        -12.07835865020752,
+        7.46000862121582,
+        -4.588449954986572
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFD",
+      "ifc_name": "55",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFD",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFD",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 19.99113101758569
+    },
+    {
+      "area_m2": 4.5228803207194765,
+      "bounds": {
+        "max": [
+          -10.827215194702148,
+          9.670008659362793,
+          -1.7122000455856323
+        ],
+        "min": [
+          -13.329500198364258,
+          5.250008583068848,
+          -3.519700050354004
+        ]
+      },
+      "center": [
+        -12.078356742858887,
+        7.46000862121582,
+        -2.615950107574463
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFF",
+      "ifc_name": "56",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFF",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFF",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 19.991131017580113
+    },
+    {
+      "area_m2": 6.055529945306362,
+      "bounds": {
+        "max": [
+          -10.827215194702148,
+          9.72000789642334,
+          0.8877999782562256
+        ],
+        "min": [
+          -13.329500198364258,
+          5.250008583068848,
+          -1.5321999788284302
+        ]
+      },
+      "center": [
+        -12.07835578918457,
+        8.590007781982422,
+        -0.3222000002861023
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFH",
+      "ifc_name": "57",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFH",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFH",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 26.76669350080489
+    },
+    {
+      "area_m2": 21.989550000000644,
+      "bounds": {
+        "max": [
+          -2.4644999504089355,
+          9.690807342529297,
+          2.540800094604492
+        ],
+        "min": [
+          -8.314499855041504,
+          5.250008583068848,
+          -1.2422000169754028
+        ]
+      },
+      "center": [
+        -5.495687007904053,
+        8.970425605773926,
+        0.8937534093856812
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFJ",
+      "ifc_name": "58",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFJ",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFJ",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 92.2850737131264
+    },
+    {
+      "area_m2": 37.49573728154491,
+      "bounds": {
+        "max": [
+          -8.51449966430664,
+          10.150008201599121,
+          13.167799949645996
+        ],
+        "min": [
+          -16.83449935913086,
+          5.250008583068848,
+          0.8752999901771545
+        ]
+      },
+      "center": [
+        -10.360687255859375,
+        8.694838523864746,
+        6.3138322830200195
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFL",
+      "ifc_name": "59",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFL",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFL",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 167.6523557839888
+    },
+    {
+      "area_m2": 64.48978234993997,
+      "bounds": {
+        "max": [
+          -17.111785888671875,
+          10.150008201599121,
+          13.117799758911133
+        ],
+        "min": [
+          -22.970027923583984,
+          5.250008583068848,
+          1.0978000164031982
+        ]
+      },
+      "center": [
+        -19.998624801635742,
+        8.474157333374023,
+        7.016987323760986
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFN",
+      "ifc_name": "60",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFN",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFN",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 315.36256457802534
+    },
+    {
+      "area_m2": 4.735499999999878,
+      "bounds": {
+        "max": [
+          -13.534500122070312,
+          9.72000789642334,
+          4.68779993057251
+        ],
+        "min": [
+          -16.83449935913086,
+          5.250008583068848,
+          3.2527999877929688
+        ]
+      },
+      "center": [
+        -15.2944974899292,
+        8.205008506774902,
+        3.9702999591827393
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFP",
+      "ifc_name": "61",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFP",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFP",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 20.954588448336537
+    },
+    {
+      "area_m2": 4.3375499999999585,
+      "bounds": {
+        "max": [
+          -10.924500465393066,
+          8.630008697509766,
+          5.037799835205078
+        ],
+        "min": [
+          -13.354499816894531,
+          5.250008583068848,
+          3.2527999877929688
+        ]
+      },
+      "center": [
+        -12.13949966430664,
+        6.940008163452148,
+        4.145299911499023
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFR",
+      "ifc_name": "62",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFR",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFR",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 14.66091899999985
+    },
+    {
+      "area_m2": 13.025699999998649,
+      "bounds": {
+        "max": [
+          -10.924500465393066,
+          9.72000789642334,
+          7.5777997970581055
+        ],
+        "min": [
+          -16.83449935913086,
+          5.250008583068848,
+          4.867800235748291
+        ]
+      },
+      "center": [
+        -13.333579063415527,
+        8.434693336486816,
+        6.400971412658691
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFT",
+      "ifc_name": "63",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFT",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFT",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 57.43269992782935
+    },
+    {
+      "area_m2": 6.418398283826933,
+      "bounds": {
+        "max": [
+          -14.619500160217285,
+          10.150008201599121,
+          9.71780014038086
+        ],
+        "min": [
+          -16.911785125732422,
+          5.250008583068848,
+          6.917799949645996
+        ]
+      },
+      "center": [
+        -15.765642166137695,
+        7.700008392333984,
+        8.317800521850586
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFV",
+      "ifc_name": "64",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFV",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFV",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 31.45015159075206
+    },
+    {
+      "area_m2": 102.72819882278992,
+      "bounds": {
+        "max": [
+          -2.5144999027252197,
+          5.250008583068848,
+          21.71780014038086
+        ],
+        "min": [
+          -8.674500465393066,
+          1.7500083446502686,
+          3.9886510372161865
+        ]
+      },
+      "center": [
+        -5.722612380981445,
+        3.570903778076172,
+        15.09069538116455
+      ],
+      "height_m": 3.5000000000000004,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFX",
+      "ifc_name": "44",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFX",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFX",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv",
+      "volume_m3": 310.8384026247038
+    },
+    {
+      "area_m2": 563.6323531765818,
+      "bounds": {
+        "max": [
+          23.503063201904297,
+          15.050008773803711,
+          -1.9642000198364258
+        ],
+        "min": [
+          -8.314499855041504,
+          5.250008583068848,
+          -20.042314529418945
+        ]
+      },
+      "center": [
+        -3.091991662979126,
+        13.944831848144531,
+        -11.017851829528809
+      ],
+      "height_m": 9.799999999999997,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFg",
+      "ifc_name": "45",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFg",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFg",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 4912.231712417908
+    },
+    {
+      "area_m2": 14.192969174720528,
+      "bounds": {
+        "max": [
+          -8.51449966430664,
+          10.150008201599121,
+          -16.63210105895996
+        ],
+        "min": [
+          -14.595695495605469,
+          5.250008583068848,
+          -20.342199325561523
+        ]
+      },
+      "center": [
+        -10.314223289489746,
+        8.226046562194824,
+        -19.11013412475586
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFx",
+      "ifc_name": "46",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFx",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFx",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 65.39049646215155
+    },
+    {
+      "area_m2": 7.653692968830851,
+      "bounds": {
+        "max": [
+          -14.595695495605469,
+          10.150008201599121,
+          -18.73419952392578
+        ],
+        "min": [
+          -19.35545539855957,
+          5.250008583068848,
+          -20.342199325561523
+        ]
+      },
+      "center": [
+        -17.881261825561523,
+        8.348607063293457,
+        -19.650903701782227
+      ],
+      "height_m": 4.9,
+      "ifc_global_id": "3WAA5EqJ58HBqF0jqdihFz",
+      "ifc_name": "47",
+      "node": "space_3WAA5EqJ58HBqF0jqdihFz",
+      "space_id": "space_3WAA5EqJ58HBqF0jqdihFz",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m",
+      "volume_m3": 37.47337760990891
+    }
+  ],
+  "storeys": [
+    {
+      "elevation": -3.5000000000000004,
+      "name": "+Kelder",
+      "node": "storey-storey_0SLmhMRV95B9NPlMAzXhZv",
+      "storey_id": "storey_0SLmhMRV95B9NPlMAzXhZv"
+    },
+    {
+      "elevation": 0.0,
+      "name": "1. korrus",
+      "node": "storey-storey_0XZfgApoH76vdPViCcsT6m",
+      "storey_id": "storey_0XZfgApoH76vdPViCcsT6m"
+    },
+    {
+      "elevation": 4.9,
+      "name": "2. korrus",
+      "node": "storey-storey_0IEk6ObD54bwMLfrOXff7W",
+      "storey_id": "storey_0IEk6ObD54bwMLfrOXff7W"
+    },
+    {
+      "elevation": 9.799999999999997,
+      "name": "3. korrus",
+      "node": "storey-storey_1mnZnZ29v9QRze4pjg0g3S",
+      "storey_id": "storey_1mnZnZ29v9QRze4pjg0g3S"
+    },
+    {
+      "elevation": 14.51,
+      "name": "Katus",
+      "node": "storey-storey_15ZSjFyOz3g9926Y5YSybv",
+      "storey_id": "storey_15ZSjFyOz3g9926Y5YSybv"
+    }
+  ],
+  "task": "M8-REAL-IFC-TWIN"
+}

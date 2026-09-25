@@ -1,0 +1,4591 @@
+{
+  "task": "M5-TELEMETRY-INTELLIGENCE-ENGINE",
+  "schema_version": "campusiq.telemetry_intelligence/v1",
+  "summary": {
+    "channels": 69,
+    "channels_by_type": {
+      "temperature": 29,
+      "energy": 4,
+      "pm2.5": 3,
+      "humidity": 26,
+      "co2": 7
+    },
+    "total_readings": 1390297
+  },
+  "channels": [
+    {
+      "sensor_id": "04f80f82-e206-427c-a913-69758a1ec283",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "04f80f82-e206-427c-a913-69758a1ec283_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15406,
+        "min": 20.17,
+        "max": 35.34,
+        "mean": 22.682755,
+        "median": 22.59,
+        "std": 0.890888,
+        "coefficient_of_variation": 0.039276,
+        "percentiles": {
+          "1": 21.13,
+          "5": 21.53,
+          "25": 22.15,
+          "50": 22.59,
+          "75": 23.08,
+          "90": 23.67,
+          "95": 24.14,
+          "99": 25.11
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:22",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 15406,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 54
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.635762,
+        "max_abs_per_hour": 8460.0,
+        "sign_changes": 6966
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.746458,
+          "min": 21.78,
+          "max": 23.58,
+          "std": 0.360812
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 22.722005,
+          "min": 21.21,
+          "max": 24.18,
+          "std": 0.570584
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 14,
+        "peak_value": 23.332577,
+        "trough_hour": 3,
+        "trough_value": 22.090767,
+        "peak_trough_delta": 1.24181
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "065931eb-3930-492c-ac91-85a0936fcf82",
+      "measurement_type": "energy",
+      "unit": "kWh",
+      "file": "065931eb-3930-492c-ac91-85a0936fcf82_ENERGYMETER.csv",
+      "statistics": {
+        "count": 23260,
+        "min": 104846.4,
+        "max": 174894.797,
+        "mean": 151463.489483,
+        "median": 152174.297,
+        "std": 15238.023945,
+        "coefficient_of_variation": 0.100605,
+        "percentiles": {
+          "1": 105931.6,
+          "5": 113069.89,
+          "25": 151144.425,
+          "50": 152174.297,
+          "75": 160666.594,
+          "90": 168173.0767,
+          "95": 171280.703,
+          "99": 173632.594
+        },
+        "duration_hours": 11255.995278,
+        "first": "2024-03-18T23:45:40",
+        "last": "2025-06-30T23:45:23"
+      },
+      "quality": {
+        "VALID": 23260,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 7799,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.376,
+        "max_abs_per_hour": 214538.4,
+        "sign_changes": 1779
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 174547.411302,
+          "min": 174087.0,
+          "max": 174894.797,
+          "std": 343.044365
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 173883.081321,
+          "min": 173356.406,
+          "max": 174894.797,
+          "std": 455.663717
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 13,
+        "peak_value": 151617.3896,
+        "trough_hour": 23,
+        "trough_value": 151191.862908,
+        "peak_trough_delta": 425.526692
+      },
+      "energy_daily": {
+        "derived_kwh_per_day_median": 137.8,
+        "derived_sample_count": 457,
+        "burn_test_confidence": "medium",
+        "note": "MEDIAN of per-calendar-day register deltas (cumulative kWh meter); a derived estimate, not a Native rate."
+      }
+    },
+    {
+      "sensor_id": "08e2d921-2317-4642-b003-90bc1fce878a",
+      "measurement_type": "pm2.5",
+      "unit": "µg/m3",
+      "file": "08e2d921-2317-4642-b003-90bc1fce878a_PM25SENSOR.csv",
+      "statistics": {
+        "count": 15478,
+        "min": 0.0,
+        "max": 123.0,
+        "mean": 7.610027,
+        "median": 1.0,
+        "std": 14.821533,
+        "coefficient_of_variation": 1.947632,
+        "percentiles": {
+          "1": 0.0,
+          "5": 0.0,
+          "25": 0.0,
+          "50": 1.0,
+          "75": 8.0,
+          "90": 27.0,
+          "95": 39.0,
+          "99": 71.0
+        },
+        "duration_hours": 3443.423889,
+        "first": "2025-02-07T12:20:28",
+        "last": "2025-06-30T23:45:54"
+      },
+      "quality": {
+        "VALID": 15478,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 6235,
+        "SUSPECT": 211
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 50400.0,
+        "sign_changes": 3972
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 0.03125,
+          "min": 0.0,
+          "max": 2.0,
+          "std": 0.227255
+        },
+        "last_7_days": {
+          "count": 659,
+          "mean": 2.968134,
+          "min": 0.0,
+          "max": 22.0,
+          "std": 3.847063
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 19,
+        "peak_value": 9.847589,
+        "trough_hour": 13,
+        "trough_value": 6.452345,
+        "peak_trough_delta": 3.395244
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "2522f700-8446-4619-9399-23b97d077209",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "2522f700-8446-4619-9399-23b97d077209_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15373,
+        "min": 14.0,
+        "max": 64.0,
+        "mean": 32.442659,
+        "median": 30.0,
+        "std": 9.229476,
+        "coefficient_of_variation": 0.284486,
+        "percentiles": {
+          "1": 19.0,
+          "5": 21.0,
+          "25": 25.0,
+          "50": 30.0,
+          "75": 38.0,
+          "90": 47.0,
+          "95": 50.0,
+          "99": 55.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15373,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 32400.0,
+        "sign_changes": 748
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 52.979167,
+          "min": 45.0,
+          "max": 64.0,
+          "std": 5.454075
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 49.303258,
+          "min": 41.0,
+          "max": 64.0,
+          "std": 4.553508
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 17,
+        "peak_value": 32.847003,
+        "trough_hour": 4,
+        "trough_value": 31.776074,
+        "peak_trough_delta": 1.070929
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "2522f700-8446-4619-9399-23b97d077209",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "2522f700-8446-4619-9399-23b97d077209_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15878,
+        "min": 19.611,
+        "max": 23.056,
+        "mean": 20.810905,
+        "median": 20.778,
+        "std": 0.638875,
+        "coefficient_of_variation": 0.030699,
+        "percentiles": {
+          "1": 19.722221,
+          "5": 19.888891,
+          "25": 20.333,
+          "50": 20.778,
+          "75": 21.278,
+          "90": 21.611,
+          "95": 21.833,
+          "99": 22.333
+        },
+        "duration_hours": 3511.589167,
+        "first": "2025-02-04T16:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15878,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 1602.0,
+        "sign_changes": 964
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 21.540625,
+          "min": 21.278,
+          "max": 22.167,
+          "std": 0.164929
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 21.571882,
+          "min": 20.889,
+          "max": 22.444,
+          "std": 0.503547
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 5,
+        "peak_value": 20.914144,
+        "trough_hour": 17,
+        "trough_value": 20.742424,
+        "peak_trough_delta": 0.17172
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "2cc97dbf-8e73-475b-a2e7-cecdb74e7838",
+      "measurement_type": "energy",
+      "unit": "kWh",
+      "file": "2cc97dbf-8e73-475b-a2e7-cecdb74e7838_ENERGYMETER.csv",
+      "statistics": {
+        "count": 19204,
+        "min": 992360.0,
+        "max": 1173770.0,
+        "mean": 1121324.366278,
+        "median": 1133280.0,
+        "std": 50229.442703,
+        "coefficient_of_variation": 0.044795,
+        "percentiles": {
+          "1": 993200.3,
+          "5": 1004083.0,
+          "25": 1104455.0,
+          "50": 1133280.0,
+          "75": 1162080.0,
+          "90": 1170380.0,
+          "95": 1171900.0,
+          "99": 1173190.0
+        },
+        "duration_hours": 7141.006389,
+        "first": "2024-09-06T10:45:00",
+        "last": "2025-06-30T23:45:23"
+      },
+      "quality": {
+        "VALID": 19204,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 3740,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 40.0,
+        "max_abs_per_hour": 576000.0,
+        "sign_changes": 3745
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 1173567.604167,
+          "min": 1173360.0,
+          "max": 1173770.0,
+          "std": 181.900753
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 1173205.739348,
+          "min": 1172800.0,
+          "max": 1173770.0,
+          "std": 259.316636
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 8,
+        "peak_value": 1121781.652065,
+        "trough_hour": 10,
+        "trough_value": 1120948.212005,
+        "peak_trough_delta": 833.44006
+      },
+      "energy_daily": {
+        "derived_kwh_per_day_median": 590.0,
+        "derived_sample_count": 295,
+        "burn_test_confidence": "medium",
+        "note": "MEDIAN of per-calendar-day register deltas (cumulative kWh meter); a derived estimate, not a Native rate."
+      }
+    },
+    {
+      "sensor_id": "33281c95-d69f-4611-a0c7-38790e115426",
+      "measurement_type": "energy",
+      "unit": "kWh",
+      "file": "33281c95-d69f-4611-a0c7-38790e115426_ENERGYMETER.csv",
+      "statistics": {
+        "count": 23262,
+        "min": 669227.136,
+        "max": 1124177.063,
+        "mean": 975703.88078,
+        "median": 1014798.751,
+        "std": 122953.493124,
+        "coefficient_of_variation": 0.126015,
+        "percentiles": {
+          "1": 679704.17504,
+          "5": 713233.5368,
+          "25": 909880.82,
+          "50": 1014798.751,
+          "75": 1067352.0625,
+          "90": 1100243.7067,
+          "95": 1111509.1357,
+          "99": 1120004.07707
+        },
+        "duration_hours": 11255.995278,
+        "first": "2024-03-18T23:45:40",
+        "last": "2025-06-30T23:45:23"
+      },
+      "quality": {
+        "VALID": 23262,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 7799,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 39.955605,
+        "max_abs_per_hour": 584773.200001,
+        "sign_changes": 3905
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 1122813.133927,
+          "min": 1121320.719,
+          "max": 1124177.063,
+          "std": 1195.04411
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 1120591.911108,
+          "min": 1118555.094,
+          "max": 1124177.063,
+          "std": 1551.976346
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 13,
+        "peak_value": 976876.765455,
+        "trough_hour": 23,
+        "trough_value": 973828.834444,
+        "peak_trough_delta": 3047.931011
+      },
+      "energy_daily": {
+        "derived_kwh_per_day_median": 963.664,
+        "derived_sample_count": 467,
+        "burn_test_confidence": "medium",
+        "note": "MEDIAN of per-calendar-day register deltas (cumulative kWh meter); a derived estimate, not a Native rate."
+      }
+    },
+    {
+      "sensor_id": "37b7c0e4-9943-489e-98a9-2ab4796a7d94",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "37b7c0e4-9943-489e-98a9-2ab4796a7d94_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15539,
+        "min": 19.0,
+        "max": 54.0,
+        "mean": 32.592123,
+        "median": 31.0,
+        "std": 5.099719,
+        "coefficient_of_variation": 0.156471,
+        "percentiles": {
+          "1": 25.0,
+          "5": 27.0,
+          "25": 29.0,
+          "50": 31.0,
+          "75": 34.0,
+          "90": 41.0,
+          "95": 43.0,
+          "99": 48.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15539,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 15
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 14400.0,
+        "sign_changes": 573
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 46.572917,
+          "min": 41.0,
+          "max": 54.0,
+          "std": 3.493587
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 43.834586,
+          "min": 38.0,
+          "max": 54.0,
+          "std": 3.103363
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 33.093313,
+        "trough_hour": 15,
+        "trough_value": 31.881913,
+        "peak_trough_delta": 1.2114
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "37b7c0e4-9943-489e-98a9-2ab4796a7d94",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "37b7c0e4-9943-489e-98a9-2ab4796a7d94_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 44837,
+        "min": 17.277779,
+        "max": 26.611,
+        "mean": 21.231307,
+        "median": 21.056,
+        "std": 1.603841,
+        "coefficient_of_variation": 0.075541,
+        "percentiles": {
+          "1": 18.056,
+          "5": 18.388887,
+          "25": 20.222,
+          "50": 21.056,
+          "75": 22.611115,
+          "90": 23.388887,
+          "95": 23.888889,
+          "99": 24.611
+        },
+        "duration_hours": 8347.088889,
+        "first": "2024-07-18T04:40:00",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 44837,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 2570,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 6001.2,
+        "sign_changes": 1707
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 23.063573,
+          "min": 22.5,
+          "max": 23.611,
+          "std": 0.375985
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.236231,
+          "min": 22.111,
+          "max": 24.667,
+          "std": 0.695138
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 18,
+        "peak_value": 21.546422,
+        "trough_hour": 6,
+        "trough_value": 20.891573,
+        "peak_trough_delta": 0.654849
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "3ca720cf-53ac-4326-9c09-c435c4d4e13a",
+      "measurement_type": "energy",
+      "unit": "kWh",
+      "file": "3ca720cf-53ac-4326-9c09-c435c4d4e13a_ENERGYMETER.csv",
+      "statistics": {
+        "count": 446,
+        "min": 148140.0,
+        "max": 204380.0,
+        "mean": 176427.713004,
+        "median": 176610.0,
+        "std": 16336.797471,
+        "coefficient_of_variation": 0.092598,
+        "percentiles": {
+          "1": 148640.0,
+          "5": 151160.0,
+          "25": 162330.0,
+          "50": 176610.0,
+          "75": 190690.0,
+          "90": 198860.0,
+          "95": 201860.0,
+          "99": 203880.0
+        },
+        "duration_hours": 6884.0,
+        "first": "2024-04-21T20:45:00",
+        "last": "2025-02-02T16:45:00"
+      },
+      "quality": {
+        "VALID": 446,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 215,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 500.0,
+        "max_abs_per_hour": 540.0,
+        "sign_changes": 222
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 198556.25,
+          "min": 192320.0,
+          "max": 204380.0,
+          "std": 3427.112103
+        },
+        "last_7_days": {
+          "count": 4,
+          "mean": 204130.0,
+          "min": 203880.0,
+          "max": 204380.0,
+          "std": 288.675135
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 11,
+        "peak_value": 183207.037037,
+        "trough_hour": 20,
+        "trough_value": 167856.5,
+        "peak_trough_delta": 15350.537037
+      },
+      "energy_daily": {
+        "derived_kwh_per_day_median": 500.0,
+        "derived_sample_count": 102,
+        "burn_test_confidence": "medium",
+        "note": "MEDIAN of per-calendar-day register deltas (cumulative kWh meter); a derived estimate, not a Native rate."
+      }
+    },
+    {
+      "sensor_id": "421151cb-043f-4ccc-844d-ff94cd659f2b",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "421151cb-043f-4ccc-844d-ff94cd659f2b_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15535,
+        "min": 10.0,
+        "max": 58.0,
+        "mean": 27.452076,
+        "median": 26.0,
+        "std": 6.948819,
+        "coefficient_of_variation": 0.253125,
+        "percentiles": {
+          "1": 18.0,
+          "5": 19.0,
+          "25": 22.0,
+          "50": 26.0,
+          "75": 32.0,
+          "90": 38.0,
+          "95": 42.0,
+          "99": 45.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15535,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 8
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 21600.0,
+        "sign_changes": 659
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 44.510417,
+          "min": 41.0,
+          "max": 58.0,
+          "std": 4.36974
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 41.458647,
+          "min": 37.0,
+          "max": 58.0,
+          "std": 3.64818
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 21,
+        "peak_value": 27.840376,
+        "trough_hour": 15,
+        "trough_value": 26.846386,
+        "peak_trough_delta": 0.99399
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "421151cb-043f-4ccc-844d-ff94cd659f2b",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "421151cb-043f-4ccc-844d-ff94cd659f2b_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15447,
+        "min": 19.222,
+        "max": 26.722,
+        "mean": 22.971237,
+        "median": 23.0,
+        "std": 0.974474,
+        "coefficient_of_variation": 0.042421,
+        "percentiles": {
+          "1": 20.667,
+          "5": 21.278,
+          "25": 22.5,
+          "50": 23.0,
+          "75": 23.444,
+          "90": 24.0,
+          "95": 24.556,
+          "99": 25.722
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:22",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 15447,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 11199.6,
+        "sign_changes": 1793
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 23.52025,
+          "min": 22.722,
+          "max": 24.167,
+          "std": 0.324533
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.735995,
+          "min": 22.5,
+          "max": 25.111,
+          "std": 0.685282
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 16,
+        "peak_value": 23.60487,
+        "trough_hour": 6,
+        "trough_value": 22.559344,
+        "peak_trough_delta": 1.045526
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "42cb320d-b911-4648-bb65-f0d54984551d",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "42cb320d-b911-4648-bb65-f0d54984551d_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15501,
+        "min": 12.0,
+        "max": 55.0,
+        "mean": 28.854655,
+        "median": 28.0,
+        "std": 8.617565,
+        "coefficient_of_variation": 0.298654,
+        "percentiles": {
+          "1": 16.0,
+          "5": 18.0,
+          "25": 22.0,
+          "50": 28.0,
+          "75": 34.0,
+          "90": 42.0,
+          "95": 45.0,
+          "99": 50.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15501,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 25200.0,
+        "sign_changes": 839
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 47.697917,
+          "min": 43.0,
+          "max": 55.0,
+          "std": 3.96596
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 44.007519,
+          "min": 37.0,
+          "max": 55.0,
+          "std": 3.899162
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 29.246106,
+        "trough_hour": 15,
+        "trough_value": 28.374622,
+        "peak_trough_delta": 0.871484
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "42cb320d-b911-4648-bb65-f0d54984551d",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "42cb320d-b911-4648-bb65-f0d54984551d_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 44864,
+        "min": 17.888891,
+        "max": 26.167,
+        "mean": 21.452385,
+        "median": 21.667,
+        "std": 1.309349,
+        "coefficient_of_variation": 0.061035,
+        "percentiles": {
+          "1": 18.222223,
+          "5": 18.833334,
+          "25": 20.611111,
+          "50": 21.667,
+          "75": 22.333336,
+          "90": 23.0,
+          "95": 23.277779,
+          "99": 24.167
+        },
+        "duration_hours": 8347.088889,
+        "first": "2024-07-18T04:40:00",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 44864,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 2543,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 7200.0,
+        "sign_changes": 1872
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 23.0745,
+          "min": 22.389,
+          "max": 23.944,
+          "std": 0.372937
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.160456,
+          "min": 22.0,
+          "max": 24.667,
+          "std": 0.723542
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 16,
+        "peak_value": 21.907131,
+        "trough_hour": 4,
+        "trough_value": 20.993236,
+        "peak_trough_delta": 0.913895
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "4565853e-95df-4027-8b05-82d26bf6eec1_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15378,
+        "min": 19.661,
+        "max": 63.605,
+        "mean": 47.048209,
+        "median": 50.949,
+        "std": 7.66321,
+        "coefficient_of_variation": 0.16288,
+        "percentiles": {
+          "1": 22.90249,
+          "5": 28.711,
+          "25": 45.32725,
+          "50": 50.949,
+          "75": 51.436,
+          "90": 51.68,
+          "95": 51.924,
+          "99": 53.68251
+        },
+        "duration_hours": 3443.499722,
+        "first": "2025-02-07T12:15:22",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15378,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.700779,
+        "max_abs_per_hour": 34088.4,
+        "sign_changes": 6452
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 49.634594,
+          "min": 45.249,
+          "max": 56.018,
+          "std": 2.565283
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 48.102712,
+          "min": 40.143,
+          "max": 56.018,
+          "std": 3.280651
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 18,
+        "peak_value": 47.424554,
+        "trough_hour": 12,
+        "trough_value": 46.626984,
+        "peak_trough_delta": 0.79757
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "4565853e-95df-4027-8b05-82d26bf6eec1",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "4565853e-95df-4027-8b05-82d26bf6eec1_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 21825,
+        "min": 18.055555,
+        "max": 24.229,
+        "mean": 21.396743,
+        "median": 22.554,
+        "std": 1.885389,
+        "coefficient_of_variation": 0.088116,
+        "percentiles": {
+          "1": 18.111111,
+          "5": 18.222223,
+          "25": 18.833334,
+          "50": 22.554,
+          "75": 22.623,
+          "90": 22.711,
+          "95": 22.817,
+          "99": 22.92
+        },
+        "duration_hours": 3970.589167,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 21825,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.059801,
+        "max_abs_per_hour": 5094.0,
+        "sign_changes": 5748
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.680646,
+          "min": 22.276,
+          "max": 23.008,
+          "std": 0.112452
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 22.631561,
+          "min": 22.276,
+          "max": 23.008,
+          "std": 0.065957
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 12,
+        "peak_value": 21.494847,
+        "trough_hour": 5,
+        "trough_value": 21.280024,
+        "peak_trough_delta": 0.214823
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "45f91780-63fc-4d24-bf64-0e42c440fca5",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "45f91780-63fc-4d24-bf64-0e42c440fca5_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15401,
+        "min": 21.95,
+        "max": 26.61,
+        "mean": 23.910971,
+        "median": 23.87,
+        "std": 0.816424,
+        "coefficient_of_variation": 0.034144,
+        "percentiles": {
+          "1": 22.19,
+          "5": 22.62,
+          "25": 23.34,
+          "50": 23.87,
+          "75": 24.42,
+          "90": 24.99,
+          "95": 25.34,
+          "99": 26.07
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:22",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 15401,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.08,
+        "max_abs_per_hour": 2196.0,
+        "sign_changes": 4741
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 24.435625,
+          "min": 24.07,
+          "max": 24.68,
+          "std": 0.189302
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 24.422431,
+          "min": 23.94,
+          "max": 24.99,
+          "std": 0.228561
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 15,
+        "peak_value": 24.165523,
+        "trough_hour": 5,
+        "trough_value": 23.656252,
+        "peak_trough_delta": 0.509271
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "4dcb026e-d888-4e84-9892-6e81d487a214",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "4dcb026e-d888-4e84-9892-6e81d487a214_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15548,
+        "min": 12.0,
+        "max": 65.0,
+        "mean": 29.467777,
+        "median": 28.0,
+        "std": 8.535809,
+        "coefficient_of_variation": 0.289666,
+        "percentiles": {
+          "1": 16.0,
+          "5": 18.0,
+          "25": 23.0,
+          "50": 28.0,
+          "75": 35.0,
+          "90": 42.0,
+          "95": 45.0,
+          "99": 50.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15548,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 1
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 28800.0,
+        "sign_changes": 981
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 46.708333,
+          "min": 43.0,
+          "max": 55.0,
+          "std": 3.976025
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 45.403509,
+          "min": 37.0,
+          "max": 55.0,
+          "std": 3.957702
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 4,
+        "peak_value": 30.028081,
+        "trough_hour": 13,
+        "trough_value": 28.949329,
+        "peak_trough_delta": 1.078752
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "4dcb026e-d888-4e84-9892-6e81d487a214",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "4dcb026e-d888-4e84-9892-6e81d487a214_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 21805,
+        "min": 8.5,
+        "max": 26.5,
+        "mean": 20.69629,
+        "median": 19.833336,
+        "std": 1.960118,
+        "coefficient_of_variation": 0.094709,
+        "percentiles": {
+          "1": 18.111,
+          "5": 18.555557,
+          "25": 19.111113,
+          "50": 19.833336,
+          "75": 22.389,
+          "90": 23.778,
+          "95": 24.278,
+          "99": 24.889
+        },
+        "duration_hours": 3970.589167,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 21805,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 6
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 3798.0,
+        "sign_changes": 1541
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 24.111229,
+          "min": 23.556,
+          "max": 24.556,
+          "std": 0.260878
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.651168,
+          "min": 22.5,
+          "max": 24.778,
+          "std": 0.497776
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 16,
+        "peak_value": 21.106701,
+        "trough_hour": 3,
+        "trough_value": 20.3193,
+        "peak_trough_delta": 0.787401
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "6690d4cb-bb58-47a8-b0f8-be2e99056be0",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "6690d4cb-bb58-47a8-b0f8-be2e99056be0_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15534,
+        "min": 5.0,
+        "max": 85.0,
+        "mean": 32.487833,
+        "median": 29.0,
+        "std": 15.907856,
+        "coefficient_of_variation": 0.489656,
+        "percentiles": {
+          "1": 9.0,
+          "5": 12.0,
+          "25": 19.0,
+          "50": 29.0,
+          "75": 44.0,
+          "90": 55.0,
+          "95": 62.0,
+          "99": 75.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15534,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 39600.0,
+        "sign_changes": 1122
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 70.052083,
+          "min": 57.0,
+          "max": 85.0,
+          "std": 9.002187
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 61.243108,
+          "min": 45.0,
+          "max": 85.0,
+          "std": 8.400978
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 20,
+        "peak_value": 33.373609,
+        "trough_hour": 2,
+        "trough_value": 31.771028,
+        "peak_trough_delta": 1.602581
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "6690d4cb-bb58-47a8-b0f8-be2e99056be0",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "6690d4cb-bb58-47a8-b0f8-be2e99056be0_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15446,
+        "min": 17.111,
+        "max": 22.611,
+        "mean": 21.260585,
+        "median": 21.5,
+        "std": 0.655146,
+        "coefficient_of_variation": 0.030815,
+        "percentiles": {
+          "1": 19.111,
+          "5": 19.778,
+          "25": 21.0,
+          "50": 21.5,
+          "75": 21.722,
+          "90": 21.833,
+          "95": 21.889,
+          "99": 22.056
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15446,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 34
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 3999.6,
+        "sign_changes": 1361
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 19.810719,
+          "min": 18.833,
+          "max": 21.111,
+          "std": 0.612799
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 20.67881,
+          "min": 18.833,
+          "max": 22.111,
+          "std": 0.805353
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 6,
+        "peak_value": 21.456536,
+        "trough_hour": 14,
+        "trough_value": 21.021105,
+        "peak_trough_delta": 0.435431
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "76824528-d7e4-423b-b818-8f900b41d6fb",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "76824528-d7e4-423b-b818-8f900b41d6fb_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15394,
+        "min": 16.0,
+        "max": 60.0,
+        "mean": 29.182344,
+        "median": 27.0,
+        "std": 6.008186,
+        "coefficient_of_variation": 0.205884,
+        "percentiles": {
+          "1": 21.0,
+          "5": 23.0,
+          "25": 25.0,
+          "50": 27.0,
+          "75": 31.0,
+          "90": 40.0,
+          "95": 43.0,
+          "99": 46.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15394,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 40,
+        "SUSPECT": 8
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 21600.0,
+        "sign_changes": 727
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 44.28125,
+          "min": 39.0,
+          "max": 60.0,
+          "std": 4.96027
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 42.310777,
+          "min": 36.0,
+          "max": 60.0,
+          "std": 3.770909
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 30.014196,
+        "trough_hour": 15,
+        "trough_value": 28.326656,
+        "peak_trough_delta": 1.68754
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "76824528-d7e4-423b-b818-8f900b41d6fb",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "76824528-d7e4-423b-b818-8f900b41d6fb_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15461,
+        "min": 18.222,
+        "max": 27.222,
+        "mean": 22.754968,
+        "median": 22.833,
+        "std": 1.546875,
+        "coefficient_of_variation": 0.06798,
+        "percentiles": {
+          "1": 19.056,
+          "5": 20.111,
+          "25": 21.722,
+          "50": 22.833,
+          "75": 23.833,
+          "90": 24.611,
+          "95": 25.333,
+          "99": 26.389
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:22",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 15461,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 7200.0,
+        "sign_changes": 2012
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 23.686698,
+          "min": 22.722,
+          "max": 25.111,
+          "std": 0.430715
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.807118,
+          "min": 22.667,
+          "max": 25.667,
+          "std": 0.761013
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 15,
+        "peak_value": 23.67662,
+        "trough_hour": 4,
+        "trough_value": 21.964598,
+        "peak_trough_delta": 1.712022
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "79c625d4-2530-4332-903e-82d480563c75",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "79c625d4-2530-4332-903e-82d480563c75_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15384,
+        "min": 13.0,
+        "max": 68.0,
+        "mean": 31.068188,
+        "median": 29.0,
+        "std": 10.355476,
+        "coefficient_of_variation": 0.333314,
+        "percentiles": {
+          "1": 16.0,
+          "5": 18.0,
+          "25": 23.0,
+          "50": 29.0,
+          "75": 38.0,
+          "90": 47.0,
+          "95": 52.0,
+          "99": 56.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15384,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 39600.0,
+        "sign_changes": 869
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 54.395833,
+          "min": 49.0,
+          "max": 68.0,
+          "std": 4.454399
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 52.12782,
+          "min": 43.0,
+          "max": 68.0,
+          "std": 4.23211
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 8,
+        "peak_value": 31.430818,
+        "trough_hour": 18,
+        "trough_value": 30.826087,
+        "peak_trough_delta": 0.604731
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "79c625d4-2530-4332-903e-82d480563c75",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "79c625d4-2530-4332-903e-82d480563c75_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15867,
+        "min": 19.778,
+        "max": 23.111,
+        "mean": 20.91547,
+        "median": 20.833,
+        "std": 0.618122,
+        "coefficient_of_variation": 0.029553,
+        "percentiles": {
+          "1": 20.056,
+          "5": 20.166668,
+          "25": 20.389,
+          "50": 20.833,
+          "75": 21.333,
+          "90": 21.833,
+          "95": 22.056,
+          "99": 22.611
+        },
+        "duration_hours": 3511.589167,
+        "first": "2025-02-04T16:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15867,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 4798.8,
+        "sign_changes": 1357
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 20.874812,
+          "min": 20.278,
+          "max": 21.111,
+          "std": 0.217564
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 20.769672,
+          "min": 20.222,
+          "max": 21.389,
+          "std": 0.308849
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 13,
+        "peak_value": 21.29527,
+        "trough_hour": 3,
+        "trough_value": 20.676154,
+        "peak_trough_delta": 0.619116
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15389,
+        "min": 13.0,
+        "max": 65.0,
+        "mean": 33.71798,
+        "median": 32.0,
+        "std": 9.729444,
+        "coefficient_of_variation": 0.288554,
+        "percentiles": {
+          "1": 20.0,
+          "5": 21.0,
+          "25": 26.0,
+          "50": 32.0,
+          "75": 40.0,
+          "90": 48.0,
+          "95": 52.0,
+          "99": 60.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15389,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 36000.0,
+        "sign_changes": 827
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 56.125,
+          "min": 51.0,
+          "max": 65.0,
+          "std": 4.788693
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 51.546366,
+          "min": 45.0,
+          "max": 65.0,
+          "std": 4.858007
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 17,
+        "peak_value": 34.213037,
+        "trough_hour": 0,
+        "trough_value": 33.426128,
+        "peak_trough_delta": 0.786909
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "7a0b43e6-7a9b-48bc-84b8-feddd15131c5_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 44832,
+        "min": 18.888889,
+        "max": 23.722225,
+        "mean": 21.216142,
+        "median": 21.166666,
+        "std": 0.647066,
+        "coefficient_of_variation": 0.030499,
+        "percentiles": {
+          "1": 19.444445,
+          "5": 20.111115,
+          "25": 20.888887,
+          "50": 21.166666,
+          "75": 21.555557,
+          "90": 22.056,
+          "95": 22.388891,
+          "99": 22.833
+        },
+        "duration_hours": 8347.255833,
+        "first": "2024-07-18T04:30:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 44832,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 2650,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 1800.0,
+        "sign_changes": 1082
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 21.718625,
+          "min": 21.222,
+          "max": 22.5,
+          "std": 0.38819
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 21.837987,
+          "min": 20.833,
+          "max": 23.056,
+          "std": 0.67279
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 21.279137,
+        "trough_hour": 10,
+        "trough_value": 21.152905,
+        "peak_trough_delta": 0.126232
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "81845c1a-5a2c-43eb-a443-8276649abb67",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "81845c1a-5a2c-43eb-a443-8276649abb67_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15441,
+        "min": 12.0,
+        "max": 54.0,
+        "mean": 29.242795,
+        "median": 28.0,
+        "std": 8.165931,
+        "coefficient_of_variation": 0.279246,
+        "percentiles": {
+          "1": 16.0,
+          "5": 18.0,
+          "25": 23.0,
+          "50": 28.0,
+          "75": 35.0,
+          "90": 41.0,
+          "95": 45.0,
+          "99": 49.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15441,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 21600.0,
+        "sign_changes": 846
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 45.3125,
+          "min": 41.0,
+          "max": 54.0,
+          "std": 3.581568
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 43.531328,
+          "min": 35.0,
+          "max": 54.0,
+          "std": 3.637935
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 29.570533,
+        "trough_hour": 4,
+        "trough_value": 28.955385,
+        "peak_trough_delta": 0.615148
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "81845c1a-5a2c-43eb-a443-8276649abb67",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "81845c1a-5a2c-43eb-a443-8276649abb67_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15383,
+        "min": 18.389,
+        "max": 27.778,
+        "mean": 21.712024,
+        "median": 21.389,
+        "std": 1.66052,
+        "coefficient_of_variation": 0.076479,
+        "percentiles": {
+          "1": 19.0,
+          "5": 19.667,
+          "25": 20.333,
+          "50": 21.389,
+          "75": 22.833,
+          "90": 24.222,
+          "95": 24.778,
+          "99": 25.889
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15383,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 40,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 2401.2,
+        "sign_changes": 1378
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 24.191188,
+          "min": 23.556,
+          "max": 24.833,
+          "std": 0.405046
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 24.059669,
+          "min": 22.778,
+          "max": 27.278,
+          "std": 0.7773
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 17,
+        "peak_value": 21.950643,
+        "trough_hour": 2,
+        "trough_value": 21.496496,
+        "peak_trough_delta": 0.454147
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "8af61c3a-e76f-45cb-abae-504c208d0ccb",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "8af61c3a-e76f-45cb-abae-504c208d0ccb_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15503,
+        "min": 8.0,
+        "max": 74.0,
+        "mean": 32.976714,
+        "median": 31.0,
+        "std": 13.6887,
+        "coefficient_of_variation": 0.415102,
+        "percentiles": {
+          "1": 12.0,
+          "5": 15.0,
+          "25": 22.0,
+          "50": 31.0,
+          "75": 43.0,
+          "90": 53.0,
+          "95": 58.0,
+          "99": 64.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15503,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 43200.0,
+        "sign_changes": 1000
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 61.604167,
+          "min": 57.0,
+          "max": 74.0,
+          "std": 5.39879
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 58.122807,
+          "min": 47.0,
+          "max": 74.0,
+          "std": 5.521767
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 20,
+        "peak_value": 33.8288,
+        "trough_hour": 11,
+        "trough_value": 32.133956,
+        "peak_trough_delta": 1.694844
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "8af61c3a-e76f-45cb-abae-504c208d0ccb",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "8af61c3a-e76f-45cb-abae-504c208d0ccb_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15444,
+        "min": 20.389,
+        "max": 24.778,
+        "mean": 21.831326,
+        "median": 21.833,
+        "std": 0.572529,
+        "coefficient_of_variation": 0.026225,
+        "percentiles": {
+          "1": 20.833,
+          "5": 21.0,
+          "25": 21.389,
+          "50": 21.833,
+          "75": 22.167,
+          "90": 22.556,
+          "95": 22.778,
+          "99": 23.333
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15444,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 6
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 6199.2,
+        "sign_changes": 1564
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.226969,
+          "min": 21.833,
+          "max": 23.056,
+          "std": 0.249569
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 22.124865,
+          "min": 21.056,
+          "max": 23.056,
+          "std": 0.369141
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 12,
+        "peak_value": 22.085085,
+        "trough_hour": 4,
+        "trough_value": 21.560125,
+        "peak_trough_delta": 0.52496
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+      "measurement_type": "co2",
+      "unit": "ppm",
+      "file": "99ca72a1-36de-4e79-b65d-16cdec7e42fb_CO2SENSOR.csv",
+      "statistics": {
+        "count": 15391,
+        "min": 375.0,
+        "max": 830.0,
+        "mean": 415.631668,
+        "median": 405.0,
+        "std": 33.744824,
+        "coefficient_of_variation": 0.081189,
+        "percentiles": {
+          "1": 382.0,
+          "5": 389.0,
+          "25": 398.0,
+          "50": 405.0,
+          "75": 423.0,
+          "90": 449.0,
+          "95": 472.0,
+          "99": 549.1
+        },
+        "duration_hours": 3443.499722,
+        "first": "2025-02-07T12:15:22",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15391,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 152
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 4.008909,
+        "max_abs_per_hour": 1008000.0,
+        "sign_changes": 4729
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 433.28125,
+          "min": 402.0,
+          "max": 511.0,
+          "std": 22.151489
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 406.443609,
+          "min": 375.0,
+          "max": 538.0,
+          "std": 25.423077
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 11,
+        "peak_value": 438.601256,
+        "trough_hour": 4,
+        "trough_value": 400.743431,
+        "peak_trough_delta": 37.857825
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "99ca72a1-36de-4e79-b65d-16cdec7e42fb_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15495,
+        "min": 15.0,
+        "max": 65.0,
+        "mean": 33.689577,
+        "median": 33.0,
+        "std": 9.403264,
+        "coefficient_of_variation": 0.279115,
+        "percentiles": {
+          "1": 18.0,
+          "5": 21.0,
+          "25": 26.0,
+          "50": 33.0,
+          "75": 40.0,
+          "90": 48.0,
+          "95": 51.0,
+          "99": 55.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15495,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 25200.0,
+        "sign_changes": 970
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 53.052083,
+          "min": 48.0,
+          "max": 65.0,
+          "std": 3.815122
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 51.35589,
+          "min": 42.0,
+          "max": 65.0,
+          "std": 3.578082
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 5,
+        "peak_value": 34.082683,
+        "trough_hour": 14,
+        "trough_value": 33.217325,
+        "peak_trough_delta": 0.865358
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "99ca72a1-36de-4e79-b65d-16cdec7e42fb",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "99ca72a1-36de-4e79-b65d-16cdec7e42fb_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 21815,
+        "min": 18.222223,
+        "max": 26.5,
+        "mean": 21.266379,
+        "median": 21.055557,
+        "std": 1.512037,
+        "coefficient_of_variation": 0.0711,
+        "percentiles": {
+          "1": 18.388887,
+          "5": 18.944443,
+          "25": 20.0,
+          "50": 21.055557,
+          "75": 22.5,
+          "90": 23.389,
+          "95": 23.833,
+          "99": 24.667
+        },
+        "duration_hours": 3970.589167,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 21815,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 13201.2,
+        "sign_changes": 2043
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 23.432969,
+          "min": 23.056,
+          "max": 23.722,
+          "std": 0.236585
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 22.814486,
+          "min": 21.667,
+          "max": 23.722,
+          "std": 0.582052
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 12,
+        "peak_value": 22.031646,
+        "trough_hour": 4,
+        "trough_value": 20.453244,
+        "peak_trough_delta": 1.578402
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "9a7e9493-2411-4213-a65b-1372023e02d3",
+      "measurement_type": "pm2.5",
+      "unit": "µg/m3",
+      "file": "9a7e9493-2411-4213-a65b-1372023e02d3_PM25SENSOR.csv",
+      "statistics": {
+        "count": 16617,
+        "min": 0.0,
+        "max": 29.0,
+        "mean": 2.603779,
+        "median": 1.0,
+        "std": 3.44907,
+        "coefficient_of_variation": 1.32464,
+        "percentiles": {
+          "1": 0.0,
+          "5": 0.0,
+          "25": 0.0,
+          "50": 1.0,
+          "75": 3.0,
+          "90": 7.0,
+          "95": 9.0,
+          "99": 17.0
+        },
+        "duration_hours": 3443.248889,
+        "first": "2025-02-07T12:26:51",
+        "last": "2025-06-30T23:41:47"
+      },
+      "quality": {
+        "VALID": 16617,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 5680,
+        "SUSPECT": 168
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 3.0,
+        "max_abs_per_hour": 25200.0,
+        "sign_changes": 5136
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 0.0625,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.243332
+        },
+        "last_7_days": {
+          "count": 657,
+          "mean": 0.561644,
+          "min": 0.0,
+          "max": 4.0,
+          "std": 0.730179
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 21,
+        "peak_value": 3.500728,
+        "trough_hour": 11,
+        "trough_value": 1.831655,
+        "peak_trough_delta": 1.669073
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "9b662d91-8343-46b6-848a-9c190d6d46b7",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "9b662d91-8343-46b6-848a-9c190d6d46b7_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15407,
+        "min": 12.0,
+        "max": 66.0,
+        "mean": 32.007464,
+        "median": 30.0,
+        "std": 10.33381,
+        "coefficient_of_variation": 0.322856,
+        "percentiles": {
+          "1": 17.0,
+          "5": 18.0,
+          "25": 23.0,
+          "50": 30.0,
+          "75": 39.0,
+          "90": 47.0,
+          "95": 51.0,
+          "99": 57.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15407,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 28800.0,
+        "sign_changes": 1019
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 55.145833,
+          "min": 49.0,
+          "max": 66.0,
+          "std": 5.534541
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 51.325815,
+          "min": 41.0,
+          "max": 66.0,
+          "std": 4.700488
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 32.415748,
+        "trough_hour": 11,
+        "trough_value": 31.500787,
+        "peak_trough_delta": 0.914961
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "9b662d91-8343-46b6-848a-9c190d6d46b7",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "9b662d91-8343-46b6-848a-9c190d6d46b7_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15415,
+        "min": 18.778,
+        "max": 24.722,
+        "mean": 21.379831,
+        "median": 21.278,
+        "std": 0.965271,
+        "coefficient_of_variation": 0.045149,
+        "percentiles": {
+          "1": 19.278,
+          "5": 19.778,
+          "25": 20.778,
+          "50": 21.278,
+          "75": 21.889,
+          "90": 22.667,
+          "95": 23.222,
+          "99": 24.222
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15415,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 5400.0,
+        "sign_changes": 1589
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.338448,
+          "min": 21.778,
+          "max": 22.444,
+          "std": 0.134979
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 22.5459,
+          "min": 21.278,
+          "max": 24.0,
+          "std": 0.676236
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 12,
+        "peak_value": 21.720768,
+        "trough_hour": 4,
+        "trough_value": 20.954222,
+        "peak_trough_delta": 0.766546
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "a6bbc801-c605-4782-8d17-111c606cf662",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "a6bbc801-c605-4782-8d17-111c606cf662_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15422,
+        "min": 19.0,
+        "max": 57.0,
+        "mean": 31.686487,
+        "median": 30.0,
+        "std": 6.966767,
+        "coefficient_of_variation": 0.219866,
+        "percentiles": {
+          "1": 22.0,
+          "5": 23.0,
+          "25": 26.0,
+          "50": 30.0,
+          "75": 35.0,
+          "90": 43.0,
+          "95": 46.0,
+          "99": 49.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15422,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 21600.0,
+        "sign_changes": 537
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 47.927083,
+          "min": 45.0,
+          "max": 57.0,
+          "std": 3.228964
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 45.536341,
+          "min": 42.0,
+          "max": 57.0,
+          "std": 3.159584
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 32.068362,
+        "trough_hour": 11,
+        "trough_value": 31.34472,
+        "peak_trough_delta": 0.723642
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "a6bbc801-c605-4782-8d17-111c606cf662",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "a6bbc801-c605-4782-8d17-111c606cf662_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 44859,
+        "min": 17.888891,
+        "max": 27.444,
+        "mean": 22.248221,
+        "median": 22.444445,
+        "std": 1.271208,
+        "coefficient_of_variation": 0.057138,
+        "percentiles": {
+          "1": 18.16667,
+          "5": 19.555557,
+          "25": 21.833336,
+          "50": 22.444445,
+          "75": 22.944447,
+          "90": 23.444447,
+          "95": 23.777779,
+          "99": 25.111
+        },
+        "duration_hours": 8347.088889,
+        "first": "2024-07-18T04:40:00",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 44859,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 2548,
+        "SUSPECT": 8
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 5400.0,
+        "sign_changes": 1852
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 23.439875,
+          "min": 22.611,
+          "max": 24.611,
+          "std": 0.536177
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.736652,
+          "min": 22.167,
+          "max": 26.111,
+          "std": 1.063729
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 18,
+        "peak_value": 22.672142,
+        "trough_hour": 4,
+        "trough_value": 21.836804,
+        "peak_trough_delta": 0.835338
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15538,
+        "min": 7.0,
+        "max": 72.0,
+        "mean": 31.394645,
+        "median": 29.0,
+        "std": 13.149489,
+        "coefficient_of_variation": 0.418845,
+        "percentiles": {
+          "1": 12.0,
+          "5": 14.0,
+          "25": 21.0,
+          "50": 29.0,
+          "75": 40.0,
+          "90": 51.0,
+          "95": 56.0,
+          "99": 61.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15538,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 46800.0,
+        "sign_changes": 1018
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 58.34375,
+          "min": 53.0,
+          "max": 72.0,
+          "std": 4.824997
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 57.225564,
+          "min": 46.0,
+          "max": 72.0,
+          "std": 5.73136
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 20,
+        "peak_value": 32.431746,
+        "trough_hour": 12,
+        "trough_value": 30.163609,
+        "peak_trough_delta": 2.268137
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "ad03002a-9ba7-4b0a-b055-2e981dfa95a2_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15467,
+        "min": 17.722,
+        "max": 22.667,
+        "mean": 20.318893,
+        "median": 20.222,
+        "std": 1.152718,
+        "coefficient_of_variation": 0.056731,
+        "percentiles": {
+          "1": 18.056,
+          "5": 18.611,
+          "25": 19.389,
+          "50": 20.222,
+          "75": 21.111,
+          "90": 22.111,
+          "95": 22.222,
+          "99": 22.5
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15467,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 7200.0,
+        "sign_changes": 1703
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 19.46701,
+          "min": 18.444,
+          "max": 20.278,
+          "std": 0.619283
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 18.802188,
+          "min": 17.722,
+          "max": 20.611,
+          "std": 0.812172
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 14,
+        "peak_value": 21.019731,
+        "trough_hour": 4,
+        "trough_value": 19.801119,
+        "peak_trough_delta": 1.218612
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+      "measurement_type": "co2",
+      "unit": "ppm",
+      "file": "c6f4d193-bab8-438a-8706-d2f60e0ef81b_CO2SENSOR.csv",
+      "statistics": {
+        "count": 15382,
+        "min": 371.0,
+        "max": 751.0,
+        "mean": 409.956963,
+        "median": 404.0,
+        "std": 26.809935,
+        "coefficient_of_variation": 0.065397,
+        "percentiles": {
+          "1": 381.0,
+          "5": 387.0,
+          "25": 396.0,
+          "50": 404.0,
+          "75": 414.0,
+          "90": 432.0,
+          "95": 452.0,
+          "99": 525.0
+        },
+        "duration_hours": 3443.499722,
+        "first": "2025-02-07T12:15:22",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15382,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 167
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 4.004449,
+        "max_abs_per_hour": 666000.0,
+        "sign_changes": 4751
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 416.052083,
+          "min": 393.0,
+          "max": 463.0,
+          "std": 14.1044
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 400.390977,
+          "min": 376.0,
+          "max": 467.0,
+          "std": 17.826989
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 14,
+        "peak_value": 424.692668,
+        "trough_hour": 1,
+        "trough_value": 400.596006,
+        "peak_trough_delta": 24.096662
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "c6f4d193-bab8-438a-8706-d2f60e0ef81b_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15541,
+        "min": 15.0,
+        "max": 65.0,
+        "mean": 33.327263,
+        "median": 32.0,
+        "std": 9.37015,
+        "coefficient_of_variation": 0.281156,
+        "percentiles": {
+          "1": 20.0,
+          "5": 21.0,
+          "25": 26.0,
+          "50": 32.0,
+          "75": 39.0,
+          "90": 47.0,
+          "95": 50.0,
+          "99": 56.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15541,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 28800.0,
+        "sign_changes": 1031
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 54.739583,
+          "min": 49.0,
+          "max": 65.0,
+          "std": 5.307879
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 50.546366,
+          "min": 42.0,
+          "max": 65.0,
+          "std": 4.476879
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 33.799689,
+        "trough_hour": 11,
+        "trough_value": 32.534776,
+        "peak_trough_delta": 1.264913
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "c6f4d193-bab8-438a-8706-d2f60e0ef81b",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "c6f4d193-bab8-438a-8706-d2f60e0ef81b_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 24844,
+        "min": 17.833,
+        "max": 26.389,
+        "mean": 20.70424,
+        "median": 20.5,
+        "std": 1.673146,
+        "coefficient_of_variation": 0.080812,
+        "percentiles": {
+          "1": 18.0,
+          "5": 18.222223,
+          "25": 19.333336,
+          "50": 20.5,
+          "75": 22.0,
+          "90": 22.889,
+          "95": 23.5,
+          "99": 24.722
+        },
+        "duration_hours": 5011.4225,
+        "first": "2024-12-04T04:20:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 24844,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 11001.6,
+        "sign_changes": 1973
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.618042,
+          "min": 22.0,
+          "max": 23.278,
+          "std": 0.284461
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 22.780654,
+          "min": 22.0,
+          "max": 24.222,
+          "std": 0.592576
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 12,
+        "peak_value": 21.294404,
+        "trough_hour": 4,
+        "trough_value": 20.058788,
+        "peak_trough_delta": 1.235616
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+      "measurement_type": "co2",
+      "unit": "ppm",
+      "file": "d2948a1d-b2a0-435b-a9f6-abe67df61b70_CO2SENSOR.csv",
+      "statistics": {
+        "count": 21753,
+        "min": 370.0,
+        "max": 1962.0,
+        "mean": 416.547787,
+        "median": 402.0,
+        "std": 68.922489,
+        "coefficient_of_variation": 0.165461,
+        "percentiles": {
+          "1": 383.0,
+          "5": 388.0,
+          "25": 396.0,
+          "50": 402.0,
+          "75": 410.0,
+          "90": 429.0,
+          "95": 513.0,
+          "99": 699.0
+        },
+        "duration_hours": 3970.589167,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 21753,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 41,
+        "SUSPECT": 232
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 1378800.0,
+        "sign_changes": 4027
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 399.072917,
+          "min": 393.0,
+          "max": 420.0,
+          "std": 3.513118
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 408.897243,
+          "min": 389.0,
+          "max": 634.0,
+          "std": 37.670243
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 15,
+        "peak_value": 444.549727,
+        "trough_hour": 4,
+        "trough_value": 402.319079,
+        "peak_trough_delta": 42.230648
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "d2948a1d-b2a0-435b-a9f6-abe67df61b70_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15427,
+        "min": 15.0,
+        "max": 64.0,
+        "mean": 31.615868,
+        "median": 30.0,
+        "std": 8.494893,
+        "coefficient_of_variation": 0.268691,
+        "percentiles": {
+          "1": 19.0,
+          "5": 20.0,
+          "25": 25.0,
+          "50": 30.0,
+          "75": 37.0,
+          "90": 44.0,
+          "95": 47.0,
+          "99": 53.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15427,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 43200.0,
+        "sign_changes": 827
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 52.25,
+          "min": 46.0,
+          "max": 64.0,
+          "std": 5.959513
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 47.107769,
+          "min": 39.0,
+          "max": 64.0,
+          "std": 5.164716
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 17,
+        "peak_value": 32.295707,
+        "trough_hour": 3,
+        "trough_value": 31.216258,
+        "peak_trough_delta": 1.079449
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "d2948a1d-b2a0-435b-a9f6-abe67df61b70",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "d2948a1d-b2a0-435b-a9f6-abe67df61b70_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 21759,
+        "min": 18.888889,
+        "max": 27.056,
+        "mean": 21.73114,
+        "median": 21.444443,
+        "std": 1.223347,
+        "coefficient_of_variation": 0.056295,
+        "percentiles": {
+          "1": 19.666668,
+          "5": 20.167,
+          "25": 20.889,
+          "50": 21.444443,
+          "75": 22.222221,
+          "90": 23.388887,
+          "95": 24.278,
+          "99": 25.556
+        },
+        "duration_hours": 3970.588889,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 21759,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 18
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 10000.8,
+        "sign_changes": 1580
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.627896,
+          "min": 21.556,
+          "max": 23.944,
+          "std": 0.874324
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.431739,
+          "min": 21.556,
+          "max": 25.889,
+          "std": 1.388489
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 18,
+        "peak_value": 22.244774,
+        "trough_hour": 4,
+        "trough_value": 21.287219,
+        "peak_trough_delta": 0.957555
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "d77ac61a-ca38-4030-810e-738161f81c7e",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "d77ac61a-ca38-4030-810e-738161f81c7e_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15509,
+        "min": 22.0,
+        "max": 71.0,
+        "mean": 40.50648,
+        "median": 38.0,
+        "std": 9.475729,
+        "coefficient_of_variation": 0.233931,
+        "percentiles": {
+          "1": 24.0,
+          "5": 28.0,
+          "25": 34.0,
+          "50": 38.0,
+          "75": 45.0,
+          "90": 56.0,
+          "95": 61.0,
+          "99": 66.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15509,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 28800.0,
+        "sign_changes": 1104
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 62.614583,
+          "min": 57.0,
+          "max": 71.0,
+          "std": 4.733686
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 59.621554,
+          "min": 50.0,
+          "max": 71.0,
+          "std": 4.399022
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 4,
+        "peak_value": 41.799065,
+        "trough_hour": 16,
+        "trough_value": 39.525268,
+        "peak_trough_delta": 2.273797
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "d77ac61a-ca38-4030-810e-738161f81c7e",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "d77ac61a-ca38-4030-810e-738161f81c7e_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15392,
+        "min": 18.611,
+        "max": 20.5,
+        "mean": 19.483531,
+        "median": 19.444,
+        "std": 0.335802,
+        "coefficient_of_variation": 0.017235,
+        "percentiles": {
+          "1": 18.722,
+          "5": 18.944,
+          "25": 19.278,
+          "50": 19.444,
+          "75": 19.667,
+          "90": 19.889,
+          "95": 20.056,
+          "99": 20.389
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15392,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 2397.6,
+        "sign_changes": 1082
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 19.356031,
+          "min": 19.0,
+          "max": 19.556,
+          "std": 0.222022
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 19.289952,
+          "min": 18.889,
+          "max": 19.556,
+          "std": 0.187311
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 4,
+        "peak_value": 19.652662,
+        "trough_hour": 15,
+        "trough_value": 19.272989,
+        "peak_trough_delta": 0.379673
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+      "measurement_type": "co2",
+      "unit": "ppm",
+      "file": "d9a2275e-351a-4095-9e35-7cae87c0112f_CO2SENSOR.csv",
+      "statistics": {
+        "count": 21744,
+        "min": 371.0,
+        "max": 881.0,
+        "mean": 419.947756,
+        "median": 405.0,
+        "std": 41.277007,
+        "coefficient_of_variation": 0.098291,
+        "percentiles": {
+          "1": 385.0,
+          "5": 390.0,
+          "25": 397.0,
+          "50": 405.0,
+          "75": 429.0,
+          "90": 465.0,
+          "95": 491.0,
+          "99": 580.57
+        },
+        "duration_hours": 3970.589167,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 21744,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 204
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 4.013378,
+        "max_abs_per_hour": 676800.0,
+        "sign_changes": 5452
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 452.104167,
+          "min": 413.0,
+          "max": 601.0,
+          "std": 38.229908
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 421.180451,
+          "min": 371.0,
+          "max": 601.0,
+          "std": 32.11228
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 14,
+        "peak_value": 448.263272,
+        "trough_hour": 4,
+        "trough_value": 401.278204,
+        "peak_trough_delta": 46.985068
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "d9a2275e-351a-4095-9e35-7cae87c0112f_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15478,
+        "min": 14.0,
+        "max": 62.0,
+        "mean": 30.29248,
+        "median": 29.0,
+        "std": 8.489845,
+        "coefficient_of_variation": 0.280262,
+        "percentiles": {
+          "1": 17.0,
+          "5": 19.0,
+          "25": 24.0,
+          "50": 29.0,
+          "75": 36.0,
+          "90": 42.0,
+          "95": 46.0,
+          "99": 52.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15478,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 39600.0,
+        "sign_changes": 840
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 50.697917,
+          "min": 45.0,
+          "max": 62.0,
+          "std": 5.173047
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 46.195489,
+          "min": 39.0,
+          "max": 62.0,
+          "std": 4.758159
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 21,
+        "peak_value": 30.447574,
+        "trough_hour": 1,
+        "trough_value": 30.042813,
+        "peak_trough_delta": 0.404761
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "d9a2275e-351a-4095-9e35-7cae87c0112f",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "d9a2275e-351a-4095-9e35-7cae87c0112f_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 21814,
+        "min": 18.111111,
+        "max": 25.833,
+        "mean": 21.691678,
+        "median": 21.667,
+        "std": 1.508603,
+        "coefficient_of_variation": 0.069548,
+        "percentiles": {
+          "1": 18.555557,
+          "5": 19.278,
+          "25": 20.5,
+          "50": 21.667,
+          "75": 22.778,
+          "90": 23.611,
+          "95": 24.056,
+          "99": 24.944
+        },
+        "duration_hours": 3970.589167,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 21814,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 6602.4,
+        "sign_changes": 1800
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.986594,
+          "min": 22.333,
+          "max": 23.778,
+          "std": 0.505254
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.182168,
+          "min": 22.278,
+          "max": 24.833,
+          "std": 0.756909
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 13,
+        "peak_value": 22.28107,
+        "trough_hour": 4,
+        "trough_value": 21.012101,
+        "peak_trough_delta": 1.268969
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15465,
+        "min": 8.0,
+        "max": 58.0,
+        "mean": 29.36851,
+        "median": 28.0,
+        "std": 9.79616,
+        "coefficient_of_variation": 0.33356,
+        "percentiles": {
+          "1": 15.0,
+          "5": 16.0,
+          "25": 22.0,
+          "50": 28.0,
+          "75": 36.0,
+          "90": 44.0,
+          "95": 48.0,
+          "99": 53.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15465,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 21600.0,
+        "sign_changes": 835
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 49.177083,
+          "min": 45.0,
+          "max": 58.0,
+          "std": 4.549135
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 46.706767,
+          "min": 39.0,
+          "max": 58.0,
+          "std": 4.282338
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 4,
+        "peak_value": 30.472308,
+        "trough_hour": 18,
+        "trough_value": 28.297972,
+        "peak_trough_delta": 2.174336
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "dfd7a151-1cae-4cd6-b3af-91ff110a21b2_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 109468,
+        "min": 18.222223,
+        "max": 29.055557,
+        "mean": 21.715555,
+        "median": 21.722221,
+        "std": 1.428045,
+        "coefficient_of_variation": 0.065761,
+        "percentiles": {
+          "1": 19.111113,
+          "5": 19.277781,
+          "25": 20.777779,
+          "50": 21.722221,
+          "75": 22.611115,
+          "90": 23.333334,
+          "95": 23.944443,
+          "99": 25.944447
+        },
+        "duration_hours": 11277.6725,
+        "first": "2024-03-18T02:05:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 109468,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 13260,
+        "SUSPECT": 199
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 5400.0,
+        "sign_changes": 1878
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 23.822781,
+          "min": 22.889,
+          "max": 25.278,
+          "std": 0.532974
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 23.614454,
+          "min": 21.944,
+          "max": 26.944,
+          "std": 1.023548
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 20,
+        "peak_value": 22.354966,
+        "trough_hour": 6,
+        "trough_value": 21.143934,
+        "peak_trough_delta": 1.211032
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "e0f66126-28e9-4681-bf89-9ecccd961997",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "e0f66126-28e9-4681-bf89-9ecccd961997_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15388,
+        "min": 30.0,
+        "max": 71.0,
+        "mean": 49.920393,
+        "median": 50.0,
+        "std": 7.104259,
+        "coefficient_of_variation": 0.142312,
+        "percentiles": {
+          "1": 35.0,
+          "5": 39.0,
+          "25": 46.0,
+          "50": 50.0,
+          "75": 53.0,
+          "90": 61.0,
+          "95": 64.0,
+          "99": 67.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15388,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 46800.0,
+        "sign_changes": 981
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 64.739583,
+          "min": 61.0,
+          "max": 71.0,
+          "std": 3.449622
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 63.368421,
+          "min": 57.0,
+          "max": 71.0,
+          "std": 3.166582
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 5,
+        "peak_value": 51.093207,
+        "trough_hour": 18,
+        "trough_value": 48.887324,
+        "peak_trough_delta": 2.205883
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "e0f66126-28e9-4681-bf89-9ecccd961997",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "e0f66126-28e9-4681-bf89-9ecccd961997_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15441,
+        "min": 15.0,
+        "max": 21.944,
+        "mean": 19.104306,
+        "median": 19.111,
+        "std": 1.330264,
+        "coefficient_of_variation": 0.069632,
+        "percentiles": {
+          "1": 16.944,
+          "5": 17.167,
+          "25": 17.833,
+          "50": 19.111,
+          "75": 20.389,
+          "90": 20.833,
+          "95": 21.0,
+          "99": 21.389
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15441,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 7599.6,
+        "sign_changes": 1387
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 20.356479,
+          "min": 19.889,
+          "max": 20.889,
+          "std": 0.341499
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 20.265165,
+          "min": 19.833,
+          "max": 20.889,
+          "std": 0.282541
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 19,
+        "peak_value": 19.344319,
+        "trough_hour": 9,
+        "trough_value": 18.858815,
+        "peak_trough_delta": 0.485504
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "e4373caf-650d-40e9-8f12-ec47d40eb1c2",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "e4373caf-650d-40e9-8f12-ec47d40eb1c2_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15458,
+        "min": 21.04,
+        "max": 24.19,
+        "mean": 21.840671,
+        "median": 21.7,
+        "std": 0.45037,
+        "coefficient_of_variation": 0.020621,
+        "percentiles": {
+          "1": 21.21,
+          "5": 21.44,
+          "25": 21.59,
+          "50": 21.7,
+          "75": 21.84,
+          "90": 22.53,
+          "95": 23.02,
+          "99": 23.33
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15458,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 37
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.119867,
+        "max_abs_per_hour": 1152.0,
+        "sign_changes": 4251
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.218542,
+          "min": 21.47,
+          "max": 23.33,
+          "std": 0.560338
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 22.518872,
+          "min": 21.47,
+          "max": 23.45,
+          "std": 0.547084
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 20,
+        "peak_value": 21.895805,
+        "trough_hour": 15,
+        "trough_value": 21.802785,
+        "peak_trough_delta": 0.09302
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "e720f446-3626-4318-a136-079529b57492",
+      "measurement_type": "pm2.5",
+      "unit": "µg/m3",
+      "file": "e720f446-3626-4318-a136-079529b57492_PM25SENSOR.csv",
+      "statistics": {
+        "count": 16504,
+        "min": 0.0,
+        "max": 34.0,
+        "mean": 2.69062,
+        "median": 1.0,
+        "std": 3.882604,
+        "coefficient_of_variation": 1.443015,
+        "percentiles": {
+          "1": 0.0,
+          "5": 0.0,
+          "25": 0.0,
+          "50": 1.0,
+          "75": 3.0,
+          "90": 7.0,
+          "95": 11.0,
+          "99": 19.0
+        },
+        "duration_hours": 3443.280556,
+        "first": "2025-02-07T12:24:42",
+        "last": "2025-06-30T23:41:32"
+      },
+      "quality": {
+        "VALID": 16504,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 5786,
+        "SUSPECT": 184
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 3.0,
+        "max_abs_per_hour": 32400.0,
+        "sign_changes": 5384
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 0.125,
+          "min": 0.0,
+          "max": 2.0,
+          "std": 0.362738
+        },
+        "last_7_days": {
+          "count": 660,
+          "mean": 0.727273,
+          "min": 0.0,
+          "max": 3.0,
+          "std": 0.797292
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 21,
+        "peak_value": 3.582857,
+        "trough_hour": 11,
+        "trough_value": 1.892909,
+        "peak_trough_delta": 1.689948
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+      "measurement_type": "co2",
+      "unit": "ppm",
+      "file": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe_CO2SENSOR.csv",
+      "statistics": {
+        "count": 47990,
+        "min": 344.0,
+        "max": 983.0,
+        "mean": 433.514107,
+        "median": 417.0,
+        "std": 61.554365,
+        "coefficient_of_variation": 0.141989,
+        "percentiles": {
+          "1": 377.0,
+          "5": 386.0,
+          "25": 402.0,
+          "50": 417.0,
+          "75": 436.0,
+          "90": 482.0,
+          "95": 554.0,
+          "99": 714.0
+        },
+        "duration_hours": 8346.9225,
+        "first": "2024-07-18T04:50:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 47990,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 2587,
+        "SUSPECT": 846
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 4.004449,
+        "max_abs_per_hour": 1191600.0,
+        "sign_changes": 8791
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 410.427083,
+          "min": 405.0,
+          "max": 415.0,
+          "std": 2.728967
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 403.944862,
+          "min": 387.0,
+          "max": 472.0,
+          "std": 15.186842
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 16,
+        "peak_value": 472.341488,
+        "trough_hour": 23,
+        "trough_value": 418.765711,
+        "peak_trough_delta": 53.575777
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15516,
+        "min": 10.0,
+        "max": 59.0,
+        "mean": 25.89398,
+        "median": 24.0,
+        "std": 9.098461,
+        "coefficient_of_variation": 0.351374,
+        "percentiles": {
+          "1": 12.0,
+          "5": 14.0,
+          "25": 18.0,
+          "50": 24.0,
+          "75": 32.0,
+          "90": 39.0,
+          "95": 43.0,
+          "99": 49.0
+        },
+        "duration_hours": 3443.499167,
+        "first": "2025-02-07T12:15:25",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15516,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 36000.0,
+        "sign_changes": 916
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 47.84375,
+          "min": 44.0,
+          "max": 59.0,
+          "std": 4.600522
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 41.81203,
+          "min": 34.0,
+          "max": 59.0,
+          "std": 4.835199
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 17,
+        "peak_value": 26.552215,
+        "trough_hour": 3,
+        "trough_value": 25.445289,
+        "peak_trough_delta": 1.106926
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "f4a76a84-7b19-4f32-a681-3eabdaeaaabe_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 21766,
+        "min": 20.778,
+        "max": 27.333,
+        "mean": 22.396961,
+        "median": 22.222,
+        "std": 0.920206,
+        "coefficient_of_variation": 0.041086,
+        "percentiles": {
+          "1": 21.111111,
+          "5": 21.333,
+          "25": 21.778,
+          "50": 22.222,
+          "75": 22.722,
+          "90": 23.556,
+          "95": 24.333,
+          "99": 25.833
+        },
+        "duration_hours": 3970.588889,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:20"
+      },
+      "quality": {
+        "VALID": 21766,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 117
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 4201.2,
+        "sign_changes": 1468
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.920708,
+          "min": 22.333,
+          "max": 23.278,
+          "std": 0.258654
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 24.017043,
+          "min": 22.333,
+          "max": 26.333,
+          "std": 1.148154
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 18,
+        "peak_value": 22.774625,
+        "trough_hour": 6,
+        "trough_value": 22.129506,
+        "peak_trough_delta": 0.645119
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+      "measurement_type": "co2",
+      "unit": "ppm",
+      "file": "f5c3c0e6-cf08-439f-8d31-fc739c100455_CO2SENSOR.csv",
+      "statistics": {
+        "count": 21733,
+        "min": 370.0,
+        "max": 794.0,
+        "mean": 428.334698,
+        "median": 409.0,
+        "std": 47.879183,
+        "coefficient_of_variation": 0.11178,
+        "percentiles": {
+          "1": 376.0,
+          "5": 388.0,
+          "25": 400.0,
+          "50": 409.0,
+          "75": 442.0,
+          "90": 497.0,
+          "95": 529.0,
+          "99": 582.0
+        },
+        "duration_hours": 3970.589167,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 21733,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 118
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 4.044944,
+        "max_abs_per_hour": 529200.0,
+        "sign_changes": 5284
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 460.864583,
+          "min": 413.0,
+          "max": 555.0,
+          "std": 34.258344
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 413.378446,
+          "min": 373.0,
+          "max": 555.0,
+          "std": 38.607998
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 13,
+        "peak_value": 472.418554,
+        "trough_hour": 4,
+        "trough_value": 402.392114,
+        "peak_trough_delta": 70.02644
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "f5c3c0e6-cf08-439f-8d31-fc739c100455_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15452,
+        "min": 12.0,
+        "max": 50.0,
+        "mean": 28.116101,
+        "median": 27.0,
+        "std": 7.033578,
+        "coefficient_of_variation": 0.250162,
+        "percentiles": {
+          "1": 17.0,
+          "5": 19.0,
+          "25": 23.0,
+          "50": 27.0,
+          "75": 33.0,
+          "90": 39.0,
+          "95": 41.0,
+          "99": 46.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15452,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 28800.0,
+        "sign_changes": 903
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 43.239583,
+          "min": 39.0,
+          "max": 50.0,
+          "std": 3.266238
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 41.488722,
+          "min": 36.0,
+          "max": 50.0,
+          "std": 3.54359
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 5,
+        "peak_value": 28.586207,
+        "trough_hour": 16,
+        "trough_value": 27.392248,
+        "peak_trough_delta": 1.193959
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "f5c3c0e6-cf08-439f-8d31-fc739c100455",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "f5c3c0e6-cf08-439f-8d31-fc739c100455_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 21762,
+        "min": 18.111111,
+        "max": 28.222,
+        "mean": 22.278948,
+        "median": 22.389,
+        "std": 1.882719,
+        "coefficient_of_variation": 0.084507,
+        "percentiles": {
+          "1": 18.611111,
+          "5": 19.333336,
+          "25": 20.667,
+          "50": 22.389,
+          "75": 23.611,
+          "90": 24.722,
+          "95": 25.444,
+          "99": 26.389
+        },
+        "duration_hours": 3970.589167,
+        "first": "2025-01-16T13:10:00",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 21762,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 12600.0,
+        "sign_changes": 1953
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 24.509771,
+          "min": 23.333,
+          "max": 25.444,
+          "std": 0.438626
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 24.345251,
+          "min": 22.889,
+          "max": 26.222,
+          "std": 0.81835
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 14,
+        "peak_value": 23.129343,
+        "trough_hour": 4,
+        "trough_value": 21.381356,
+        "peak_trough_delta": 1.747987
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "f776d51d-bd6c-40a9-8af7-58142934ee9f",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "f776d51d-bd6c-40a9-8af7-58142934ee9f_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15522,
+        "min": 10.0,
+        "max": 70.0,
+        "mean": 32.869862,
+        "median": 31.0,
+        "std": 13.371044,
+        "coefficient_of_variation": 0.406787,
+        "percentiles": {
+          "1": 13.0,
+          "5": 15.0,
+          "25": 21.0,
+          "50": 31.0,
+          "75": 42.0,
+          "90": 53.0,
+          "95": 58.0,
+          "99": 63.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:24",
+        "last": "2025-06-30T23:45:22"
+      },
+      "quality": {
+        "VALID": 15522,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 43,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 36000.0,
+        "sign_changes": 989
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 60.604167,
+          "min": 57.0,
+          "max": 70.0,
+          "std": 4.241348
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 58.027569,
+          "min": 48.0,
+          "max": 70.0,
+          "std": 4.637811
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 7,
+        "peak_value": 33.371695,
+        "trough_hour": 14,
+        "trough_value": 32.335375,
+        "peak_trough_delta": 1.03632
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "f776d51d-bd6c-40a9-8af7-58142934ee9f",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "f776d51d-bd6c-40a9-8af7-58142934ee9f_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15458,
+        "min": 20.556,
+        "max": 23.722,
+        "mean": 21.594279,
+        "median": 21.611,
+        "std": 0.482387,
+        "coefficient_of_variation": 0.022339,
+        "percentiles": {
+          "1": 20.722,
+          "5": 20.833,
+          "25": 21.222,
+          "50": 21.611,
+          "75": 22.0,
+          "90": 22.222,
+          "95": 22.389,
+          "99": 22.722
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15458,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 1
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 5400.0,
+        "sign_changes": 1421
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 21.854615,
+          "min": 21.333,
+          "max": 22.722,
+          "std": 0.34478
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 21.568125,
+          "min": 21.111,
+          "max": 22.722,
+          "std": 0.381269
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 12,
+        "peak_value": 21.878646,
+        "trough_hour": 4,
+        "trough_value": 21.352755,
+        "peak_trough_delta": 0.525891
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+      "measurement_type": "co2",
+      "unit": "ppm",
+      "file": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151_CO2SENSOR.csv",
+      "statistics": {
+        "count": 15377,
+        "min": 372.0,
+        "max": 858.0,
+        "mean": 420.91975,
+        "median": 416.0,
+        "std": 29.348492,
+        "coefficient_of_variation": 0.069725,
+        "percentiles": {
+          "1": 386.0,
+          "5": 390.0,
+          "25": 404.0,
+          "50": 416.0,
+          "75": 430.0,
+          "90": 453.0,
+          "95": 472.0,
+          "99": 513.0
+        },
+        "duration_hours": 3443.499722,
+        "first": "2025-02-07T12:15:22",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15377,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 96
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 7.991121,
+        "max_abs_per_hour": 612000.0,
+        "sign_changes": 5675
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 438.177083,
+          "min": 411.0,
+          "max": 505.0,
+          "std": 22.998396
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 415.308271,
+          "min": 383.0,
+          "max": 505.0,
+          "std": 20.452733
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 12,
+        "peak_value": 437.710485,
+        "trough_hour": 2,
+        "trough_value": 410.806299,
+        "peak_trough_delta": 26.904186
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+      "measurement_type": "humidity",
+      "unit": "%",
+      "file": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151_HUMIDITYSENSOR.csv",
+      "statistics": {
+        "count": 15460,
+        "min": 12.0,
+        "max": 59.0,
+        "mean": 29.8163,
+        "median": 28.0,
+        "std": 9.742145,
+        "coefficient_of_variation": 0.326739,
+        "percentiles": {
+          "1": 14.0,
+          "5": 17.0,
+          "25": 22.0,
+          "50": 28.0,
+          "75": 36.0,
+          "90": 45.0,
+          "95": 48.0,
+          "99": 52.0
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15460,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 36000.0,
+        "sign_changes": 901
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 50.114583,
+          "min": 45.0,
+          "max": 59.0,
+          "std": 3.580267
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 47.937343,
+          "min": 41.0,
+          "max": 59.0,
+          "std": 3.54704
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 23,
+        "peak_value": 30.090062,
+        "trough_hour": 18,
+        "trough_value": 29.536321,
+        "peak_trough_delta": 0.553741
+      },
+      "energy_daily": null
+    },
+    {
+      "sensor_id": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151",
+      "measurement_type": "temperature",
+      "unit": "C",
+      "file": "fa54ef81-7df5-41e7-a5e8-5d97a69dc151_TEMPERATURESENSOR.csv",
+      "statistics": {
+        "count": 15403,
+        "min": 18.056,
+        "max": 24.111,
+        "mean": 20.985498,
+        "median": 21.056,
+        "std": 1.09655,
+        "coefficient_of_variation": 0.052253,
+        "percentiles": {
+          "1": 18.278,
+          "5": 19.056,
+          "25": 20.222,
+          "50": 21.056,
+          "75": 21.722,
+          "90": 22.444,
+          "95": 22.722,
+          "99": 23.167
+        },
+        "duration_hours": 3443.499444,
+        "first": "2025-02-07T12:15:23",
+        "last": "2025-06-30T23:45:21"
+      },
+      "quality": {
+        "VALID": 15403,
+        "MISSING": 0,
+        "DUPLICATE": 0,
+        "OUT_OF_RANGE": 0,
+        "TIME_GAP": 42,
+        "SUSPECT": 0
+      },
+      "rate_of_change": {
+        "median_abs_per_hour": 0.0,
+        "max_abs_per_hour": 7002.0,
+        "sign_changes": 1703
+      },
+      "recent_window": {
+        "last_96_samples": {
+          "count": 96,
+          "mean": 22.48374,
+          "min": 21.833,
+          "max": 22.667,
+          "std": 0.247419
+        },
+        "last_7_days": {
+          "count": 399,
+          "mean": 22.089915,
+          "min": 21.333,
+          "max": 22.944,
+          "std": 0.488577
+        }
+      },
+      "cyclic_hour_of_day": {
+        "coverage_hours": 24,
+        "peak_hour": 16,
+        "peak_value": 21.407005,
+        "trough_hour": 4,
+        "trough_value": 20.428088,
+        "peak_trough_delta": 0.978917
+      },
+      "energy_daily": null
+    }
+  ]
+}
