@@ -20,6 +20,7 @@ from datetime import datetime, timezone
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Query, WebSocket, WebSocketDisconnect
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from telemetry_config import OUTPUT_DIR
@@ -84,6 +85,24 @@ def create_app(datapack: dict | None = None) -> FastAPI:
         title="CampusIQ Decision API",
         version="v1",
         description="Read-only decision-support API for the CampusIQ frontend (M7).",
+    )
+
+    # Cross-origin access for the deployed Vercel frontend and local dev.
+    # Explicit origins only (never "*"); the render.com service does not serve
+    # the UI, so every browser request carries an Origin header we enumerate.
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=[
+            "https://campusiq-black.vercel.app",
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+            "http://localhost:4173",
+            "http://127.0.0.1:4173",
+        ],
+        allow_credentials=False,
+        allow_methods=["GET", "POST", "OPTIONS"],
+        allow_headers=["Content-Type", "Accept"],
+        expose_headers=["Content-Type", "Content-Length"],
     )
 
     def generated_at() -> str:
